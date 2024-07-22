@@ -1,4 +1,4 @@
-import React from "react";
+// Remove the unused import statement
 import Brand1 from "../../assets/brands/1.svg";
 import Brand2 from "../../assets/brands/2.svg";
 import Brand3 from "../../assets/brands/3.svg";

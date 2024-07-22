@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const FooterLinks = [
@@ -45,11 +45,7 @@ const ResourcesLinks = [
   {
     title: "How To Blog",
     link: "/#blogs",
-  },
-  {
-    title: "Subscribe TCJ",
-    link: "https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ?sub_confirmation=1",
-  },
+  }
 ];
 const Footer = () => {
   return (
@@ -59,7 +55,7 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              Digital Agency
+              UniNxt <span className="text-primary">Solutions</span>
             </h1>
             <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet

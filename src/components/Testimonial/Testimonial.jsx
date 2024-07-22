@@ -1,24 +1,26 @@
-import React from "react";
+// import React from "react";
 import Slider from "react-slick";
-
+import pic1 from "../../assets/TestimonialSlider/1.jpg";
+import pic2 from "../../assets/TestimonialSlider/2.jpg";
+import pic3 from "../../assets/TestimonialSlider/3.jpg";
 const testimonialData = [
   {
     id: 1,
     name: "David Calathan - Director of Design Operations, New York",
     text: "The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
-    img: "https://picsum.photos/101/101",
+    img: pic1,
   },
   {
     id: 1,
     name: "David Calathan - Director of Design Operations, New York",
     text: "The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
-    img: "https://picsum.photos/102/102",
+    img: pic2,
   },
   {
     id: 1,
     name: "Smith - Director of Operations, New York",
     text: "The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
-    img: "https://picsum.photos/103/103",
+    img: pic3,
   },
 ];
 

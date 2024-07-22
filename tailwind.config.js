@@ -8,12 +8,12 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
-        primary: "#6153CD",
+        primary: "#F2C21A", // Vibrant Yellow
         secondary: {
-          100: "#E2E2D5",
-          200: "#888883",
+          100: "#FCECDD", // Light Peach for a softer contrast
+          200: "#DAA520", // Golden Rod, darker shade of yellow
         },
-        dark: "#111111",
+        dark: "#111111", // Keeping dark as is for neutral contrast
       },
       container: {
         center: true,

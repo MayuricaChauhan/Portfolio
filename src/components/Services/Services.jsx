@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";
@@ -55,8 +55,7 @@ const Services = () => {
               data-aos="fade-up"
               className="text-gray-600 dark:text-gray-400 text-sm"
             >
-              We are self-service data analytics software that lets you create
-              visually.
+              ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem 
             </p>
           </div>
 
