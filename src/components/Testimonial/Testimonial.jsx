@@ -40,7 +40,7 @@ const Testimonial = () => {
   };
   return (
     <>
-      <div className="py-10">
+      <div className="py-10" id = "testimonials">
         <div className="container">
           {/* testimonial section */}
           <div

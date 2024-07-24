@@ -5,22 +5,26 @@ import "aos/dist/aos.css";
 // Component import
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-// import BrandsLogo from "./components/BrandsLogo/BrandsLogo.jsx";
 import Services from "./components/Services/Services";
 import Testimonial from "./components/Testimonial/Testimonial";
 import BlogsComp from "./components/Blogs/BlogsComp.jsx";
 import Footer from "./components/Footer/Footer";
+import Form from "./components/SubscriptionForm/Form.jsx";
 
 const App = () => {
+  
+
   useEffect(() => {
     AOS.init({
       offset: 100,
       duration: 800,
       easing: "ease-in",
-      delay: 100,
+      delay: 100
     });
     AOS.refresh();
   }, []);
+
+  
 
   return (
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
@@ -29,6 +33,7 @@ const App = () => {
       <Services />
       <Testimonial />
       <BlogsComp />
+      <Form />
       <Footer />
     </div>
   );
