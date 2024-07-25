@@ -1,4 +1,4 @@
-// import React from "react";
+import { useState } from "react";
 import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";
@@ -36,8 +36,45 @@ const skillsData = [
       "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
     aosDelay: "700",
   },
+  {
+    name: "App Development",
+    icon: <FaCameraRetro className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+    aosDelay: "0",
+  },
+  {
+    name: "Web Designing",
+    icon: <GiNotebook className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+    aosDelay: "300",
+  },
+  {
+    name: "Graphic Designing",
+    icon: <SlNote className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+    aosDelay: "500",
+  },
+  {
+    name: "Digital Marketing",
+    icon: <SlNote className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+    aosDelay: "700",
+  },
 ];
+
 const Services = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  const visibleSkills = showAll ? skillsData : skillsData.slice(0, 4);
+
   return (
     <>
       <span id="services"></span>
@@ -61,7 +98,7 @@ const Services = () => {
 
           {/* services cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-            {skillsData.map((skill) => (
+            {visibleSkills.map((skill) => (
               <div
                 key={skill.name}
                 data-aos="fade-up"
@@ -80,11 +117,13 @@ const Services = () => {
           {/* button */}
           <div
             data-aos="fade-up"
-            data-aos-delay="900"
+            data-aos-delay="600"
             data-aos-offset="0"
             className="text-center mt-4 sm:mt-8"
           >
-            <button className="primary-btn">Learn More</button>
+            <button className="primary-btn" onClick={() => setShowAll(!showAll)}>
+              {showAll ? "Show Less" : "Learn More"}
+            </button>
           </div>
         </div>
       </div>
