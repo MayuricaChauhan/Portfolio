@@ -49,7 +49,7 @@
             <div className="flex items-center">
               <img src={Logo} alt="" className="w-12" />
               <span
-                className="text-2xl sm:text-3xl font-semibold md:p-1 sm:pl-1"
+                className="text-2xl sm:text-3xl font-semibold p-1"
                 style={{
                   fontFamily: "lulo-clean-w01-one-bold, sans-serif",
                   fontSize: "24px",
