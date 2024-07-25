@@ -49,7 +49,7 @@
             <div className="flex items-center">
               <img src={Logo} alt="" className="w-12" />
               <span
-                className="text-2xl sm:text-3xl font-semibold p-1"
+                className="text-2xl sm:text-3xl font-semibold md:p-1 sm:pl-1"
                 style={{
                   fontFamily: "lulo-clean-w01-one-bold, sans-serif",
                   fontSize: "24px",
@@ -90,8 +90,7 @@
               </ul>
             </nav>
             {/* Mobile view Drawer */}
-            <div className="flex items-center gap-4 md:hidden">
-              <DarkMode />
+            <div className="flex items-center gap-4 md:hidden right-0">
               {/* Mobile Hamburger icon */}
               {showMenu ? (
                 <HiMenuAlt1
@@ -105,6 +104,7 @@
                   onClick={toggleMenu}
                   className="cursor-pointer transition-all"
                   size={30}
+                  
                 />
               )}
             </div>
