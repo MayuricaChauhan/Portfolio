@@ -10,7 +10,8 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import BlogsComp from "./components/Blogs/BlogsComp.jsx";
 import Footer from "./components/Footer/Footer";
 import Form from "./components/SubscriptionForm/Form.jsx";
-
+import Chatbot from "./components/Botpress/Chatbot.jsx";
+// import Booking from "./components/AppointmentBooking/Booking.jsx";
 const App = () => {
   
 
@@ -34,6 +35,7 @@ const App = () => {
       <Testimonial />
       <BlogsComp />
       <Form />
+      <Chatbot/>
       <Footer />
     </div>
   );

@@ -1,6 +1,9 @@
 import yellowCar from "../../assets/website/team.png";
 
 const Hero = () => {
+  const handleLearnMoreClick = () => {
+    document.getElementById("footer")?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div id = "about" className="dark:bg-gray-950 dark:text-white duration-300 ">
       <div className="container min-h-[620px] flex mt-10 sm:mt-0">
@@ -37,16 +40,14 @@ const Hero = () => {
               <span className="text-primary">Success</span>
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
-              Your partner in navigating the ever-evolving landscape of digital
-              marketing. From conceptualization to execution, we craft tailored
-              solutions that drive results and elevate your brand to new
-              heights.
+            With an impressive 8 years of experience in Human Resources and 6 years in international admissions, Ms. Mayurica Chauhan's extensive journey as an educational counselor and her commitment to guiding students in their academic aspirations has been life-changing for many. 
             </p>
             <button
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-offset="0"
               className="primary-btn"
+              onClick={handleLearnMoreClick}
             >
               Learn More
             </button>

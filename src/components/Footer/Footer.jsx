@@ -26,17 +26,9 @@ const HelpLinks = [
     link: "#",
   },
   {
-    title: "Delivery Details",
-    link: "/#delivery-details",
-  },
-  {
-    title: "Terms & Conditions",
-    link: "/#terms",
-  },
-  {
-    title: "Privacy Policy",
-    link: "/#policy",
-  },
+    title: "Contact Us",
+    link: "mailto:mayurica87@gmail.com",
+  }
 ];
 
 const ResourcesLinks = [
@@ -59,18 +51,20 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-dark text-white">
+    <div className="bg-dark text-white" id="footer">
       <section className="container py-10">
         <div className="grid md:grid-cols-3 py-5">
           {/* Company Details */}
           <div className="py-8 px-4">
-            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              Mayurica <span className="text-primary">Chauhan</span>
+            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-2">
+              Mayurica<span className="text-primary">Chauhan</span>
             </h1>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit consectetur adipisicing elit ipsum
-              dolor sit amet consectetur. adipisicing{" "}
+              Ms.Mayurica’s educational background includes a Bachelor of Commerce from Kirori Mal College, Delhi and an MBA in Human Resource Management from the University of New Haven in the United States. 
+            <br/>
+            In addition, Ms. Chauhan holds the prestigious UCLA certification in career counselling. 
+            <br />
+            She is also a proud recipient of the prestigious IEC certificate from University of California, Irvine. Ms Chauhan’s own experience as an international student has allowed her to empathize deeply with aspiring students.{" "}
             </p>
             <br />
             {/* Social Handles */}
@@ -119,7 +113,13 @@ const Footer = () => {
                       className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-400"
                       onClick={link.title === "Customer Support" ? handleSupportClick : undefined}
                     >
-                      <span>{link.title}</span>
+                      {link.link.startsWith("mailto:") ? (
+                        <a href={link.link}>
+                          <span>{link.title}</span>
+                        </a>
+                      ) : (
+                        <span>{link.title}</span>
+                      )}
                     </li>
                   ))}
                 </ul>

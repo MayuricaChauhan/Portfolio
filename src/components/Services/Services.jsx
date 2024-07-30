@@ -1,19 +1,24 @@
 import { useState } from "react";
-import { FaCameraRetro } from "react-icons/fa";
-import { GiNotebook } from "react-icons/gi";
-import { SlNote } from "react-icons/sl";
+import { FaChalkboardTeacher } from 'react-icons/fa';
+import { GiNotebook, GiGraduateCap } from 'react-icons/gi';
+import { SlNote } from 'react-icons/sl';
+import { MdOutlinePsychology, MdOutlineSchool } from 'react-icons/md';
+// import { IoMdSchool } from 'react-icons/io';
+import { HiOutlineDocumentText } from 'react-icons/hi';
+import { BiCreditCard } from 'react-icons/bi';
+import { RiVisaLine } from 'react-icons/ri';
 
 const skillsData = [
   {
-    name: "App Development",
-    icon: <FaCameraRetro className="text-4xl text-primary" />,
+    name: "Career Counselling",
+    icon: <FaChalkboardTeacher className="text-4xl text-primary" />,
     link: "#",
     description:
       "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
     aosDelay: "0",
   },
   {
-    name: "Web Designing",
+    name: "Admissions Abroad",
     icon: <GiNotebook className="text-4xl text-primary" />,
     link: "#",
     description:
@@ -21,7 +26,7 @@ const skillsData = [
     aosDelay: "300",
   },
   {
-    name: "Graphic Designing",
+    name: "Profile Building",
     icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
     description:
@@ -29,44 +34,52 @@ const skillsData = [
     aosDelay: "500",
   },
   {
-    name: "Digital Marketing",
-    icon: <SlNote className="text-4xl text-primary" />,
+    name: "Psychometric Testing",
+    icon: <MdOutlinePsychology className="text-4xl text-primary" />,
     link: "#",
     description:
       "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
     aosDelay: "700",
   },
   {
-    name: "App Development",
-    icon: <FaCameraRetro className="text-4xl text-primary" />,
+    name: "High School Abroad",
+    icon: <MdOutlineSchool className="text-4xl text-primary" />,
     link: "#",
     description:
       "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
     aosDelay: "0",
   },
   {
-    name: "Web Designing",
-    icon: <GiNotebook className="text-4xl text-primary" />,
+    name: "MBBS Admissions",
+    icon: <GiGraduateCap className="text-4xl text-primary" />,
     link: "#",
     description:
       "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
     aosDelay: "300",
   },
   {
-    name: "Graphic Designing",
-    icon: <SlNote className="text-4xl text-primary" />,
+    name: "Scholarships and Loans",
+    icon: <BiCreditCard className="text-4xl text-primary" />,
     link: "#",
     description:
       "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
     aosDelay: "500",
   },
   {
-    name: "Digital Marketing",
-    icon: <SlNote className="text-4xl text-primary" />,
+    name: "Financial Aid Consulting",
+    icon: <HiOutlineDocumentText className="text-4xl text-primary" />,
     link: "#",
     description:
       "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
     aosDelay: "700",
+  },
+  {
+    name: "Visa Counselling",
+    icon: <RiVisaLine className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+    aosDelay: "0",
   },
 ];
 
