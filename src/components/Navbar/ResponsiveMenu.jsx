@@ -24,7 +24,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
               </li>
             ))}
             <li>
-              <a href="#contact-form">
+              <a href="#support-section">
                 <button className="primary-btn" onClick={toggleMenu}>Get in Touch</button>
               </a>
             </li>

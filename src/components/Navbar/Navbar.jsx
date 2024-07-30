@@ -35,7 +35,7 @@
 
     const scrollToContactForm = (event) => {
       event.preventDefault();
-      const contactForm = document.getElementById("contact-form");
+      const contactForm = document.getElementById("support-section");
       if (contactForm) {
         contactForm.scrollIntoView({ behavior: "smooth", block: "center" });
       }
