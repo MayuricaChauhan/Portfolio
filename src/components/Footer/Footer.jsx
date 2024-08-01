@@ -42,8 +42,8 @@ const Footer = () => {
       const response = await axios.post(
         'https://api.brevo.com/v3/smtp/email',
         {
-          sender: { email: 'akankshrakesh@gmail.com', name: formData.name }, // Sender is the user
-        to: [{ email: 'akankshrakesh@gmail.com', name: 'Customer Support' }],
+          sender: { email: 'iec@mayuricaeducation.in', name: formData.name }, // Sender is the user
+        to: [{ email: 'iec@mayuricaeducation.in', name: 'Customer Support' }],
           subject: 'Customer Support Request',
           htmlContent: `
             <html>
