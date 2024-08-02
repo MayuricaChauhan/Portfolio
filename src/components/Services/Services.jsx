@@ -3,10 +3,10 @@ import { FaChalkboardTeacher } from 'react-icons/fa';
 import { GiNotebook, GiGraduateCap } from 'react-icons/gi';
 import { SlNote } from 'react-icons/sl';
 import { MdOutlinePsychology, MdOutlineSchool } from 'react-icons/md';
-// import { IoMdSchool } from 'react-icons/io';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import { BiCreditCard } from 'react-icons/bi';
 import { RiVisaLine } from 'react-icons/ri';
+import BookCounselling from "../Counselling/BookCounselling";
 
 const skillsData = [
   {
@@ -14,7 +14,8 @@ const skillsData = [
     icon: <FaChalkboardTeacher className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Expert guidance to help you identify and pursue the right career path based on your interests, skills, and market demand.",
+      buttonComponent: <BookCounselling/>,
     aosDelay: "0",
   },
   {
@@ -22,7 +23,8 @@ const skillsData = [
     icon: <GiNotebook className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Comprehensive assistance for securing admissions in prestigious institutions worldwide, tailored to your academic profile and preferences.",
+      buttonComponent: <BookCounselling/>,
     aosDelay: "300",
   },
   {
@@ -30,7 +32,8 @@ const skillsData = [
     icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Strategic support to enhance your profile through extracurricular activities, internships, and skill development to stand out in the competitive admissions process.",
+      buttonComponent: <BookCounselling/>,
     aosDelay: "500",
   },
   {
@@ -38,7 +41,8 @@ const skillsData = [
     icon: <MdOutlinePsychology className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Reliable psychometric tests to assess your abilities, personality traits, and interests, aiding in making informed career and academic decisions.",
+      buttonComponent: <BookCounselling/>,
     aosDelay: "700",
   },
   {
@@ -46,7 +50,8 @@ const skillsData = [
     icon: <MdOutlineSchool className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Guidance for high school students aiming to study abroad, including application assistance and information on international schooling systems.",
+      buttonComponent: <BookCounselling/>,
     aosDelay: "0",
   },
   {
@@ -54,7 +59,8 @@ const skillsData = [
     icon: <GiGraduateCap className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Specialized services to help aspiring medical students gain admission to MBBS programs in top universities globally.",
+      buttonComponent: <BookCounselling/>,
     aosDelay: "300",
   },
   {
@@ -62,7 +68,8 @@ const skillsData = [
     icon: <BiCreditCard className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Information and application support for scholarships and educational loans to finance your studies abroad.",
+      buttonComponent: <BookCounselling/>,
     aosDelay: "500",
   },
   {
@@ -70,7 +77,8 @@ const skillsData = [
     icon: <HiOutlineDocumentText className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Expert advice on navigating the financial aid process, ensuring you secure the necessary funding for your education.",
+      buttonComponent: <BookCounselling/>,
     aosDelay: "700",
   },
   {
@@ -78,7 +86,8 @@ const skillsData = [
     icon: <RiVisaLine className="text-4xl text-primary" />,
     link: "#",
     description:
-      "ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem bibendum, a bibendum justo tempor. Sed vel lectus",
+      "Step-by-step guidance on visa applications, interviews, and documentation to ensure a smooth and successful visa process.",
+      buttonComponent: <BookCounselling/>,
     aosDelay: "0",
   },
 ];
@@ -105,10 +114,9 @@ const Services = () => {
               data-aos="fade-up"
               className="text-gray-600 dark:text-gray-400 text-sm"
             >
-              ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod metus vel sem 
+              Discover a range of services designed to help you achieve your academic and career goals.
             </p>
           </div>
-
           {/* services cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {visibleSkills.map((skill) => (
@@ -116,13 +124,16 @@ const Services = () => {
                 key={skill.name}
                 data-aos="fade-up"
                 data-aos-delay={skill.aosDelay}
-                className="card space-y-3 sm:space-y-4 p-4"
+                className="card space-y-3 sm:space-y-4 p-4 relative overflow-hidden group rounded-lg"
               >
-                <div>{skill.icon}</div>
-                <h1 className="text-lg font-semibold">{skill.name}</h1>
-                <p className="text-gray-600 dark:text-gray-400">
+                <div className="group-hover:blur-sm transition-all duration-300">{skill.icon}</div>
+                <h1 className="text-lg font-semibold group-hover:blur-sm transition-all duration-300">{skill.name}</h1>
+                <p className="text-gray-600 dark:text-gray-400 group-hover:blur-sm transition-all duration-300">
                   {skill.description}
                 </p>
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 bg-black bg-opacity-50 rounded-lg">
+                  {skill.buttonComponent}
+                </div>
               </div>
             ))}
           </div>

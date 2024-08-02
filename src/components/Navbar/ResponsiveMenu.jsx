@@ -1,8 +1,28 @@
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { MenuLinks } from "./Navbar";
 import DarkMode from "./DarkMode";
+import { useState, useEffect } from "react";
+import { signOut } from "firebase/auth";
+import { auth } from "../../firebase";
 
 const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged(setUser);
+    return () => unsubscribe();
+  }, []);
+
+  const handleLogout = async () => {
+    try {
+      await signOut(auth);
+      // Redirect to home or sign-in page after logout
+      window.location.href = '/';
+    } catch (error) {
+      console.error('Error logging out: ', error);
+    }
+  };
+
   return (
     <div
       className={`${
@@ -24,9 +44,19 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
               </li>
             ))}
             <li>
-              <a href="#support-section">
+            {user ? (
+                <button
+                  className="primary-btn"
+                  onClick={handleLogout}
+                >
+                  Logout
+                </button>
+              ) : (
+                <a href="#support-section">
                 <button className="primary-btn" onClick={toggleMenu}>Get in Touch</button>
               </a>
+              )}
+              
             </li>
           </ul>
         </nav>
