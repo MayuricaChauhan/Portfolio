@@ -85,6 +85,8 @@ const Footer = () => {
               Mayurica<span className="text-primary">Chauhan</span>
             </h1>
             <p className="text-sm">
+            With an impressive 8 years of experience in Human Resources and 6 years in international admissions, Ms. Mayurica Chauhan's extensive journey as an educational counselor and her commitment to guiding students in their academic aspirations has been life-changing for many. 
+              <br />
               Ms. Mayurica’s educational background includes a Bachelor of Commerce from Kirori Mal College, Delhi and an MBA in Human Resource Management from the University of New Haven in the United States.
               <br />
               In addition, Ms. Chauhan holds the prestigious UCLA certification in career counselling.

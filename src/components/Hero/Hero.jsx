@@ -40,7 +40,7 @@ const Hero = () => {
               <span className="text-primary">Success</span>
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
-            With an impressive 8 years of experience in Human Resources and 6 years in international admissions, Ms. Mayurica Chauhan's extensive journey as an educational counselor and her commitment to guiding students in their academic aspirations has been life-changing for many. 
+            I am a dedicated and experienced education counselor, passionate about empowering students to make informed decisions about their academic and professional journeys. With a deep understanding of the complexities of the education landscape, I provide personalized guidance and support to help individuals navigate the vast array of educational opportunities available to them. My expertise spans career counseling, college admissions, and educational planning, making my services an invaluable resource for those seeking to unlock their full potential.
             </p>
             <button
               data-aos="fade-up"
