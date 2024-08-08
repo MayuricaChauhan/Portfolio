@@ -39,7 +39,7 @@ const Hero = () => {
               Engineering{" "}
               <span className="text-primary">Success</span>
             </h1>
-            <p data-aos="fade-up" data-aos-delay="300">
+            <p data-aos="fade-up" data-aos-delay="300" className="text-justify">
             I am a dedicated and experienced education counselor, passionate about empowering students to make informed decisions about their academic and professional journeys. With a deep understanding of the complexities of the education landscape, I provide personalized guidance and support to help individuals navigate the vast array of educational opportunities available to them. My expertise spans career counseling, college admissions, and educational planning, making my services an invaluable resource for those seeking to unlock their full potential.
             </p>
             <button

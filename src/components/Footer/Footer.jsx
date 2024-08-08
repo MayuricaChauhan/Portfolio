@@ -76,7 +76,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-dark text-white" id="footer">
+    <div className="bg-dark text-white text-justify" id="footer">
       <section className="container py-10">
         <div className="grid md:grid-cols-3 py-5">
           {/* Company Details */}

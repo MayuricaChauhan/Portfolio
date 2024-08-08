@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <Router>
-      <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
+      <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden text-justify">
         <Navbar />
         <Routes>
           <Route path="/" element={
