@@ -3,7 +3,9 @@ import { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import pic2 from "./assets/carousel/1.webp";
+import pic1 from "./assets/carousel/1.jpg";
+import pic3 from "./assets/carousel/2.jpg";
 // Component imports
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
@@ -15,8 +17,26 @@ import Form from "./components/SubscriptionForm/Form.jsx";
 import Chatbot from "./components/Botpress/Chatbot.jsx";
 import BookCounselling from "./components/Counselling/BookCounselling.jsx";
 import SignIn from "./components/Authentication/SignIn.jsx";
+import Carousel from "./components/Carousel/Carousel.jsx";
 
 const App = () => {
+  const slides = [
+    {
+      image : pic1,
+      heading : "Find the best college for you",
+      subtext : "Get the best counselling from our experts"
+    },
+    {
+      image : pic2,
+      heading : "Choose the right career",
+      subtext : "Career Guidance is just a click away"
+    },
+    {
+      image : pic3,
+      heading : "Get the best counselling",
+      subtext : "With a supportive and understanding attitude to help you prosper"
+    }
+  ]
   useEffect(() => {
     AOS.init({
       offset: 100,
@@ -34,6 +54,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <>
+              <Carousel slides={slides} />
               <Hero />
               <Services />
               <Testimonial />
