@@ -156,18 +156,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 py-5">
           {/* Company Details */}
           <div className="py-8 px-4">
-            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-2">
-              Mayurica<span className="text-primary">Chauhan</span>
-            </h1>
-            <p className="text-sm">
-            With an impressive 8 years of experience in Human Resources and 6 years in international admissions, Ms. Mayurica Chauhan’s extensive journey as an educational counselor and her commitment to guiding students in their academic aspirations has been life-changing for many. 
-              <br />
-              Ms. Mayurica’s educational background includes a Bachelor of Commerce from Kirori Mal College, Delhi and an MBA in Human Resource Management from the University of New Haven in the United States.
-              <br />
-              In addition, Ms. Chauhan holds the prestigious UCLA certification in career counselling.
-              <br />
-              She is also a proud recipient of the prestigious IEC certificate from University of California, Irvine. Ms. Chauhan’s own experience as an international student has allowed her to empathize deeply with aspiring students.
-            </p>
+           
             <br />
             {/* Social Handles */}
             <div className="flex items-center gap-4 mt-6">
