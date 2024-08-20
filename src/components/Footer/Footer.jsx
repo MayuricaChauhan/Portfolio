@@ -76,6 +76,81 @@ const Footer = () => {
   };
 
   return (
+    <>
+    
+    <div id="support-section" className="bg-gray-900 text-white py-10">
+            <div className="container">
+              <h2 className="text-3xl font-bold mb-4 text-primary">Customer Support</h2>
+              <p className="mb-4">
+                If you have any questions or need help, feel free to reach out to the customer support team.
+                You can also contact Ms. Mayurica directly via WhatsApp for quick assistance.
+              </p>
+              <form onSubmit={handleSubmit} className="space-y-4">
+                <div>
+                  <label htmlFor="name" className="block text-sm font-medium text-primary">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleInputChange}
+                    className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium text-primary">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
+                    className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-primary">
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    value={formData.message}
+                    onChange={handleInputChange}
+                    className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" className="w-full bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-4 rounded-lg">
+                  Send
+                </button>
+                {formStatus && (
+                  <div className="text-center mt-4 text-gray-600 dark:text-gray-400">
+                    <p>{formStatus}</p>
+                    <button onClick={() => setFormStatus("")} className="mt-4 bg-primary hover:bg-primary/80 text-white font-bold py-2 px-4 rounded">
+                      Reload Form
+                    </button>
+                  </div>
+                )}
+              </form>
+              <div className="text-center mt-6">
+                <p className="text-primary text-lg">Or contact Ms. Mayurica on WhatsApp:</p>
+                <a href="https://wa.me/919654223759" target="_blank" rel="noopener noreferrer">
+                  <button className="mt-4 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center gap-2 mx-auto">
+                    <FaWhatsapp className="text-2xl" />
+                    Chat on WhatsApp
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
     <div className="bg-dark text-white text-justify" id="footer">
       <section className="container py-10">
         <div className="grid md:grid-cols-3 py-5">
@@ -166,82 +241,11 @@ const Footer = () => {
         </div>
         {/* Customer Support Section */}
          
-          <div id="support-section" className="bg-gray-900 text-white py-10">
-            <div className="container">
-              <h2 className="text-3xl font-bold mb-4 text-primary">Customer Support</h2>
-              <p className="mb-4">
-                If you have any questions or need help, feel free to reach out to the customer support team.
-                You can also contact Ms. Mayurica directly via WhatsApp for quick assistance.
-              </p>
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-primary">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
-                    required
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-primary">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
-                    required
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-primary">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="4"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    className="mt-1 block w-full p-2 border border-gray-300 rounded-md text-black"
-                    required
-                  ></textarea>
-                </div>
-                <button type="submit" className="w-full bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-4 rounded-lg">
-                  Send
-                </button>
-                {formStatus && (
-                  <div className="text-center mt-4 text-gray-600 dark:text-gray-400">
-                    <p>{formStatus}</p>
-                    <button onClick={() => setFormStatus("")} className="mt-4 bg-primary hover:bg-primary/80 text-white font-bold py-2 px-4 rounded">
-                      Reload Form
-                    </button>
-                  </div>
-                )}
-              </form>
-              <div className="text-center mt-6">
-                <p className="text-primary text-lg">Or contact Ms. Mayurica on WhatsApp:</p>
-                <a href="https://wa.me/919654223759" target="_blank" rel="noopener noreferrer">
-                  <button className="mt-4 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center gap-2 mx-auto">
-                    <FaWhatsapp className="text-2xl" />
-                    Chat on WhatsApp
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          
         
       </section>
     </div>
+    </>
   );
 };
 
