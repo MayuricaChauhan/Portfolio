@@ -1,9 +1,7 @@
 import yellowCar from "../../assets/website/team.png";
 
 const Hero = () => {
-  const handleLearnMoreClick = () => {
-    document.getElementById("footer")?.scrollIntoView({ behavior: "smooth" });
-  };
+
   return (
     <div id = "about" className="dark:bg-gray-950 dark:text-white duration-300 ">
       <div className="container min-h-[620px] flex mt-10 sm:mt-0">
@@ -42,15 +40,7 @@ const Hero = () => {
             <p data-aos="fade-up" data-aos-delay="300" className="text-justify">
             Mayurica is a dedicated and experienced education counselor, passionate about empowering students to make informed decisions about their academic and professional journeys. With a deep understanding of the complexities of the education landscape, she provides personalized guidance and support to help individuals navigate the vast array of educational opportunities available to them. Mayurica's expertise spans career counseling, college admissions, and educational planning, making her services an invaluable resource for those seeking to unlock their full potential.
             </p>
-            <button
-              data-aos="fade-up"
-              data-aos-delay="500"
-              data-aos-offset="0"
-              className="primary-btn"
-              onClick={handleLearnMoreClick}
-            >
-              Learn More
-            </button>
+           
           </div>
         </div>
       </div>
