@@ -9,6 +9,7 @@ import pic3 from "./assets/carousel/2.jpg";
 // Component imports
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import HeroSection from "./components/Hero/HeroSection.jsx";
 import Services from "./components/Services/Services";
 import Testimonial from "./components/Testimonial/Testimonial";
 import BlogsComp from "./components/Blogs/BlogsComp.jsx";
@@ -56,6 +57,7 @@ const App = () => {
           <Route path="/" element={
             <>
               <Carousel slides={slides} />
+              <HeroSection/>
               <Hero />
               <Services />
               <br></br><br></br>
