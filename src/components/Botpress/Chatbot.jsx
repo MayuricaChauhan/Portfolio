@@ -3,8 +3,10 @@ import { useEffect } from 'react';
 const Chatbot = () => {
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = 'https://cdn.botpress.cloud/webchat/v1/inject.js';
+    script.src = "https://widget.cxgenie.ai/widget.js";
     script.async = true;
+    script.setAttribute('data-aid', 'a0901272-fcb2-4772-a067-8b5e05ed0916');
+    script.setAttribute('data-lang', 'en');
     document.body.appendChild(script);
 
     script.onload = () => {
@@ -27,7 +29,7 @@ const Chatbot = () => {
       });
 
       // Trigger the bot to send the first message
-        window.botpressWebChat.sendEvent({ type: 'show' });
+      window.botpressWebChat.sendEvent({ type: 'show' });
     };
 
     return () => {
