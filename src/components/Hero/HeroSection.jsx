@@ -7,14 +7,16 @@ const HeroSection = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration
-      once: false, // Animation should happen only once
+      once: false, 
     });
   }, []);
-
+ const handleLearnMoreClick = () => {
+    document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="bg-white h-[75vh] flex items-center justify-center">
       <div
-        className="bg-white shadow-lg rounded-lg p-6 max-w-xl mx-auto "
+        className="bg-white shadow-lg rounded-lg p-6 max-w-xl mx-auto animate-fade-in"
         data-aos="fade-up" // Add animation type here
       >
         <h1
@@ -37,6 +39,15 @@ const HeroSection = () => {
           <br />
           She is also a proud recipient of the prestigious IEC certificate from University of California, Irvine. Ms. Chauhan’s own experience as an international student has allowed her to empathize deeply with aspiring students.
         </p>
+        <button
+              data-aos="fade-up"
+              data-aos-delay="500"
+              data-aos-offset="0"
+              className="primary-btn"
+              onClick={handleLearnMoreClick}
+            >
+              Learn More
+            </button>
       </div>
     </div>
   );
