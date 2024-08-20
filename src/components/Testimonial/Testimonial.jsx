@@ -1,8 +1,10 @@
 // import React from "react";
 import Slider from "react-slick";
-import pic1 from "../../assets/TestimonialSlider/1.jpg";
-import pic2 from "../../assets/TestimonialSlider/2.jpg";
-import pic3 from "../../assets/TestimonialSlider/3.jpg";
+import pic1 from "../../assets/TestimonialSlider/1.jpeg";
+import pic2 from "../../assets/TestimonialSlider/2.jpeg";
+import pic3 from "../../assets/TestimonialSlider/3.jpeg";
+import pic4 from "../../assets/TestimonialSlider/4.jpeg";
+import pic5 from "../../assets/TestimonialSlider/5.jpeg";
 const testimonialData = [
   {
     id: 1,
@@ -26,13 +28,13 @@ const testimonialData = [
     id: 4,
     name: "Drishti Grover - Student, India",
     text: "With my whole heart i want to express my gratitude towards Mayurica ma’am , to me she was one of the winsome , humble and passionate women , her dedication and never ending joy drifted me towards her work , there was a time i used to freak out thinking about my admission and she was right there to calm me down and show me absolute right direction to go on and that’s the reason today i am relief about my further studies , even on personal level i connect to her she will always going to remain my mentor figure . My love and respect for her will always going to be  consistent, can’t thank you enough for all the help.",
-    img: pic1,
+    img: pic4,
   },
   {
     id: 5,
     name: "Mohit Lath - Student, India",
     text: "I am very grateful for the assistance provided by Mayurica Mam , from deciding the course , its offer letter to  visa assistance everything was done in a pure professional manner  with minimal botheration taken by me . Thankyou mam your assistance played main role that i will be in Montreal soon .",
-    img: pic2,
+    img: pic5,
   },
 ];
 
