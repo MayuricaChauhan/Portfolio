@@ -18,6 +18,7 @@ import Chatbot from "./components/Botpress/Chatbot.jsx";
 import BookCounselling from "./components/Counselling/BookCounselling.jsx";
 import SignIn from "./components/Authentication/SignIn.jsx";
 import Carousel from "./components/Carousel/Carousel.jsx";
+import Certificates from "./components/Certificates/Certifications.jsx";
 
 const App = () => {
   const slides = [
@@ -57,6 +58,7 @@ const App = () => {
               <Carousel slides={slides} />
               <Hero />
               <Services />
+              <Certificates/>
               <Testimonial />
               <BlogsComp />
               <Form />
