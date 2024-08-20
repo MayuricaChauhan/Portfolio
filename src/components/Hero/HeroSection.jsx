@@ -14,7 +14,7 @@ const HeroSection = () => {
   return (
     <div className="bg-white h-[75vh] flex items-center justify-center">
       <div
-        className="bg-white shadow-lg rounded-lg p-6 max-w-xl mx-auto animate-fade-in"
+        className="bg-white shadow-lg rounded-lg p-6 max-w-xl mx-auto "
         data-aos="fade-up" // Add animation type here
       >
         <h1
@@ -25,7 +25,7 @@ const HeroSection = () => {
           Mayurica<span className="text-primary">Chauhan</span>
         </h1>
         <p
-          className="text-sm text-gray-900 leading-relaxed mb-4 dm-serif-text-regular"
+          className="text-sm text-gray-900 leading-relaxed mb-4 dm-serif-text-regular-italic"
           data-aos="fade-up" // Add animation type here
           data-aos-delay="300" // Optional: delay before animation starts
         >
