@@ -20,7 +20,7 @@ import BookCounselling from "./components/Counselling/BookCounselling.jsx";
 import SignIn from "./components/Authentication/SignIn.jsx";
 import Carousel from "./components/Carousel/Carousel.jsx";
 import Certificates from "./components/Certificates/Certifications.jsx";
-import FAQ from "./components/FAQ/FAQItem.jsx";
+import FAQ from "./components/Accordion/FAQItem.jsx";
 const App = () => {
   const slides = [
     {
