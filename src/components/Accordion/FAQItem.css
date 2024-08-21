@@ -10,7 +10,7 @@
   border-radius: 5px;
   margin-bottom: 10px;
   overflow: hidden;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
 }
 
 .faq-item:hover {
@@ -31,6 +31,19 @@
   background-color: #e1e1e1;
 }
 
+.faq-question h3 {
+  margin: 0;
+  font-size: 18px;
+  flex-grow: 1;
+}
+
+.faq-question span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
 .faq-answer {
   max-height: 0;
   overflow: hidden;
@@ -43,12 +56,16 @@
 }
 
 .faq-item.open .faq-answer {
-  max-height: 200px; /* Adjust based on content height */
+  max-height: 500px; /* Adjust this value or use 'auto' if content size varies greatly */
   padding: 15px;
 }
 
 .faq-item.open .faq-question {
   background-color: #e1e1e1;
+}
+
+.faq-item.open .faq-question span {
+  transform: rotate(180deg); /* Rotates the plus sign to minus when open */
 }
 
 .faq h1 {
