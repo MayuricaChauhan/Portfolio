@@ -25,6 +25,9 @@
   justify-content: space-between;
   align-items: center;
   transition: background-color 0.3s ease;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  text-align:left;
 }
 
 .faq-question:hover {
