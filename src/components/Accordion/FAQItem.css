@@ -92,10 +92,7 @@
     padding: 10px; /* Reduce padding */
   }
 
-  .faq-item {
-    margin-bottom: 8px; /* Reduce space between FAQ items */
-  }
-
+  
   .faq-answer p {
     margin: 10px 0; /* Reduce margin within the answer text */
   }
