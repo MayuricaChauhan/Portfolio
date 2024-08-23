@@ -52,6 +52,9 @@
   overflow: hidden;
   transition: max-height 0.5s ease-out, padding 0.5s ease-out;
   padding: 0 15px;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  text-align:left;
 }
 
 .faq-answer p {
