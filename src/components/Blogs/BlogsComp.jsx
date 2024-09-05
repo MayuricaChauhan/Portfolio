@@ -1,65 +1,8 @@
 import React, { useState } from "react";
 import BlogCard from "./BlogCard";
-import Img1 from "../../assets/blog/blog1.png";
-import Img2 from "../../assets/blog/blog2.png";
-import Img3 from "../../assets/blog/blog3.png";
+import BlogsData from "./BlogData";
 
-const BlogsData = [
-  {
-    id: 1,
-    image: Img1,
-    title: "Realtime analytics",
-    description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible.",
-    author: "Someone",
-    date: "April 22, 2022",
-  },
-  {
-    id: 2,
-    image: Img2,
-    title: "Realtime analytics",
-    description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
-    author: "Someone",
-    date: "April 22, 2022",
-  },
-  {
-    id: 3,
-    image: Img3,
-    title: "Realtime analytics",
-    description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
-    author: "Someone",
-    date: "April 22, 2022",
-  },
-  {
-    id: 4,
-    image: Img1,
-    title: "Realtime analytics",
-    description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible.",
-    author: "Someone",
-    date: "April 22, 2022",
-  },
-  {
-    id: 5,
-    image: Img2,
-    title: "Realtime analytics",
-    description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
-    author: "Someone",
-    date: "April 22, 2022",
-  },
-  {
-    id: 6,
-    image: Img3,
-    title: "Realtime analytics",
-    description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
-    author: "Someone",
-    date: "April 22, 2022",
-  },
-];
+
 
 const BlogsComp = () => {
   const [showAll, setShowAll] = useState(false);
