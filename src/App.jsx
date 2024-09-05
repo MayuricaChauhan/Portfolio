@@ -21,6 +21,7 @@ import SignIn from "./components/Authentication/SignIn.jsx";
 import Carousel from "./components/Carousel/Carousel.jsx";
 import Certificates from "./components/Certificates/Certifications.jsx";
 import FAQ from "./components/Accordion/FAQItem.jsx";
+import BlogDetail from "./components/Blogs/BlogDetail.jsx";
 const App = () => {
   const slides = [
     {
@@ -69,6 +70,7 @@ const App = () => {
               <FAQ/>
             </>
           } />
+           <Route path="/blog/:blogId" element={<BlogDetail />} /> 
           <Route path="/book-counselling" element={<BookCounselling />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="*" element={<Navigate to="/" />} />
