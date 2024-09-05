@@ -1,0 +1,13 @@
+/* BlogCard.css */
+
+/* Adjust title styling */
+.blog-card-title {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between; /* Changed to space-between for better alignment */
+  align-items: center;
+  transition: background-color 0.3s ease;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  text-align:left;
+}
