@@ -13,6 +13,13 @@
   font-weight: bold;
   margin-bottom: 20px;
   color: #1a202c;
+  display: flex;
+  justify-content: space-between; /* Changed to space-between for better alignment */
+  align-items: center;
+  transition: background-color 0.3s ease;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  text-align:left;
 }
 
 .blog-detail-content {
@@ -23,6 +30,13 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between; /* Changed to space-between for better alignment */
+  align-items: center;
+  transition: background-color 0.3s ease;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  text-align:left;
 }
 
 .blog-detail-content h2,
