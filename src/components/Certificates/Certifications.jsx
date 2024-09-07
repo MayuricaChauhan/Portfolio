@@ -1,5 +1,5 @@
 import pic from "../../assets/certificates/certifications.jpeg";
-import 'Certifications.css'
+import './Certifications.css'
 
 const Certifications = () => {
   return (
