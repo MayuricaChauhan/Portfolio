@@ -53,12 +53,71 @@ const BlogsData = [
   {
     id: 2,
     image: Img2,
-    title: "The Power of Real-Time Analytics",
-    description: `
-      <div id="desc-2">
-        <p>Explore how real-time analytics transforms decision-making by providing immediate insights and trends for businesses and individuals alike.</p>
-      </div>
-    `,
+    title: "List of Courses After 12th Commerce: A Comprehensive Guide",
+    description: `<div class="content">
+  <p>You’ve just graduated high school with a major in Commerce and now find yourself at the crossroads with the seemingly familiar question of, “What next?”. The decisions you make now will shape your professional journey for the years to come. While the options you have for undergraduate education might seem overwhelming at first, each of these endeavors has its own advantages and limitations. Here's a practical guide to help you narrow down on your choices.</p>
+
+  <h2>The Tried and Tested Route</h2>
+  <p>Let's start with what everyone and their uncle knows about: B.Com, BBA, and BBM. Are they boring? Not unless you make them.</p>
+
+  <ul>
+    <li><strong>Bachelor of Commerce (B.Com)</strong>: A three-year degree program covering accounting, economics, business law, and taxation. Students can specialize in areas like banking, corporate accounting, or finance. Most universities offer both regular and honors programs.</li>
+    <li><strong>Bachelor of Business Administration (BBA)</strong>: Focuses on developing management skills through practical case studies and industry exposure. The program covers marketing, finance, human resources, and operations management over three years.</li>
+    <li><strong>Bachelor of Management Studies (BMS)</strong>: Combines theoretical knowledge with practical management skills. Students learn about organizational behavior, business strategy, and entrepreneurship while working on real business projects.</li>
+    <li><strong>Integrated BBA + MBA</strong>: A five-year program offering dual degrees. Students save a year compared to doing these courses separately and often get better placement opportunities due to the comprehensive curriculum.</li>
+    <li><strong>B.Com + LLB</strong>: A unique five-year integrated program combining commerce and law. Graduates often work in corporate law, tax consultation, or business litigation.</li>
+  </ul>
+
+  <h2>Beyond the Conventional</h2>
+  <p>Now, let's talk about CA and CMA: the courses that'll make your parents proud but also keep you up at night (just kidding... sort of). Yes, they're tough. Yes, you'll question your life choices during study breaks. But if you're the kind who loves solving puzzles and finds joy in creating order from chaos, you might just find your calling here.</p>
+
+  <ul>
+    <li><strong>Chartered Accountancy (CA)</strong>: A professional course spanning Foundation, Intermediate, and Final levels. It has three years of practical training and opens doors to roles in auditing, taxation, and financial advisory.</li>
+    <li><strong>Cost and Management Accountancy (CMA)</strong>: Focuses on cost optimization and management accounting. The three-level program trains professionals in cost audit, financial planning, and strategic cost management.</li>
+    <li><strong>Company Secretary (CS)</strong>: Specializes in corporate law and governance. The program involves Foundation, Executive, and Professional levels, preparing students for corporate compliance and legal advisory roles.</li>
+    <li><strong>Chartered Financial Analyst (CFA India)</strong>: Different from the global CFA, this program focuses on Indian financial markets and regulations. Graduates work in portfolio management and financial analysis.</li>
+  </ul>
+
+  <h2>Modern-day Alternatives</h2>
+  <p>Here's where things get interesting. Remember when Instagram was just for posting food photos? Now it's a legitimate business platform, and people actually major in digital marketing and more. Wild, right? If you're the kind who's always thinking ‘there must be a better way to do this,’ these modern-day alternatives might be your jam.</p>
+
+  <ul>
+    <li><strong>Digital Marketing Management</strong>: A comprehensive program covering social media, SEO, content marketing, and analytics. Students learn to create and execute digital campaigns while understanding consumer behavior online.</li>
+    <li><strong>Financial Technology (FinTech)</strong>: Combines finance with technology, covering blockchain, digital payments, and algorithmic trading. Programs typically run for 1-2 years with heavy emphasis on practical applications.</li>
+    <li><strong>Data Analytics for Business</strong>: Teaches students to analyze business data using tools like Python, R, and Tableau. Focuses on business intelligence and data-driven decision making.</li>
+    <li><strong>E-commerce Management</strong>: Covers online business operations, supply chain management, and digital consumer behavior. Students learn platform management, digital payments, and online marketing strategies.</li>
+  </ul>
+
+  <h2>Creative Commerce</h2>
+  <p>Ever wondered who manages the business side of fashion brands? Or how luxury stores decide to price that bag that costs more than a car? Welcome to the cool kids' table of commerce.</p>
+
+  <ul>
+    <li><strong>Luxury Brand Management</strong>: Students learn about premium market dynamics, brand positioning, and high-end retail operations. The program includes modules on consumer psychology and luxury marketing.</li>
+    <li><strong>Fashion Business Management</strong>: Combines fashion industry knowledge with business acumen. Covers retail operations, merchandising, supply chain management, and trend forecasting.</li>
+    <li><strong>Sports Management</strong>: Focuses on the business side of sports, including event management, sponsorship, and sports marketing. Programs often include internships with sports teams or organizations.</li>
+    <li><strong>Entertainment and Media Management</strong>: Covers the business aspects of media production, distribution, and marketing. Students learn about content monetization, audience engagement, and media planning.</li>
+  </ul>
+
+  <h2>Taking Commerce Global</h2>
+  <p>Here are a few more options to consider:</p>
+
+  <ul>
+    <li><strong>ACCA (Association of Chartered Certified Accountants)</strong>: A globally recognized accounting qualification. The program consists of 13 exams and requires practical experience, offering mobility across 170 countries.</li>
+    <li><strong>CFA (Chartered Financial Analyst)</strong>: A prestigious three-level program focusing on investment management. Known for its rigorous curriculum covering portfolio management, economics, and ethics.</li>
+    <li><strong>Global MBA</strong>: International business programs offered by universities worldwide. Students gain exposure to global business practices and often participate in exchange programs.</li>
+    <li><strong>CIMA (Chartered Institute of Management Accountants)</strong>: A UK-based professional qualification focusing on management accounting. Popular among those seeking international finance careers.</li>
+  </ul>
+
+  <h2>Making Your Choice</h2>
+  <p>When selecting a course, consider factors like your interests, career goals, and market demand. Research the institutes offering these programs: their accreditation, faculty expertise, and placement records are crucial. Consider internship opportunities and industry connections offered by each program.</p>
+
+  <p>But here's the truth: there's no one-size-fits-all in Commerce anymore. Maybe you'll start with B.Com and end up running a digital marketing agency. Or perhaps you'll combine your CA with fashion management and revolutionize how boutiques handle their finances.</p>
+
+  <p>The point is, don't let anyone rush you into a decision. Take a breath. Do your homework. Talk to people who've taken these paths. Remember, the only wrong choice is choosing something because someone else thinks it's right for you.</p>
+
+  <p>To learn more about your options after 12th Commerce, please contact our UCLA-certified educational counselor Ms. Mayurica Chauhan at +91 93100 95663.</p>
+</div>
+`,
     author: "Jane Smith",
     date: "May 12, 2022",
   },
