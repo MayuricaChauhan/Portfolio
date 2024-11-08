@@ -22,6 +22,7 @@ import Carousel from "./components/Carousel/Carousel.jsx";
 import Certificates from "./components/Certificates/Certifications.jsx";
 import FAQ from "./components/Accordion/FAQItem.jsx";
 import BlogDetail from "./components/Blogs/BlogDetail.jsx";
+import Announcement from "./components/Announcement/Announcement.jsx";
 const App = () => {
   const slides = [
     {
@@ -54,6 +55,7 @@ const App = () => {
     <Router>
       <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden text-justify">
         <Navbar />
+        <Announcement/>
         <Routes>
           <Route path="/" element={
             <>
