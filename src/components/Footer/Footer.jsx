@@ -80,7 +80,7 @@ const Footer = () => {
     
     <div id="support-section" className="bg-gray-900 text-white py-10">
             <div className="container">
-              <h2 className="text-3xl font-bold mb-4 text-primary">Customer Support</h2>
+              <h2 className="text-3xl font-bold mb-4 text-primary">Contact for Enquiry</h2>
               <p className="mb-4">
                 If you have any questions or need help, feel free to reach out to the customer support team.
                 You can also contact Ms. Mayurica directly via WhatsApp for quick assistance.
