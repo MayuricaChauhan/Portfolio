@@ -44,7 +44,7 @@ const Footer = () => {
         {
           sender: { email: 'iec@mayuricaeducation.in', name: formData.name }, // Sender is the user
         to: [{ email: 'iec@mayuricaeducation.in', name: 'Customer Support' }],
-          subject: 'Customer Support Request',
+          subject: 'Get Started With Your Study Abroad Dreams',
           htmlContent: `
             <html>
               <body>
