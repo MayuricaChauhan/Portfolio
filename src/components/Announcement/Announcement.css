@@ -1,0 +1,55 @@
+/* Banner styling */
+.banner {
+  background-color: grey;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 15px 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  white-space: nowrap; /* Ensures text is in a single line */
+}
+
+/* Cross-slide animation */
+@keyframes slideCross {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Apply animation to the text */
+.banner p {
+  display: inline-block;
+  animation: slideCross 30s linear infinite;
+  white-space: nowrap; /* Keep text in a single line */
+}
+
+/* Pulse effect on emojis */
+.banner .emoji {
+  display: inline-block;
+  animation: pulse 1s infinite alternate;
+}
+
+/* Keyframes for pulsing effect */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .banner {
+    font-size: 1em;
+  }
+}
