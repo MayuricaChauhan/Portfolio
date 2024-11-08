@@ -11,7 +11,8 @@
   z-index: 1000;
   font-family: Arial, sans-serif;
   overflow: hidden;
-  white-space: nowrap; /* Ensures text is in a single line */
+  white-space: nowrap;
+  height: 50px; /* Set a fixed height */
 }
 
 /* Cross-slide animation */
@@ -52,4 +53,9 @@
   .banner {
     font-size: 1em;
   }
+}
+
+/* Navbar styling to prevent overlap */
+.navbar {
+  margin-top: 50px; /* Adjust this to match the height of .banner */
 }
