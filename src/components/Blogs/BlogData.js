@@ -132,43 +132,7 @@ const BlogsData = [
     `,
     author: "Mark Johnson",
     date: "June 18, 2022",
-  },
-  {
-    id: 4,
-    image: Img1,
-    title: "Building Scalable Web Applications",
-    description: `
-      <div id="desc-4">
-        <p>This blog explores best practices for building scalable web applications using modern technologies like cloud computing and microservices.</p>
-      </div>
-    `,
-    author: "Alice White",
-    date: "July 5, 2022",
-  },
-  {
-    id: 5,
-    image: Img2,
-    title: "The Future of AI in Everyday Life",
-    description: `
-      <div id="desc-5">
-        <p>Artificial Intelligence is reshaping our daily lives. From smart homes to autonomous vehicles, explore the possibilities and challenges ahead.</p>
-      </div>
-    `,
-    author: "Robert Brown",
-    date: "August 14, 2022",
-  },
-  {
-    id: 6,
-    image: Img3,
-    title: "The Rise of E-Commerce Post-Pandemic",
-    description: `
-      <div id="desc-6">
-        <p>The COVID-19 pandemic accelerated the growth of e-commerce. Learn about the trends shaping the future of online shopping.</p>
-      </div>
-    `,
-    author: "Emily Davis",
-    date: "September 2, 2022",
-  },
+  }
 ];
 
 export default BlogsData;
