@@ -52,34 +52,36 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
-      <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden text-justify">
+     <Router>
+    <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden text-justify">
+      <Announcement />
+      <div style={{ marginTop: "50px" }}> {/* Offset for the Announcement banner */}
         <Navbar />
-        <Announcement/>
         <Routes>
           <Route path="/" element={
             <>
               <Carousel slides={slides} />
-              <HeroSection/>
+              <HeroSection />
               <Hero />
               <Services />
-              <br></br><br></br>
-              <Certificates/>
+              <br /><br />
+              <Certificates />
               <Testimonial />
               <BlogsComp />
               <Form />
               <Chatbot />
-              <FAQ/>
+              <FAQ />
             </>
           } />
-           <Route path="/blog/:blogId" element={<BlogDetail />} /> 
+          <Route path="/blog/:blogId" element={<BlogDetail />} />
           <Route path="/book-counselling" element={<BookCounselling />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </div>
+  </Router>
   );
 };
 
