@@ -11,10 +11,10 @@ const BlogsData = [
       <div id="desc-1">
         <p>Studying abroad can be a thrilling adventure, offering a chance to explore new lands, immerse yourself in diverse cultures, and gain a unique perspective on life. However, navigating cultural differences can be a daunting task for international students. In this blog, we'll delve into the challenges of cultural adaptation and provide valuable tips on how to cope with cultural differences while studying abroad.</p>
 
-        <h3>Understanding Cultural Differences</h3>
+        <h3><b>Understanding Cultural Differences</b></h3>
         <p>Cultural differences encompass various aspects of life, including communication styles, social norms, customs, and values. What may be considered polite in one culture might be deemed impolite in another. For instance, in some cultures, direct eye contact is a sign of respect, while in others, it's perceived as aggressive.</p>
 
-        <h3>Challenges Faced by International Students</h3>
+        <h3><b>Challenges Faced by International Students</b></h3>
         <p>International students often face cultural shock, feeling overwhelmed by the unfamiliar surroundings and customs. Some common challenges include:</p>
         <ul>
           <li>Language barriers: Communicating in a new language can be frustrating and isolating.</li>
@@ -23,7 +23,7 @@ const BlogsData = [
           <li>Homesickness: Missing family, friends, and familiar foods can lead to feelings of loneliness.</li>
         </ul>
 
-        <h3>Coping Strategies for International Students</h3>
+        <h3><b>Coping Strategies for International Students</b></h3>
         <p>Here are some tips for coping with cultural differences:</p>
         <ul>
           <li>Research and Preparation: Before embarking on your journey, research the host country's culture, customs, and way of life. Understanding the local context will help you prepare for the challenges ahead.</li>
@@ -34,10 +34,10 @@ const BlogsData = [
           <li>Seeking Help: Don't hesitate to seek help from university support services, mentors, or counselors if you're struggling to cope.</li>
         </ul>
 
-        <h3>Conclusion</h3>
+        <h3><b>Conclusion</b></h3>
         <p>Coping with cultural differences abroad requires patience, resilience, and an open mind. By understanding the challenges and implementing effective coping strategies, international students can thrive in their new environment. Remember, cultural adaptation is a journey, and it's okay to take your time. Embrace the differences, and you'll return home with a newfound appreciation for diverse cultures and a broader perspective on life.</p>
 
-        <h3>Additional Tips</h3>
+        <h3><b>Additional Tips</b></h3>
         <ul>
           <li>Stay connected with family and friends back home</li>
           <li>Keep a journal to record your experiences</li>
