@@ -1,4 +1,4 @@
-import yellowCar from "../../assets/website/team.png";
+import yellowCar from "../../assets/website/mam.jpg";
 
 const Hero = () => {
 
