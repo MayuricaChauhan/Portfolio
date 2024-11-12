@@ -1,6 +1,7 @@
 import { useState, useRef } from "react"; // Make sure useRef is imported here
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import { TfiEmail } from "react-icons/tfi";
 
 // Rest of the component code...
 
@@ -160,14 +161,9 @@ const Form = () => {
 
 // Main Footer Component
 const Footer = () => {
-  const [showSupport, setShowSupport] = useState(false);
+  
 
-  const handleSupportClick = () => {
-    setShowSupport(!showSupport);
-    if (!showSupport) {
-      document.getElementById("support-section")?.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+ 
 
   return (
     <>
@@ -202,19 +198,22 @@ const Footer = () => {
               <br />
               {/* Social Handles */}
               <div className="flex items-center gap-4 mt-6">
-                <a href="#">
+                <a href="https://www.instagram.com/uninxt/">
                   <FaInstagram className="text-2xl hover:text-primary duration-300" />
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/uninxt.uni?mibextid=LQQJ4d">
                   <FaFacebook className="text-2xl hover:text-primary duration-300" />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/uninxt/posts/?feedView=all">
                   <FaLinkedin className="text-2xl hover:text-primary duration-300" />
                 </a>
                 <a href="https://wa.me/919654223759" target="_blank" rel="noopener noreferrer">
                   <FaWhatsapp className="text-2xl hover:text-primary duration-300" />
                 </a>
-                
+                <a href="mailto:iec@mayuricaeducation.in">
+        <TfiEmail className="text-2xl hover:text-primary duration-300" />
+</a>
+
               </div>
             </div>
             {/* Links */}
