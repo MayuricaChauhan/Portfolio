@@ -215,7 +215,7 @@ const Footer = () => {
                   <FaWhatsapp className="text-2xl hover:text-primary duration-300" />
                 </a>
                  <a href="https://wa.me/919654223759" target="_blank" rel="noopener noreferrer">
-                  <<FontAwesomeIcon icon="fa-regular fa-envelope"  className="text-2xl hover:text-primary duration-300" />
+                  <FontAwesomeIcon icon="fa-regular fa-envelope"  className="text-2xl hover:text-primary duration-300" />
                 </a>
               </div>
             </div>
