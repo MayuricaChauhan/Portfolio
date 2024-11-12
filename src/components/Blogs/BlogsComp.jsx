@@ -27,9 +27,9 @@ const BlogsComp = () => {
           ))}
         </div>
         <div className="text-center">
-          <button className="primary-btn" onClick={() => setShowAll(!showAll)}>
+{/*           <button className="primary-btn" onClick={() => setShowAll(!showAll)}>
             {showAll ? "Show Less" : "View All Posts"}
-          </button>
+          </button> */}
         </div>
       </section>
     </div>
