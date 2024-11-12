@@ -68,7 +68,7 @@ const App = () => {
               <Certificates />
               <Testimonial />
               <BlogsComp />
-              <Form />
+            
               <Chatbot />
               <FAQ />
             </>
