@@ -23,6 +23,7 @@ import Certificates from "./components/Certificates/Certifications.jsx";
 import FAQ from "./components/Accordion/FAQItem.jsx";
 import BlogDetail from "./components/Blogs/BlogDetail.jsx";
 import Announcement from "./components/Announcement/Announcement.jsx";
+import AppointmentPage from "./components/Appointment/AppointmentPage.jsx";
 const App = () => {
   const slides = [
     {
@@ -63,6 +64,7 @@ const App = () => {
               <Carousel slides={slides} />
               <HeroSection />
               <Hero />
+              <AppointmentPage/>
               <Services />
               <br /><br />
               <Certificates />
