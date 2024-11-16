@@ -69,7 +69,7 @@ const Testimonial = () => {
                     <div className="flex flex-col sm:flex-row gap-5 md:gap-14 p-4 mx-4 rounded-xl dark:bg-gray-800 relative">
                       <img
                         src={img}
-                        alt=""
+                        alt="testinomials"
                         className="block mx-auto h-[300px] w-full sm:w-[200px] object-cover"
                       />
                       <div className="space-y-4">
