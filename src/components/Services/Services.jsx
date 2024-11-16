@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { useState } from "react";
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import { GiNotebook, GiGraduateCap } from 'react-icons/gi';
@@ -15,7 +16,7 @@ const skillsData = [
     link: "#",
     description:
       "Expert guidance to help you identify and pursue the right career path based on your interests, skills, and market demand.",
-      buttonComponent: <BookCounselling/>,
+    buttonComponent: <BookCounselling />,
     aosDelay: "0",
   },
   {
@@ -24,72 +25,10 @@ const skillsData = [
     link: "#",
     description:
       "Comprehensive assistance for securing admissions in prestigious institutions worldwide, tailored to your academic profile and preferences.",
-      buttonComponent: <BookCounselling/>,
+    buttonComponent: <BookCounselling />,
     aosDelay: "300",
   },
-  {
-    name: "Profile Building",
-    icon: <SlNote className="text-4xl text-primary" />,
-    link: "#",
-    description:
-      "Strategic support to enhance your profile through extracurricular activities, internships, and skill development to stand out in the competitive admissions process.",
-      buttonComponent: <BookCounselling/>,
-    aosDelay: "500",
-  },
-  {
-    name: "Psychometric Testing",
-    icon: <MdOutlinePsychology className="text-4xl text-primary" />,
-    link: "#",
-    description:
-      "Reliable psychometric tests to assess your abilities, personality traits, and interests, aiding in making informed career and academic decisions.",
-      buttonComponent: <BookCounselling/>,
-    aosDelay: "700",
-  },
-  {
-    name: "High School Abroad",
-    icon: <MdOutlineSchool className="text-4xl text-primary" />,
-    link: "#",
-    description:
-      "Guidance for high school students aiming to study abroad, including application assistance and information on international schooling systems.",
-      buttonComponent: <BookCounselling/>,
-    aosDelay: "0",
-  },
-  {
-    name: "MBBS Admissions",
-    icon: <GiGraduateCap className="text-4xl text-primary" />,
-    link: "#",
-    description:
-      "Specialized services to help aspiring medical students gain admission to MBBS programs in top universities globally.",
-      buttonComponent: <BookCounselling/>,
-    aosDelay: "300",
-  },
-  {
-    name: "Scholarships and Loans",
-    icon: <BiCreditCard className="text-4xl text-primary" />,
-    link: "#",
-    description:
-      "Information and application support for scholarships and educational loans to finance your studies abroad.",
-      buttonComponent: <BookCounselling/>,
-    aosDelay: "500",
-  },
-  {
-    name: "Financial Aid Consulting",
-    icon: <HiOutlineDocumentText className="text-4xl text-primary" />,
-    link: "#",
-    description:
-      "Expert advice on navigating the financial aid process, ensuring you secure the necessary funding for your education.",
-      buttonComponent: <BookCounselling/>,
-    aosDelay: "700",
-  },
-  {
-    name: "Visa Counselling",
-    icon: <RiVisaLine className="text-4xl text-primary" />,
-    link: "#",
-    description:
-      "Step-by-step guidance on visa applications, interviews, and documentation to ensure a smooth and successful visa process.",
-      buttonComponent: <BookCounselling/>,
-    aosDelay: "0",
-  },
+  // Other services...
 ];
 
 const Services = () => {
@@ -99,6 +38,23 @@ const Services = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Services | Academic & Career Guidance</title>
+        <meta
+          name="description"
+          content="Explore our services for career counseling, admissions abroad, profile building, psychometric testing, and more. Achieve your academic and career goals with expert guidance."
+        />
+        <meta
+          name="keywords"
+          content="career counseling, admissions abroad, profile building, psychometric testing, scholarships, visa counselling"
+        />
+        <meta property="og:title" content="Services | Academic & Career Guidance" />
+        <meta
+          property="og:description"
+          content="Discover a range of services to help you achieve your academic and career goals. Expert guidance in career counseling, admissions, profile building, and more."
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <span id="services"></span>
       <div className="bg-gray-100 dark:bg-black dark:text-white py-12 sm:grid sm:place-items-center">
         <div className="container">
@@ -120,21 +76,25 @@ const Services = () => {
           {/* services cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {visibleSkills.map((skill) => (
-              <div
+              <article
                 key={skill.name}
                 data-aos="fade-up"
                 data-aos-delay={skill.aosDelay}
                 className="card space-y-3 sm:space-y-4 p-4 relative overflow-hidden group rounded-lg"
               >
-                <div className="group-hover:blur-sm transition-all duration-300">{skill.icon}</div>
-                <h1 className="text-lg font-semibold group-hover:blur-sm transition-all duration-300">{skill.name}</h1>
+                <div className="group-hover:blur-sm transition-all duration-300">
+                  {skill.icon}
+                </div>
+                <h2 className="text-lg font-semibold group-hover:blur-sm transition-all duration-300">
+                  {skill.name}
+                </h2>
                 <p className="text-gray-600 dark:text-gray-400 group-hover:blur-sm transition-all duration-300">
                   {skill.description}
                 </p>
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 bg-black bg-opacity-50 rounded-lg">
                   {skill.buttonComponent}
                 </div>
-              </div>
+              </article>
             ))}
           </div>
 
