@@ -16,7 +16,7 @@ const skillsData = [
     link: "#",
     description:
       "Expert guidance to help you identify and pursue the right career path based on your interests, skills, and market demand.",
-    buttonComponent: <BookCounselling />,
+      buttonComponent: <BookCounselling/>,
     aosDelay: "0",
   },
   {
@@ -25,10 +25,72 @@ const skillsData = [
     link: "#",
     description:
       "Comprehensive assistance for securing admissions in prestigious institutions worldwide, tailored to your academic profile and preferences.",
-    buttonComponent: <BookCounselling />,
+      buttonComponent: <BookCounselling/>,
     aosDelay: "300",
   },
-  // Other services...
+  {
+    name: "Profile Building",
+    icon: <SlNote className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "Strategic support to enhance your profile through extracurricular activities, internships, and skill development to stand out in the competitive admissions process.",
+      buttonComponent: <BookCounselling/>,
+    aosDelay: "500",
+  },
+  {
+    name: "Psychometric Testing",
+    icon: <MdOutlinePsychology className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "Reliable psychometric tests to assess your abilities, personality traits, and interests, aiding in making informed career and academic decisions.",
+      buttonComponent: <BookCounselling/>,
+    aosDelay: "700",
+  },
+  {
+    name: "High School Abroad",
+    icon: <MdOutlineSchool className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "Guidance for high school students aiming to study abroad, including application assistance and information on international schooling systems.",
+      buttonComponent: <BookCounselling/>,
+    aosDelay: "0",
+  },
+  {
+    name: "MBBS Admissions",
+    icon: <GiGraduateCap className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "Specialized services to help aspiring medical students gain admission to MBBS programs in top universities globally.",
+      buttonComponent: <BookCounselling/>,
+    aosDelay: "300",
+  },
+  {
+    name: "Scholarships and Loans",
+    icon: <BiCreditCard className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "Information and application support for scholarships and educational loans to finance your studies abroad.",
+      buttonComponent: <BookCounselling/>,
+    aosDelay: "500",
+  },
+  {
+    name: "Financial Aid Consulting",
+    icon: <HiOutlineDocumentText className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "Expert advice on navigating the financial aid process, ensuring you secure the necessary funding for your education.",
+      buttonComponent: <BookCounselling/>,
+    aosDelay: "700",
+  },
+  {
+    name: "Visa Counselling",
+    icon: <RiVisaLine className="text-4xl text-primary" />,
+    link: "#",
+    description:
+      "Step-by-step guidance on visa applications, interviews, and documentation to ensure a smooth and successful visa process.",
+      buttonComponent: <BookCounselling/>,
+    aosDelay: "0",
+  },
 ];
 
 const Services = () => {
