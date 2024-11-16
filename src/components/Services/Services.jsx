@@ -7,7 +7,7 @@ import { MdOutlinePsychology, MdOutlineSchool } from 'react-icons/md';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import { BiCreditCard } from 'react-icons/bi';
 import { RiVisaLine } from 'react-icons/ri';
-import BookCounselling from "../Counselling/BookCounselling";
+import BookCounselling from "../Counselling/BookCounselling"
 
 const skillsData = [
   {
