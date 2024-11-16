@@ -10,7 +10,7 @@ const Hero = () => {
           <div data-aos="zoom-in" className="order-1 sm:order-2 relative">
             <img
               src={yellowCar}
-              alt="Uninxt Study Overseas"
+              alt="Mayurica Chauhan"
               className="w-full sm:max-w-[280px] md:max-w-[430px]"
             />
             <div
