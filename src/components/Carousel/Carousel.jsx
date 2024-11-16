@@ -26,6 +26,7 @@ const Carousel = ({ slides }) => {
               src={slide.image}
               alt={`Slide ${index}`}
               className="w-full h-96 object-cover"
+              alt="Comprehensive academic counseling services for international students."
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
               <h2 className="md:text-7xl text-4xl font-bold">{slide.heading}</h2>
