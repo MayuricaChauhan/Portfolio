@@ -129,33 +129,31 @@ const BlogsData = [
       <div id="desc-3">
        
 
-Getting real-world work experience while studying in the US just got better. The Optional Practical Training (OPT) program opens doors for international students to put their classroom knowledge to work. And here's what you need to know: you get one year of work authorization after graduation. 
-
-But wait, there's more good news for STEM students. If you're in Science, Technology, Engineering, or Mathematics, you can extend your stay for an additional two years. That's three full years to build your career! The numbers tell an exciting story: Indian students are making the most of this opportunity, with over 97,000 participants in 2023-2024, showing a fantastic 41% jump from last year.
-
-The Cap-Gap Challenge: Previous vs New Rules
-
-Remember the old October 1st deadline that kept students up at night? That's changing for the better. Previously, if your H-1B wasn't processed by October 1st, you had to stop working. But here's the latest update: the new rules stretch your work permission all the way to April 1st of the next year. That's six extra months without worrying about gaps in your employment. Well, this means no more awkward conversations with your boss about temporary work stops, no career interruptions, and no stress about maintaining your status.
-
-Key Benefits of the Extended Cap-Gap Period
-
-Let's talk about why these extra six months matter so much.  The extended cap-gap period has several significant advantages for both international professionals and their employers. This modification provides an additional six months of status and employment authorization, therefore effectively eliminating the risk of work disruption during H-1B processing. Statistics show that maintaining employment continuity significantly improves both project completion rates and professional development opportunities. In other words, the extended period means you can keep pushing forward with your career plans without hitting the pause button. Your employers will love this too: they can count on you staying with projects longer, making them more likely to invest in your H-1B sponsorship. It's a win-win that makes the whole visa process less nerve-wracking for everyone involved.
-
-What International Students Need to Know
-
-Are you an international student hoping to study in the USA? Then you ought to make the most of these new rules. Here's where you can start. 
-
-First things first, check your F-1 status. It needs to be active while you're in OPT. When H-1B registration opens, work with your employer to submit a strong petition. The best part is that once your petition is in, you're automatically protected by the new extension. Keep your paperwork organized. This includes your I-20, OPT EAD card, and H-1B receipt notice are your golden tickets. 
-
-Here's an additional tip for you: build a good relationship with both your university's international office and your company's HR team. They're there to help you succeed, and they know exactly what you need to do to stay on track.
-
-The American Dream Just Got Better 
-
-If you're still looking to make sense of all these changes, we're here to help you turn these opportunities into career success. Our team of study abroad counselors and immigration experts knows exactly how to help you make the most of your time in the US.
-
-We are committed to helping students find their passion and make the most out of it. For more personal career guidance, book a session with us today.
-
-Please call us at +9196540 23759 or send an email to info@uninxt.com.
+ <p>Getting real-world work experience while studying in the US just got better. The Optional Practical Training (OPT) program opens doors for international students to put their classroom knowledge to work. And here's what you need to know: you get one year of work authorization after graduation.</p>
+      
+      <p>But wait, there's more good news for STEM students. If you're in Science, Technology, Engineering, or Mathematics, you can extend your stay for an additional two years. That's three full years to build your career! The numbers tell an exciting story: Indian students are making the most of this opportunity, with over 97,000 participants in 2023-2024, showing a fantastic 41% jump from last year.</p>
+      
+      <h3><b>The Cap-Gap Challenge: Previous vs New Rules</b></h3>
+      <p>Remember the old October 1st deadline that kept students up at night? That's changing for the better. Previously, if your H-1B wasn't processed by October 1st, you had to stop working. But here's the latest update: the new rules stretch your work permission all the way to April 1st of the next year. That's six extra months without worrying about gaps in your employment. This means no more awkward conversations with your boss about temporary work stops, no career interruptions, and no stress about maintaining your status.</p>
+      
+      <h3><b>Key Benefits of the Extended Cap-Gap Period</b></h3>
+      <p>Let's talk about why these extra six months matter so much. The extended cap-gap period has several significant advantages for both international professionals and their employers. This modification provides an additional six months of status and employment authorization, therefore effectively eliminating the risk of work disruption during H-1B processing. Statistics show that maintaining employment continuity significantly improves both project completion rates and professional development opportunities. In other words, the extended period means you can keep pushing forward with your career plans without hitting the pause button. Your employers will love this too: they can count on you staying with projects longer, making them more likely to invest in your H-1B sponsorship. It's a win-win that makes the whole visa process less nerve-wracking for everyone involved.</p>
+      
+      <h3><b>What International Students Need to Know</b></h3>
+      <p>Are you an international student hoping to study in the USA? Then you ought to make the most of these new rules. Here's where you can start:</p>
+      <ul>
+        <li>First things first, check your F-1 status. It needs to be active while you're in OPT.</li>
+        <li>When H-1B registration opens, work with your employer to submit a strong petition.</li>
+        <li>Keep your paperwork organized. This includes your I-20, OPT EAD card, and H-1B receipt notice—your golden tickets.</li>
+      </ul>
+      <p>Here's an additional tip for you: build a good relationship with both your university's international office and your company's HR team. They're there to help you succeed, and they know exactly what you need to do to stay on track.</p>
+      
+      <h3><b>The American Dream Just Got Better</b></h3>
+      <p>If you're still looking to make sense of all these changes, we're here to help you turn these opportunities into career success. Our team of study abroad counselors and immigration experts knows exactly how to help you make the most of your time in the US.</p>
+      
+      <p>We are committed to helping students find their passion and make the most out of it. For more personal career guidance, book a session with us today.</p>
+      
+      <p>Please call us at  <a href="tel:+919654023759">+9196540 23759</a> or send an email to <a href="mailto:info@uninxt.com">info@uninxt.com</a>.</p>
 
 
       </div>
