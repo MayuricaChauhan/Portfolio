@@ -11,10 +11,10 @@ const BlogsData = [
       <div id="desc-1">
         <p>Studying abroad can be a thrilling adventure, offering a chance to explore new lands, immerse yourself in diverse cultures, and gain a unique perspective on life. However, navigating cultural differences can be a daunting task for international students. In this blog, we'll delve into the challenges of cultural adaptation and provide valuable tips on how to cope with cultural differences while studying abroad.</p>
 
-        <h3><b>Understanding Cultural Differences</b></h3>
+        <h3>Understanding Cultural Differences</h3>
         <p>Cultural differences encompass various aspects of life, including communication styles, social norms, customs, and values. What may be considered polite in one culture might be deemed impolite in another. For instance, in some cultures, direct eye contact is a sign of respect, while in others, it's perceived as aggressive.</p>
 
-        <h3><b>Challenges Faced by International Students</b></h3>
+        <h3>Challenges Faced by International Students</h3>
         <p>International students often face cultural shock, feeling overwhelmed by the unfamiliar surroundings and customs. Some common challenges include:</p>
         <ul>
           <li>Language barriers: Communicating in a new language can be frustrating and isolating.</li>
@@ -23,7 +23,7 @@ const BlogsData = [
           <li>Homesickness: Missing family, friends, and familiar foods can lead to feelings of loneliness.</li>
         </ul>
 
-        <h3><b>Coping Strategies for International Students</b></h3>
+        <h3>Coping Strategies for International Students</h3>
         <p>Here are some tips for coping with cultural differences:</p>
         <ul>
           <li>Research and Preparation: Before embarking on your journey, research the host country's culture, customs, and way of life. Understanding the local context will help you prepare for the challenges ahead.</li>
@@ -34,10 +34,10 @@ const BlogsData = [
           <li>Seeking Help: Don't hesitate to seek help from university support services, mentors, or counselors if you're struggling to cope.</li>
         </ul>
 
-        <h3><b>Conclusion</b></h3>
+        <h3>Conclusion</h3>
         <p>Coping with cultural differences abroad requires patience, resilience, and an open mind. By understanding the challenges and implementing effective coping strategies, international students can thrive in their new environment. Remember, cultural adaptation is a journey, and it's okay to take your time. Embrace the differences, and you'll return home with a newfound appreciation for diverse cultures and a broader perspective on life.</p>
 
-        <h3><b>Additional Tips</b></h3>
+        <h3>Additional Tips</h3>
         <ul>
           <li>Stay connected with family and friends back home</li>
           <li>Keep a journal to record your experiences</li>
@@ -124,15 +124,81 @@ const BlogsData = [
   {
     id: 3,
     image: Img3,
-    title: "Data Science in Healthcare",
+    title: "The New H-1B Cap-Gap Extension: A Game-Changer for International Students",
     description: `
       <div id="desc-3">
-        <p>Discover how data science is revolutionizing healthcare through predictive analytics, personalized medicine, and more efficient patient care.</p>
+       
+
+Getting real-world work experience while studying in the US just got better. The Optional Practical Training (OPT) program opens doors for international students to put their classroom knowledge to work. And here's what you need to know: you get one year of work authorization after graduation. 
+
+But wait, there's more good news for STEM students. If you're in Science, Technology, Engineering, or Mathematics, you can extend your stay for an additional two years. That's three full years to build your career! The numbers tell an exciting story: Indian students are making the most of this opportunity, with over 97,000 participants in 2023-2024, showing a fantastic 41% jump from last year.
+
+The Cap-Gap Challenge: Previous vs New Rules
+
+Remember the old October 1st deadline that kept students up at night? That's changing for the better. Previously, if your H-1B wasn't processed by October 1st, you had to stop working. But here's the latest update: the new rules stretch your work permission all the way to April 1st of the next year. That's six extra months without worrying about gaps in your employment. Well, this means no more awkward conversations with your boss about temporary work stops, no career interruptions, and no stress about maintaining your status.
+
+Key Benefits of the Extended Cap-Gap Period
+
+Let's talk about why these extra six months matter so much.  The extended cap-gap period has several significant advantages for both international professionals and their employers. This modification provides an additional six months of status and employment authorization, therefore effectively eliminating the risk of work disruption during H-1B processing. Statistics show that maintaining employment continuity significantly improves both project completion rates and professional development opportunities. In other words, the extended period means you can keep pushing forward with your career plans without hitting the pause button. Your employers will love this too: they can count on you staying with projects longer, making them more likely to invest in your H-1B sponsorship. It's a win-win that makes the whole visa process less nerve-wracking for everyone involved.
+
+What International Students Need to Know
+
+Are you an international student hoping to study in the USA? Then you ought to make the most of these new rules. Here's where you can start. 
+
+First things first, check your F-1 status. It needs to be active while you're in OPT. When H-1B registration opens, work with your employer to submit a strong petition. The best part is that once your petition is in, you're automatically protected by the new extension. Keep your paperwork organized. This includes your I-20, OPT EAD card, and H-1B receipt notice are your golden tickets. 
+
+Here's an additional tip for you: build a good relationship with both your university's international office and your company's HR team. They're there to help you succeed, and they know exactly what you need to do to stay on track.
+
+The American Dream Just Got Better 
+
+If you're still looking to make sense of all these changes, we're here to help you turn these opportunities into career success. Our team of study abroad counselors and immigration experts knows exactly how to help you make the most of your time in the US.
+
+We are committed to helping students find their passion and make the most out of it. For more personal career guidance, book a session with us today.
+
+Please call us at +9196540 23759 or send an email to info@uninxt.com.
+
+
       </div>
     `,
     author: "Mark Johnson",
     date: "June 18, 2022",
-  }
+  },
+  {
+    id: 4,
+    image: Img1,
+    title: "Building Scalable Web Applications",
+    description: `
+      <div id="desc-4">
+        <p>This blog explores best practices for building scalable web applications using modern technologies like cloud computing and microservices.</p>
+      </div>
+    `,
+    author: "Alice White",
+    date: "July 5, 2022",
+  },
+  {
+    id: 5,
+    image: Img2,
+    title: "The Future of AI in Everyday Life",
+    description: `
+      <div id="desc-5">
+        <p>Artificial Intelligence is reshaping our daily lives. From smart homes to autonomous vehicles, explore the possibilities and challenges ahead.</p>
+      </div>
+    `,
+    author: "Robert Brown",
+    date: "August 14, 2022",
+  },
+  {
+    id: 6,
+    image: Img3,
+    title: "The Rise of E-Commerce Post-Pandemic",
+    description: `
+      <div id="desc-6">
+        <p>The COVID-19 pandemic accelerated the growth of e-commerce. Learn about the trends shaping the future of online shopping.</p>
+      </div>
+    `,
+    author: "Emily Davis",
+    date: "September 2, 2022",
+  },
 ];
 
 export default BlogsData;
