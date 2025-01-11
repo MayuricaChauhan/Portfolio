@@ -24,6 +24,7 @@ import FAQ from "./components/Accordion/FAQItem.jsx";
 import BlogDetail from "./components/Blogs/BlogDetail.jsx";
 import Announcement from "./components/Announcement/Announcement.jsx";
 import AppointmentPage from "./components/Appointment/AppointmentPage.jsx";
+import University from "./components/University/University.jsx";
 const App = () => {
   const slides = [
     {
@@ -79,6 +80,7 @@ const App = () => {
           <Route path="/book-counselling" element={<BookCounselling />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/University" element={<University/>}/>
         </Routes>
         <Footer />
       </div>
