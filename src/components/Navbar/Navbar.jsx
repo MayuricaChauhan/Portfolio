@@ -5,7 +5,7 @@ import { signOut } from "firebase/auth";
 import ResponsiveMenu from "./ResponsiveMenu";
 import Logo from "../../assets/website/logo.png";
 import DarkMode from "./DarkMode";
-
+import { useNavigate } from "react-router-dom";
 export const MenuLinks = [
   {
     id: 1,
@@ -32,7 +32,8 @@ export const MenuLinks = [
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [user, setUser] = useState(null);
-  const [showDropdown, setShowDropdown] = useState(false); // State to control dropdown visibility
+  const [showDropdown, setShowDropdown] = useState(false);
+  const navigate = useNavigate();// State to control dropdown visibility
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(setUser);
@@ -65,7 +66,7 @@ const Navbar = () => {
   };
 
   const handleIndianUniversitiesClick = () => {
-    window.location.href = '/university'; // Redirect to the university page
+    navigate("/university");
   };
 
   return (
