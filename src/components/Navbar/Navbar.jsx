@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
-import { auth } from "../../firebase";
+import { auth } from "../../firebase"; // Ensure firebase is properly initialized
 import { signOut } from "firebase/auth";
 import ResponsiveMenu from "./ResponsiveMenu";
 import Logo from "../../assets/website/logo.png";
@@ -32,11 +32,28 @@ export const MenuLinks = [
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [user, setUser] = useState(null);
-  const [showDropdown, setShowDropdown] = useState(false); // State to control dropdown visibility
+  const [showDropdown, setShowDropdown] = useState(false);
+  const dropdownRef = useRef();
 
+  // Listen for authentication state changes
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(setUser);
     return () => unsubscribe();
+  }, []);
+
+  // Close dropdown if clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setShowDropdown(false); // Close dropdown when clicking outside
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
   }, []);
 
   const toggleMenu = () => {
@@ -87,7 +104,7 @@ const Navbar = () => {
             </span>
             <span
               style={{
-                color: #F2C21A,
+                color: "#F2C21A",
                 fontFamily: "lulo-clean-w01-one-bold, sans-serif",
                 fontSize: "24px",
                 letterSpacing: "0.1em",
@@ -119,7 +136,7 @@ const Navbar = () => {
                   Explore
                 </button>
                 {showDropdown && (
-                  <ul className="absolute left-0 mt-2 bg-white shadow-lg rounded-lg w-48">
+                  <ul ref={dropdownRef} className="absolute left-0 mt-2 bg-white shadow-lg rounded-lg w-48">
                     <li>
                       <button
                         onClick={handleIndianUniversitiesClick}
@@ -166,7 +183,11 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <ResponsiveMenu showMenu={showMenu} toggleMenu={toggleMenu} scrollToContactForm={scrollToContactForm} />
+      <ResponsiveMenu
+        showMenu={showMenu}
+        toggleMenu={toggleMenu}
+        scrollToContactForm={scrollToContactForm}
+      />
     </div>
   );
 };
