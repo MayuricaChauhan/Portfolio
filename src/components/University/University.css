@@ -1,0 +1,332 @@
+.university-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.5rem;
+  width: 75%;
+}
+
+.left-container {
+  width: 60%;
+}
+
+.right-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-paragraph {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  text-align: left;
+  margin: 0;
+}
+
+.section-heading {
+  font-size: 1.8rem;
+  color: #333;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  color: red;
+  margin: 0.5rem 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+.highlight {
+  font-weight: bold;
+  background-color: #e8bf5f;
+  color: black;
+  padding: 0 3px;
+}
+
+.why-choose-heading {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.why-choose-heading h2 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.cards-container {
+  width: 75%;
+  margin-top: 3rem;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #f2f2f2; /* Very light grey background */
+  color: black;
+  width: 48%; /* Each card takes 48% of the row width */
+  padding: 1.5rem; /* Increased padding for height */
+  border-radius: 8px;
+  text-align: center;
+  height: 250px; /* Increased height */
+  box-sizing: border-box;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.image-gallery {
+  width: 75%;
+  margin-top: 3rem;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap; /* Allows the images to wrap to the next line */
+}
+
+.image-container {
+  width: 48%; /* Ensure each container takes 48% of the row width */
+  text-align: center; /* Center the headings below images */
+  display: flex; /* Use flexbox to center the image */
+  flex-direction: column; /* Stack image and headings vertically */
+  align-items: center; /* Center the image horizontally */
+}
+
+.image {
+  width: 100%; /* The image container takes full width */
+  max-width: 50%; /* Limit the image size to 50% of the container */
+  height: auto; /* Keep the aspect ratio intact */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  border-radius: 8px;
+}
+
+.image-headings {
+  margin-top: 1rem;
+}
+
+.image-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.image-subheading {
+  font-size: 1.1rem;
+  color: grey;
+}
+
+.map-container {
+  text-align: center;
+  margin: 40px 0;
+  width: 75%;
+}
+
+.map-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.iframe-container {
+  width: 100%; /* Matches the combined width of left and right containers */
+  max-width: 1200px; /* Ensures it doesn't exceed the page's max content width */
+  margin: 0 auto;
+}
+
+.map-iframe {
+  width: 100%; /* Ensures the iframe takes up the full width of its container */
+  height: 450px;
+  border: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Alternating Image-Text for Mobile */
+  .section:nth-child(1) .left-container {
+    order: 0; /* Ensure image comes first for the first container */
+  }
+
+  .section:nth-child(1) .right-container {
+    order: 1; /* Text comes after the image for the first container */
+  }
+
+  .section:nth-child(odd):not(:first-child) .left-container {
+    order: 1; /* Image comes after text for all other odd containers */
+  }
+
+  .section:nth-child(odd):not(:first-child) .right-container {
+    order: 0; /* Text comes first for all other odd containers */
+  }
+
+  .section:nth-child(even) .left-container {
+    order: 0; /* Image comes first for even containers */
+  }
+
+  .section:nth-child(even) .right-container {
+    order: 1; /* Text comes after the image for even containers */
+  }
+
+  .left-container,
+  .right-container {
+    width: 100%;
+  }
+
+  .section-image {
+    height: auto;
+  }
+
+  .right-paragraph {
+    text-align: center;
+  }
+
+  .section-heading,
+  .subheading {
+    text-align: center;
+  }
+
+  .cards-container {
+    width: 100%;
+  }
+
+  .card-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%; /* Make cards take more width on small screens */
+    margin-bottom: 1rem;
+    height: auto;
+  }
+
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container {
+    width: 90%; /* Make each container take more width on small screens */
+  }
+
+  .image {
+    width: 90%; /* Make images take more width on small screens */
+    height: auto;
+  }
+
+  .image-heading {
+    font-size: 1.2rem;
+  }
+
+  .image-subheading {
+    font-size: 1rem;
+  }
+}
+
+/* Contact Us Section */
+.form-container {
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 75%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Change to column by default */
+  justify-content: flex-start;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.input-row {
+  display: flex;
+  gap: 2rem; /* Adds space between the fields */
+}
+
+.input-row .form-group {
+  flex: 1;
+}
+
+#firstName,
+#lastName {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Submit Button */
+.submit-button {
+  padding: 0.5rem 1.5rem; /* Adjusted padding to fit the text */
+  background-color: black !important; /* Black background */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 50px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size */
+  display: block; /* Ensure the button is a block-level element */
+  text-align: center; /* Center-align text */
+  width: fit-content; /* Adjust width to fit the content */
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+/* Center-align the 'Contact Us' heading */
+.form-container h2 {
+  text-align: center;
+  font-weight: bold;
+}
