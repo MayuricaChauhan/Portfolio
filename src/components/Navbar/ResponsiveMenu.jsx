@@ -4,10 +4,12 @@ import { MenuLinks } from "./Navbar";
 import DarkMode from "./DarkMode";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
   const [user, setUser] = useState(null);
   const [showDropdown, setShowDropdown] = useState(false); // State for dropdown visibility
+  const navigate = useNavigate(); // Initialize useNavigate hook
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(setUser);
@@ -17,7 +19,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      window.location.href = "/";
+      navigate("/"); // Navigate to home after logout
     } catch (error) {
       console.error("Error logging out: ", error);
     }
@@ -28,7 +30,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
   };
 
   const handleIndianUniversitiesClick = () => {
-    window.location.href = "/university"; // Redirect to the university page
+    navigate("/university"); // Navigate to the university page
   };
 
   return (
