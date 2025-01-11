@@ -1,12 +1,13 @@
+import { useState, useEffect } from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { MenuLinks } from "./Navbar";
 import DarkMode from "./DarkMode";
-import { useState, useEffect } from "react";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 
 const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
   const [user, setUser] = useState(null);
+  const [showDropdown, setShowDropdown] = useState(false); // State for dropdown visibility
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(setUser);
@@ -16,11 +17,18 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      // Redirect to home or sign-in page after logout
-      window.location.href = '/';
+      window.location.href = "/";
     } catch (error) {
-      console.error('Error logging out: ', error);
+      console.error("Error logging out: ", error);
     }
+  };
+
+  const handleExploreClick = () => {
+    setShowDropdown(!showDropdown); // Toggle the dropdown menu
+  };
+
+  const handleIndianUniversitiesClick = () => {
+    window.location.href = "/university"; // Redirect to the university page
   };
 
   return (
@@ -33,30 +41,53 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
         <DarkMode />
       </div>
       <div className="card">
-        {showMenu}
         <nav className="mt-8">
           <ul className="space-y-4 text-xl">
-            {MenuLinks.map((data) => (
-              <li key={data.name}>
-                <a href={data.link} className="mb-5 inline-block" onClick={toggleMenu}>
-                  {data.name}
+            {MenuLinks.map(({ id, name, link }) => (
+              <li key={id}>
+                <a
+                  href={link}
+                  className="mb-5 inline-block"
+                  onClick={toggleMenu}
+                >
+                  {name}
                 </a>
               </li>
             ))}
+            {/* Explore Option */}
+            <li className="relative">
+              <button
+                onClick={handleExploreClick}
+                className="text-lg font-medium hover:text-primary py-2"
+              >
+                Explore
+              </button>
+              {showDropdown && (
+                <ul className="mt-2 bg-white dark:bg-gray-800 shadow-lg rounded-lg w-full">
+                  <li>
+                    <button
+                      onClick={handleIndianUniversitiesClick}
+                      className="block px-4 py-2 text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+                    >
+                      Indian Universities
+                    </button>
+                  </li>
+                </ul>
+              )}
+            </li>
+            {/* Logout or Get in Touch */}
             <li>
-            {user ? (
-                <button
-                  className="primary-btn"
-                  onClick={handleLogout}
-                >
+              {user ? (
+                <button className="primary-btn" onClick={handleLogout}>
                   Logout
                 </button>
               ) : (
                 <a href="#support-section">
-                <button className="primary-btn" onClick={toggleMenu}>Get in Touch</button>
-              </a>
+                  <button className="primary-btn" onClick={toggleMenu}>
+                    Get in Touch
+                  </button>
+                </a>
               )}
-              
             </li>
           </ul>
         </nav>
@@ -67,7 +98,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
             Mayurica<span className="text-primary">Chauhan</span>
           </h1>
           <br />
-          {/* Social Handle */}
+          {/* Social Handles */}
           <div className="flex items-center gap-4">
             <a href="#">
               <FaInstagram className="text-2xl hover:text-primary duration-300" />
