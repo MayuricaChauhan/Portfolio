@@ -32,6 +32,7 @@ export const MenuLinks = [
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [user, setUser] = useState(null);
+  const [showDropdown, setShowDropdown] = useState(false); // State to control dropdown visibility
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(setUser);
@@ -53,11 +54,18 @@ const Navbar = () => {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      // Redirect to home or sign-in page after logout
       window.location.href = '/';
     } catch (error) {
       console.error('Error logging out: ', error);
     }
+  };
+
+  const handleExploreClick = () => {
+    setShowDropdown(!showDropdown); // Toggle the dropdown menu
+  };
+
+  const handleIndianUniversitiesClick = () => {
+    window.location.href = '/university'; // Redirect to the university page
   };
 
   return (
@@ -79,7 +87,7 @@ const Navbar = () => {
             </span>
             <span
               style={{
-                color: `#F2C21A`,
+                color: #F2C21A,
                 fontFamily: "lulo-clean-w01-one-bold, sans-serif",
                 fontSize: "24px",
                 letterSpacing: "0.1em",
@@ -102,6 +110,27 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
+              {/* Explore Dropdown */}
+              <li className="relative py-4">
+                <button
+                  onClick={handleExploreClick}
+                  className="text-lg font-medium hover:text-primary py-2"
+                >
+                  Explore
+                </button>
+                {showDropdown && (
+                  <ul className="absolute left-0 mt-2 bg-white shadow-lg rounded-lg w-48">
+                    <li>
+                      <button
+                        onClick={handleIndianUniversitiesClick}
+                        className="block px-4 py-2 text-black hover:bg-gray-200"
+                      >
+                        Indian Universities
+                      </button>
+                    </li>
+                  </ul>
+                )}
+              </li>
               {user ? (
                 <button
                   className="primary-btn"
