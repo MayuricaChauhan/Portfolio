@@ -24,11 +24,6 @@ const ResourcesLinks = [
   { title: "How To Blog", link: "/#blogs" },
 ];
 
-const PolicyLinks = [
-  { title: "Terms & Conditions", link: "/termsandconditions" },
-  { title: "Privacy Policy", link: "/privacypolicy" },
-  { title: "Refund Policy", link: "/refundpolicy" },
-];
 
 // Form Component
 const Form = () => {
@@ -264,21 +259,7 @@ const Footer = () => {
                 </div>
               </div>
               
-              <div className="">
-                <div className="py-8 px-4">
-                  <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">Poilcies</h1>
-                  <ul className="flex flex-col gap-3">
-                    {PolicyLinks.map((link) => (
-                      <li key={link.title} className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-400">
-                        <a href={link.link}>
-                          <span>{link.title}</span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-
+              
             </div>
           </div>
         </section>

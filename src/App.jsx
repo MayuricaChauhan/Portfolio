@@ -25,7 +25,6 @@ import BlogDetail from "./components/Blogs/BlogDetail.jsx";
 import Announcement from "./components/Announcement/Announcement.jsx";
 import AppointmentPage from "./components/Appointment/AppointmentPage.jsx";
 import University from "./components/University/University.jsx";
-import Sample from "./components/RefundPolicy/RefundPolicy.jsx";
 import TermsAndConditions from "./components/TermsAndConditions/TermsAndConditions.jsx";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy.jsx";
 import RefundPolicy from "./components/RefundPolicy/RefundPolicy.jsx";
