@@ -25,7 +25,7 @@ const ResourcesLinks = [
 ];
 
 const PolicyLinks = [
-  { title: "Terms & Conditions", link: "/terms&conditions" },
+  { title: "Terms & Conditions", link: "/termsandconditions" },
   { title: "Privacy Policy", link: "/privacypolicy" },
   { title: "Refund Policy", link: "/refundpolicy" },
 ];

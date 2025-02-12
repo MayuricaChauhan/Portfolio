@@ -86,7 +86,7 @@ const App = () => {
           <Route path="/signin" element={<SignIn />} />
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/university" element={<University/>}/>
-          <Route path="/terms&conditions" element={<TermsAndConditions />}/>
+          <Route path="/termsandconditions" element={<TermsAndConditions />}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy />}/>
           <Route path="/refundpolicy" element={<RefundPolicy />}/>
         </Routes>
