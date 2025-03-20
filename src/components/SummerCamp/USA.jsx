@@ -15,10 +15,10 @@ const USA = () => {
             📅 <strong>Session 2:</strong> July 27 – August 9, 2025  
           </p>
           <p className="text-gray-700 mt-3">
-            ✅ **Career workshops** in Business, Hospitality & STEM  
-            ✅ **Exclusive company visits** to top hospitality destinations  
-            ✅ **Immersive cultural excursions** in Miami  
-            ✅ **Customized sessions** for career exploration & college applications  
+            ✅ Career workshops in Business, Hospitality & STEM  
+            ✅ Exclusive company visits to top hospitality destinations  
+            ✅ Immersive cultural excursions in Miami  
+            ✅ Customized sessions for career exploration & college applications  
           </p>
           <p className="text-gray-700 mt-3">
             🔹 <strong>Age:</strong> 14–18 years  
@@ -37,11 +37,11 @@ const USA = () => {
             📅 <strong>Session 2:</strong> July 13 – July 26, 2025  
           </p>
           <p className="text-gray-700 mt-3">
-            ✅ **Study at top US campuses** (UMass Boston, FIU, UC Berkeley)  
-            ✅ **Career workshops & faculty-led sessions**  
-            ✅ **Guided university tours** (MIT & Harvard)  
-            ✅ **Cultural excursions** in Boston, Miami & San Francisco  
-            ✅ **Capstone projects & AI workshops** at UC Berkeley  
+            ✅ Study at top US campuses (UMass Boston, FIU, UC Berkeley)  
+            ✅ Career workshops & faculty-led sessions 
+            ✅ Guided university tours (MIT & Harvard)  
+            ✅ Cultural excursions in Boston, Miami & San Francisco  
+            ✅ Capstone projects & AI workshops at UC Berkeley  
           </p>
           <p className="text-gray-700 mt-3">
             🔹 <strong>Age:</strong> 14–18 years  
