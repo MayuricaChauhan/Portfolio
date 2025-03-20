@@ -29,6 +29,11 @@ import TermsAndConditions from "./components/TermsAndConditions/TermsAndConditio
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy.jsx";
 import RefundPolicy from "./components/RefundPolicy/RefundPolicy.jsx";
 
+import SummerCamp from "./components/SummerCamp/SummerCamp.jsx"; // Import the component
+import USA from "./components/SummerCamp/USA";
+import UK from "./components/SummerCamp/UK";
+import Dubai from "./components/SummerCamp/Dubai";
+
 const App = () => {
   const slides = [
     {
@@ -69,6 +74,7 @@ const App = () => {
               <Carousel slides={slides} />
               <HeroSection />
               <Hero />
+              <SummerCamp />
               <AppointmentPage/>
               <Services />
               <br /><br />
@@ -88,6 +94,13 @@ const App = () => {
           <Route path="/termsandconditions" element={<TermsAndConditions />}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy />}/>
           <Route path="/refundpolicy" element={<RefundPolicy />}/>
+          <Route path="/SummerCamp/usa" element={<SummerCamp country="USA" />} />
+          <Route path="/SummerCamp/uk" element={<SummerCamp country="UK" />} />
+          <Route path="/SummerCamp/dubai" element={<SummerCamp country="Dubai" />} />
+          <Route path="/" element={<SummerCamp />} />
+          <Route path="/usa" element={<USA />} />
+          <Route path="/uk" element={<UK />} />
+          <Route path="/dubai" element={<Dubai />} />
         </Routes>
         <Footer />
       </div>
