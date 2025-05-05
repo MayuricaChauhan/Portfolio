@@ -1,8 +1,65 @@
 import Img1 from "../../assets/blog/blog1.png";
 import Img2 from "../../assets/blog/blog2.png";
 import Img3 from "../../assets/blog/blog3.webp";
+import Img4 from "../../assets/blog/blog4.jpg";
 
 const BlogsData = [
+  {
+    id: 7,
+    image: Img4, // You can update to a more relevant image
+    title: "Top US Universities Offering Substantial Scholarships Beyond the Ivy League",
+    description: `
+      <div id="desc-7">
+        <p>If you have been conditioned to believe that it is only Ivy League institutions that offer partial or full financial aid for international students, we're glad to prove you wrong with this article. Contrary to popular belief, there are plenty of tier one and tier two institutions in the States that offer generous financial support for promising candidates.</p>
+  
+        <p>These universities offer all kinds of scholarships including those that are merit-based as well as need-based assistance. With many educational institutions in the United States committed to making higher education attainable for qualified students from diverse socio-economic and cultural backgrounds, here's a comprehensive guide to some universities known for their generous financial support.</p>
+  
+        <h3>Types of Scholarships Available in US Universities</h3>
+        <ul>
+          <li><strong>Merit-Based Scholarships:</strong> Awarded based on academic achievement, leadership, community service, and other talents.</li>
+          <li><strong>Need-Based Financial Aid:</strong> Determined by a student's financial background to ensure accessibility to education.</li>
+          <li><strong>Athletic Scholarships:</strong> For talented student-athletes who represent the institution in various sports.</li>
+          <li><strong>Diversity and Inclusion Scholarships:</strong> Designed to increase representation of underrepresented student populations.</li>
+        </ul>
+  
+        <h3>Non-Ivy League Universities Offering Scholarships</h3>
+        <ul>
+          <li>Northwestern University</li>
+          <li>Duke University</li>
+          <li>Vanderbilt University</li>
+          <li>Carnegie Mellon University</li>
+          <li>Johns Hopkins University</li>
+          <li>University of California System</li>
+          <li>University of Michigan</li>
+          <li>University of Virginia</li>
+          <li>University of Texas at Austin</li>
+          <li>Georgia Institute of Technology</li>
+          <li>Boston University</li>
+          <li>New York University</li>
+          <li>Northeastern University</li>
+          <li>University of Southern California</li>
+          <li>Boston College</li>
+        </ul>
+  
+        <h3>Here Are A Few Other Universities with Notable Scholarships</h3>
+        <ul>
+          <li>Emory University</li>
+          <li>Tufts University</li>
+          <li>Case Western Reserve University</li>
+          <li>Lehigh University</li>
+          <li>Tulane University</li>
+        </ul>
+  
+        <h3>The Bottom Line</h3>
+        <p>These institutions prove that quality education needn't require massive student loans. Beyond rankings and statistics, these universities offer something equally valuable: a chance to study in some of the world's best institutions.</p>
+  
+        <p>To learn more about studying in these universities, please call us at +91 96540 23759 or send an email to <a href="mailto:info@uninxt.com">info@uninxt.com</a> to explore how we can help you turn your international career dreams into reality. Our experienced consultants are here to help!</p>
+      </div>
+    `,
+    author: "Jane Smith", // You can replace with the actual author name
+    date: "May 5, 2025"
+  },
+
  {
     id: 1,
     image: "https://www.reachivy.com/wp-content/uploads/2017/07/Cultural-Diversity.jpg",
@@ -197,6 +254,8 @@ const BlogsData = [
     author: "Emily Davis",
     date: "September 2, 2022",
   },
+ 
+  
 ];
 
 export default BlogsData;
