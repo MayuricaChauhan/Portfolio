@@ -2,8 +2,100 @@ import Img1 from "../../assets/blog/blog1.png";
 import Img2 from "../../assets/blog/blog2.png";
 import Img3 from "../../assets/blog/blog3.webp";
 import Img4 from "../../assets/blog/blog4.jpg";
+import Img5 from "../../assets/blog/blog5.jpg";
 
 const BlogsData = [
+  {
+  id: 8,
+  image: Img5, // Replace with actual image import
+  title: "Why Study in France? Here Are Some Top Universities to Target",
+  description: `
+    <div id="desc-8">
+      <p>In this article, let's talk about studying in France, one of the most picturesque and culturally sought-after countries in the world. However, France has so much more to offer—especially in education. For ambitious students seeking quality education with a rich cultural experience, France makes perfect sense.</p>
+
+      <p>At UniNxt, we've guided countless international students who initially came for the prestigious universities but stayed for the entire experience. The French education model emphasizes developing critical thinkers, not just test-takers—making their graduates highly valued worldwide.</p>
+
+      <h3>What Does It Take?</h3>
+      <p>France also offers remarkably affordable education. Public universities charge annual tuition fees often under €3,000. Even private institutions are more cost-effective compared to their UK or US counterparts.</p>
+
+      <h3>Top Universities To Consider</h3>
+      <p>France provides numerous English-taught programs, making it accessible even if you don't speak French. But learning the language while you're there can greatly enhance both your experience and future career opportunities—especially in Europe.</p>
+
+      <h4>École Polytechnique</h4>
+      <ul>
+        <li>Applied Mathematics</li>
+        <li>Computer Science</li>
+        <li>Economics</li>
+        <li>Physics</li>
+        <li>Mechanical Engineering</li>
+        <li>Innovation Management</li>
+      </ul>
+
+      <h4>Sciences Po</h4>
+      <ul>
+        <li>International Relations</li>
+        <li>Public Policy</li>
+        <li>Economics</li>
+        <li>Law</li>
+        <li>Urban Planning</li>
+        <li>Journalism</li>
+      </ul>
+
+      <h4>Sorbonne University</h4>
+      <ul>
+        <li>Literature and Languages</li>
+        <li>History</li>
+        <li>Philosophy</li>
+        <li>Medicine</li>
+        <li>Earth Sciences</li>
+        <li>Mathematics</li>
+      </ul>
+
+      <h4>HEC Paris</h4>
+      <ul>
+        <li>Master in Management</li>
+        <li>MBA</li>
+        <li>International Finance</li>
+        <li>Marketing</li>
+        <li>Entrepreneurship</li>
+        <li>Sustainable Business</li>
+      </ul>
+
+      <h4>University of Paris-Saclay</h4>
+      <ul>
+        <li>Physics</li>
+        <li>Biology</li>
+        <li>Chemistry</li>
+        <li>Computer Engineering</li>
+        <li>Agricultural Sciences</li>
+        <li>Pharmacy</li>
+      </ul>
+
+      <h4>École Normale Supérieure (ENS)</h4>
+      <ul>
+        <li>Mathematics</li>
+        <li>Physics</li>
+        <li>Biology</li>
+        <li>Humanities</li>
+        <li>Social Sciences</li>
+        <li>Philosophy</li>
+      </ul>
+
+      <h3>What’s Most Impressive About France</h3>
+      <p>The real value of studying in France is how it shapes your thinking. French universities encourage you to question the norm and develop your own viewpoints—not just memorize what's already known.</p>
+
+      <p>Outside the classroom, the rhythm of French life is equally enriching. Students often walk from lectures to a market for groceries, study in local cafés, and use the efficient public transport system to explore nearby towns—all on a budget.</p>
+
+      <p>Are you an Indian student dreaming of studying at a top French university? Book a session with us and let's help you crack the code.</p>
+
+      <p>📞 Call us at +91 9654023759<br />
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a></p>
+    </div>
+  `,
+  author: "Uninxt Team",
+  date: "May 9, 2025"
+},
+
   {
     id: 7,
     image: Img4, // You can update to a more relevant image
