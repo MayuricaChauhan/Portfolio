@@ -3,8 +3,69 @@ import Img2 from "../../assets/blog/blog2.png";
 import Img3 from "../../assets/blog/blog3.webp";
 import Img4 from "../../assets/blog/blog4.jpg";
 import Img5 from "../../assets/blog/blog5.jpg";
+import Img6 from "../../assets/blog/blog6.jpg";
 
 const BlogsData = [
+
+{
+  id: 9,
+  image: Img6, // Replace with actual import
+  title: "The New Study Abroad Destinations In Town For Indian Students: Singapore, Ireland and Dubai",
+  description: `
+    <div id="desc-9">
+      <p>Going over some recent data, educational counselors and study abroad experts are now able to pinpoint a pattern. And this pattern is also why more and more Indian students are now choosing to pursue higher education in countries like Singapore, Dubai and Ireland. Traditional favorites like the US, UK and Australia have taken a backseat and are seeing declining numbers. On the other hand, countries like Singapore, Ireland and Dubai have come out as increasingly popular alternatives. This has directly contributed to a 38% increase in Indian student enrollment at universities in these countries.</p>
+
+      <h3>What Are The Changing Patterns in Indian Student Mobility?</h3>
+      <p>According to a report by Gradding.com, the total number of Indian students studying abroad decreased by 15% in 2024 compared to the previous year. Canada faced the most dramatic drop at 41%, followed by the UK (27.7%) and the US (13%). Meanwhile, destinations like Singapore, Ireland and Dubai saw a large proportion of Indian-national students flocking to their borders.</p>
+
+      <p>The total number of Indian students pursuing education abroad increased from 750,365 in 2022 to 892,989 in 2023. However, this growth wasn't evenly distributed across all destinations, with these fairly newer countries making up a larger share of this student population.</p>
+
+      <h3>Here’s Why: These Are The Factors Driving Students Away from Traditional Destinations</h3>
+      <ul>
+        <li>Stricter immigration policies in countries like Australia, Canada, and the UK.</li>
+        <li>Limited post-study work opportunities and visa restrictions.</li>
+        <li>Rising costs of tuition and living in traditional destinations.</li>
+      </ul>
+
+      <h3>Why Singapore, Ireland and Dubai Are Slowly Yet Steadily Winning The Race</h3>
+
+      <h4>Singapore</h4>
+      <ul>
+        <li>Home to world-class, globally accredited universities.</li>
+        <li>Multiple direct flights from India, making travel easier.</li>
+        <li>Strong employment prospects, especially in finance and technology.</li>
+        <li>25% year-on-year growth in Indian student enrollment.</li>
+      </ul>
+
+      <h4>Ireland</h4>
+      <ul>
+        <li>English-speaking education system.</li>
+        <li>Simpler visa process compared to other EU countries.</li>
+        <li>Presence of multinational companies with strong post-grad opportunities.</li>
+        <li>More affordable tuition than UK or US.</li>
+      </ul>
+
+      <h4>Dubai</h4>
+      <ul>
+        <li>Growing number of international university campuses.</li>
+        <li>No income tax — students can save more from part-time work.</li>
+        <li>Safe, welcoming environment in the heart of the Middle East.</li>
+        <li>Expanding job market in tech, finance, and healthcare.</li>
+      </ul>
+
+      <h3>The Future Outlook</h3>
+      <p>As more Indian students aspire to study overseas, Singapore, Ireland, and Dubai are expected to grow in popularity. The increasing diversification of study abroad destinations in 2025 benefits students by giving them more flexible, affordable, and goal-aligned choices.</p>
+
+      <p>Are you an Indian student dreaming of studying in one of these three countries? Then, why wait? Book a session with us today and crack the code. Let's get you into your dream University!</p>
+
+      <p>📞 Call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a></p>
+    </div>
+  `,
+  author: "Uninxt Team",
+  date: "May 15, 2025"
+},
+
   {
   id: 8,
   image: Img5, // Replace with actual image import
