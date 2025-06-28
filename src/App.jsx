@@ -66,7 +66,7 @@ const App = () => {
      <Router>
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden text-justify">
      
-      <div style={{ marginTop: "50px" }}> {/* Offset for the Announcement banner */}
+      <div style={{ }}> {/* Offset for the Announcement banner */}
         <Navbar />
         <Routes>
           <Route path="/" element={
