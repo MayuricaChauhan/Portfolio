@@ -84,7 +84,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
                   Logout
                 </button>
               ) : (
-                <a href="#support-section">
+                <a href="/clients">
                   <button className="primary-btn" onClick={toggleMenu}>
                     Get in Touch
                   </button>
@@ -116,6 +116,13 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
       </div>
     </div>
   );
+};
+
+import PropTypes from "prop-types";
+
+ResponsiveMenu.propTypes = {
+  showMenu: PropTypes.bool.isRequired,
+  toggleMenu: PropTypes.func.isRequired,
 };
 
 export default ResponsiveMenu;

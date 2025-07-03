@@ -140,9 +140,9 @@ const Navbar = () => {
                   Logout
                 </button>
               ) : (
-                <button className="primary-btn" onClick={scrollToContactForm}>
+                <a className="primary-btn" href="/clients" onClick={toggleMenu}>
                   Get in Touch
-                </button>
+                </a>
               )}
               <DarkMode />
             </ul>
