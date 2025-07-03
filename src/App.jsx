@@ -14,7 +14,7 @@ import Services from "./components/Services/Services";
 import Testimonial from "./components/Testimonial/Testimonial";
 import BlogsComp from "./components/Blogs/BlogsComp.jsx";
 import Footer from "./components/Footer/Footer";
-import Form from "./components/SubscriptionForm/Form.jsx";
+// import Form from "./components/SubscriptionForm/Form.jsx";
 import Chatbot from "./components/Botpress/Chatbot.jsx";
 import BookCounselling from "./components/Counselling/BookCounselling.jsx";
 import SignIn from "./components/Authentication/SignIn.jsx";
@@ -22,7 +22,6 @@ import Carousel from "./components/Carousel/Carousel.jsx";
 import Certificates from "./components/Certificates/Certifications.jsx";
 import FAQ from "./components/Accordion/FAQItem.jsx";
 import BlogDetail from "./components/Blogs/BlogDetail.jsx";
-import Announcement from "./components/Announcement/Announcement.jsx";
 import AppointmentPage from "./components/Appointment/AppointmentPage.jsx";
 import University from "./components/University/University.jsx";
 import TermsAndConditions from "./components/TermsAndConditions/TermsAndConditions.jsx";
@@ -33,6 +32,7 @@ import SummerCamp from "./components/SummerCamp/SummerCamp.jsx"; // Import the c
 import USA from "./components/SummerCamp/USA";
 import UK from "./components/SummerCamp/UK";
 import Dubai from "./components/SummerCamp/Dubai";
+import ClientLanding from "./components/Clients/ClientLanding.jsx";
 
 const App = () => {
   const slides = [
@@ -101,6 +101,7 @@ const App = () => {
           <Route path="/usa" element={<USA />} />
           <Route path="/uk" element={<UK />} />
           <Route path="/dubai" element={<Dubai />} />
+          <Route path="/clients" element={<ClientLanding/>} />
         </Routes>
         <Footer />
       </div>
