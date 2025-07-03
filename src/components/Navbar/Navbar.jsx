@@ -18,7 +18,7 @@ export const MenuLinks = [
     link: "/#services",
   },
   {
-    id: 3,
+    id: 3, 
     name: "Testimonials",
     link: "/#testimonials",
   },
