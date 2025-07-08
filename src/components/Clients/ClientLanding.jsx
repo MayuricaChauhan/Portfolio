@@ -13,7 +13,7 @@ const ClientLanding = () => {
           Personalized career guidance, international admissions support, and expert counselling — everything you need to shape a successful academic future.
         </p>
         <Link
-          to="/appointment"
+          to="https://calendly.com/iec-mayuricaeducation/book-a-counselling-session-with-uninxt"
           className="bg-primary hover:bg-violet-800 text-white font-semibold py-3 px-8 rounded-lg transition duration-300"
         >
           Book Your Free Counselling Session
@@ -57,7 +57,7 @@ const ClientLanding = () => {
           Whether you&apos;re a student or parent, we&apos;re here to support you at every stage of your academic journey.
         </p>
         <Link
-          to="/appointment"
+          to="https://calendly.com/iec-mayuricaeducation/book-a-counselling-session-with-uninxt"
           className="inline-block bg-primary hover:bg-violet-800 text-white py-2 px-6 rounded-lg font-medium transition"
         >
           Talk to a Counsellor Now
