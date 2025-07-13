@@ -67,5 +67,5 @@ const ClientLanding = () => {
   );    
 };   
 
-export default ClientLanding;
+export default ClientLanding; 
  
