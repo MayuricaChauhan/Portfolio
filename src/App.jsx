@@ -94,7 +94,7 @@ const App = () => {
           <Route path="/termsandconditions" element={<TermsAndConditions />}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy />}/>
           <Route path="/refundpolicy" element={<RefundPolicy />}/>
-          <Route path="/SummerCamp/usa" element={<SummerCamp country="USA" />} />
+          <Route path="/SummerCamp/usa" element={<SummerCamp country="USA" />} /> 
           <Route path="/SummerCamp/uk" element={<SummerCamp country="UK" />} />
           <Route path="/SummerCamp/dubai" element={<SummerCamp country="Dubai" />} />
           <Route path="/" element={<SummerCamp />} />
