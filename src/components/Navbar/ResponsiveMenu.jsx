@@ -109,7 +109,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
               <FaFacebook className="text-2xl hover:text-primary duration-300" />
             </a>
             <a href="#">
-              <FaLinkedin className="text-2xl hover:text-primary duration-300" />
+              <FaLinkedin className="text-2xl hover:text-primary duration-300" /> 
             </a>
           </div>
         </div>
