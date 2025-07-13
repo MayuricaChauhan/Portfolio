@@ -10,7 +10,7 @@ const DarkMode = () => {
 
   // set theme to localStorage and html element
   React.useEffect(() => {
-    localStorage.setItem("theme", theme);
+    localStorage.setItem("theme", theme); 
     if (theme === "dark") {
       element.classList.add("dark");
     } else {
