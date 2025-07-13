@@ -65,7 +65,7 @@ const ClientLanding = () => {
       </section>
     </div> 
   );     
-};   
+};    
 
 export default ClientLanding; 
  
