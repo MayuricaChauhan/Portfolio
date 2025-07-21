@@ -4,9 +4,85 @@ import Img3 from "../../assets/blog/blog3.webp";
 import Img4 from "../../assets/blog/blog4.jpg";
 import Img5 from "../../assets/blog/blog5.jpg";
 import Img6 from "../../assets/blog/blog6.jpg";
+import Img7 from "../../assets/blog/blog7.jpg";
 
 const BlogsData = [
+{
+  id: 10,
+  image: Img7, // Replace with actual import
+  title: "Budget-Friendly Study Abroad Options For Indian Students",
+  description: `
+    <div id="desc-10">
+      <p>Money goes further in some places than others, and for Indian students studying overseas, this adage echoes in familiarity. However, studying abroad is no longer the rich man's privilege, all thanks to countries that are welcoming ambitious students from humble, working-class Indian families. The good news that today's blog is bringing for you is that in order for you to study abroad, you no longer have to accumulate an exorbitant amount of student loans or pool in your parent's lifetime savings. In 2025, it is possible to study abroad as an Indian national and yet keep costs manageable. This blog details a list of countries that have some of the lowest costs of living across the world but who also house rising and accomplished educational infrastructure and employment opportunities.</p>
+      
+      <h4>Malaysia</h4>
+      <ul>
+        <li>Malaysia stands out as one of Asia's most economical study destinations.</li>
+        <li>A comfortable student apartment in Kuala Lumpur costs around $400 monthly, and local food at hawker centres runs just $2-3 per meal.</li>
+        <li>Many top universities offer English-taught programmes, and the multicultural environment helps international students feel at home instantly.</li>
+        <li>The country's stunning location also makes it perfect for exploring other neighbouring Asian countries during summer breaks.</li>
+      </ul>
 
+      <h4>Vietnam</h4>
+      <ul>
+        <li>Vietnam's growing higher education sector is beginning to attract students from around the world.</li>
+        <li>Cities like Hanoi and Ho Chi Minh City offer monthly living expenses between $700 and $1000 that are inclusive of rent, utilities and food.</li>
+        <li>Many universities partner with international institutions and are providing accredited degrees at a fraction of Western costs.</li>
+        <li>Vietnam’s culture and heritage need no introduction, but the country is also matching up with the contemporary. International students here get the best of both worlds.</li>
+      </ul>
+
+      <h4>Bulgaria</h4>
+      <ul>
+        <li>Moving to Eastern Europe, Bulgaria presents itself as an attractive option for students.</li>
+        <li>Cities like Sofia and Plovdiv combine quality education with remarkably low prices. Students can live comfortably on $1,200-1,500 per month, including rent and entertainment.</li>
+        <li>An EU membership means that degrees are widely recognised, and many programmes also cater specifically to the requirements of international students.</li>
+        <li>Bulgaria is the place to go for students who yearn for the European experience but without incurring the high costs associated with Western European education.</li>
+      </ul>
+
+      <h4>Thailand</h4>
+      <ul>
+        <li>Thailand's universities welcome foreign students with open arms.</li>
+        <li>Places like Chiang Mai offer student life for $1,000-1,500 monthly. This includes rent, utilities, and food. Many institutions offer specialised programmes in fields like medicine, engineering and business administration, often at very competitive rates.</li>
+        <li>The country's renowned hospitality is no exception to its educational institutions.</li>
+        <li>Herein, international students find supportive communities and plenty of opportunities for personal growth through cultural exchange programmes.</li>
+      </ul>
+
+      <h4>Ecuador</h4>
+      <ul>
+      <li>In South America, Ecuador provides excellent value for education. Cities like Cuenca host students for about $1,300-1,800 per month.</li>
+      <li>The country uses the US dollar and therefore makes financial planning all the more simple for international students.</li>
+      <li>Students also benefit from small class sizes, individual attention from professors and the chance to learn Spanish when in college.</li>
+      </ul>
+      
+      
+      <h4>Mexico</h4>
+      <ul>
+      <li>Mexico attracts many international students for its world-class education and affordable living.</li>
+      <li>Cities like Merida and Oaxaca offer monthly expenses between $1,200 and $1,700. Strong ties with US and Canadian institutions mean credits often transfer easily, making it perfect for study abroad programmes.</li>
+      <li>The country's proximity to North America also makes it an ideal choice for students seeking quality education close to home.</li>
+      </ul>
+      
+      <h4>Georgia</h4>
+      <ul>
+      <li>Georgia's education sector is growing at a pace like never before. The capital, Tbilisi, offers student living costs around $800-1,200 monthly.</li>
+      <li>Many universities partner with European institutions and offer internationally recognised degrees at lower costs.</li>
+      <li>The country's emerging tech and healthcare industries have opened up interesting new opportunities for student internships and practical experience.</li>
+      </ul>
+      
+      <h3>Smart Choices, Bright Future</h3>
+      <p>Chances are that you've been conditioned to believe that studying abroad is for the wealthy. But think again. These affordable destinations offer the promise of quality education that will not break the bank. International education doesn't always demand massive student loans and debt.</p>
+
+      <p>To learn more about studying in these countries, please
+      <br/>
+       📞 Call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </br>
+      to explore how we can help you turn your international dreams into reality. Our experienced consultants are here to help!</p>
+    </div>
+  `,
+  author: "Uninxt Team",
+  date: "July 21, 2025"
+},
 {
   id: 9,
   image: Img6, // Replace with actual import
