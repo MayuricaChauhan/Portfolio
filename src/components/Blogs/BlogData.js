@@ -4,7 +4,7 @@ import Img3 from "../../assets/blog/blog3.webp";
 import Img4 from "../../assets/blog/blog4.jpg";
 import Img5 from "../../assets/blog/blog5.jpg";
 import Img6 from "../../assets/blog/blog6.jpg";
-import Img7 from "../../assets/blog/blog7.jpg";
+import Img7 from "../../assets/blog/blog7.jpeg";
 
 const BlogsData = [
 {
