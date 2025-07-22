@@ -34,7 +34,7 @@ const [formStatus, setFormStatus] = useState("");
             FIRSTNAME: formData.user_name,
             MESSAGE: formData.message
           },
-          listIds: [8], // Replace with your actual Brevo list ID
+          listIds: [9], // Replace with your actual Brevo list ID
           updateEnabled: true // ✅ This is required  
    
         },
@@ -143,7 +143,7 @@ const [formStatus, setFormStatus] = useState("");
 
         {formStatus && (
           <div className="text-center mt-4">
-            <p>{formStatus}</p>
+            <p className="text-black">{formStatus}</p>
             <button
               onClick={handleReload}
               className="mt-4 bg-primary hover:bg-primary/80 text-white font-bold py-2 px-4 rounded"
