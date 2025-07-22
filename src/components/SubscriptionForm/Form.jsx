@@ -34,7 +34,7 @@ const [formStatus, setFormStatus] = useState("");
             FIRSTNAME: formData.user_name,
             MESSAGE: formData.message
           },
-          listIds: [2], // Replace with your actual Brevo list ID
+          listIds: [6], // Replace with your actual Brevo list ID
            },
         {
           headers: {
