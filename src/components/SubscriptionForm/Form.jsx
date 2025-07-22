@@ -35,7 +35,9 @@ const [formStatus, setFormStatus] = useState("");
             MESSAGE: formData.message
           },
           listIds: [6], // Replace with your actual Brevo list ID
-           },
+          updateEnabled: true // ✅ This is required  
+   
+        },
         {
           headers: {
             "api-key": "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", // Replace with your actual Brevo API key
