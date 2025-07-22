@@ -1,17 +1,15 @@
-import { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
+import { useState } from "react";
+import axios from "axios";
 
-// Form Component
 const Form = () => {
   const [formData, setFormData] = useState({
-    user_name: "",
+     user_name: "",
     user_email: "",
     message: "",
   });
-  const [formStatus, setFormStatus] = useState("");
-  const formRef = useRef();
 
-  const handleInputChange = (e) => {
+const [formStatus, setFormStatus] = useState("");
+   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -19,37 +17,55 @@ const Form = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Send email using EmailJS
-    emailjs
-    .sendForm(
-      "service_gww3nnl", // Replace with your EmailJS service ID
-      "template_ohvzoio", // Replace with your EmailJS template ID
-      formRef.current,
-      "jDGsTZzaR7TZgGvpB" // Replace with your EmailJS public key
-    )
-      .then(
-        () => {
-          setFormStatus("Email sent successfully!");
-        },
-        (error) => {
-          console.log("EmailJS error:", error.text);
-          setFormStatus("Failed to send email. Please try again.");
-        }
+    try {
+      // Add contact to Brevo list
+      const contactResponse = await axios.post(
+        "https://api.brevo.com/v3/contacts",
+        {
+          email: formData.user_email,
+          attributes: {
+            FIRSTNAME: formData.user_name,
+            MESSAGE: formData.message
+          },
+          listIds: [2], // Replace with your actual Brevo list ID
+           },
+        {
+          headers: {
+            "api-key": "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", // Replace with your actual Brevo API key
+            "Content-Type": "application/json",
+          },
+           }
       );
+
+      if (contactResponse.status === 201) {
+        setFormStatus("Subscription mail sent and email added to newsletter successfully!");
+      } else {
+        setFormStatus("Failed to send message or add email to newsletter.");
+      }
+    } catch (error) {
+      console.error(error);
+      if (error.response) {
+        setFormStatus("Error: " + error.response.data.message);
+      } else if (error.request) {
+        setFormStatus("No response received from the server.");
+      } else {
+        setFormStatus("Error: " + error.message);
+      }
+    }
   };
 
   const handleReload = () => {
     setFormData({
-      user_name: "",
+       user_name: "",
       user_email: "",
       message: "",
     });
     setFormStatus("");
   };
-
   return (
     <span
       data-aos="fade-up"
