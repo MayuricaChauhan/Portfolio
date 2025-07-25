@@ -27,7 +27,7 @@ const [formStatus, setFormStatus] = useState("");
     try {
       // Add contact to Brevo list
       const contactResponse = await axios.post(
-        "https://app.brevo.com/contact/list",
+        "https://api.brevo.com/v3/contacts",
         {
           email: formData.user_email,
           attributes: {
