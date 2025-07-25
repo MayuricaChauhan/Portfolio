@@ -5,9 +5,57 @@ import Img4 from "../../assets/blog/blog4.jpg";
 import Img5 from "../../assets/blog/blog5.jpg";
 import Img6 from "../../assets/blog/blog6.jpg";
 import Img7 from "../../assets/blog/blog7.jpeg";
+import Img8 from "../../assets/blog/blog8.jpeg";
 
 const BlogsData = [
 {
+  id: 11,
+  image: Img8, // Replace with actual import
+  title: "First of its Kind: A Global Joint Degree Program (MBA+PGDM) offered by the Pune Institute of Business Management (PIBM)",
+  description: `
+    <div id="desc-11">
+      <p>Business does not stop at borders anymore. Similarly, business education is also increasingly surpassing the limitations of geography. The companies that are leading the way into tomorrow's economy are ones that operate across continents and diverse markets. For ambitious business students and aspiring entrepreneurs, there is the pressing need to match up to the pace of a global, modern business arena.
+         However, do not fret. The Pune Institute of Business Management (PIBM) has attempted to challenge this very phenomenon head on. And the pay-off is a Global Joint Degree Program (MBA+PGDM). Built to train students who have big dreams but remain grounded to their roots, this program is the perfect amalgam of local expertise and international experience. PIBM, year after year, molds students and sends them out into the world as graduates who can think globally and act locally.
+      </p>
+      
+      <h4>Two Degrees, One Avenue</h4>
+      <ul>
+        <li>Here's how it works: You complete your PGDM at PIBM in India. Having laid a sturdy groundwork in the fundamentals of management in an Indian context, you then go on to pursue an MBA at one of PIBM's partner business schools worldwide.</li>
+        <li>This structure gives you something that most business graduates lack: depth in both Indian business practices and international operations.</li>
+        <li> Employers particularly value this skill set as it shows them how you can adapt to varying business environments.</li>
+      </ul>
+
+      <h4>An Up-to-date Curriculum</h4>
+      <ul>
+        <li>PIBM's curriculum stays current with global business trends. Instead of outdated textbook theories, you have the opportunity to work on projects and case studies that mimic the real world.</li>
+        <li>The learning approach is practical from day one. The program's ties to the industry offer global internships, corporate training programs and placements with world-class companies.</li>
+      </ul>
+
+      <h4>The CPT and OPT Pathway</h4>
+      <ul>
+        <li>Moving to the USA for the second year of your program brings brand new possibilities.</li>
+        <li>The program provides access to Curricular Practical Training (CPT), offering 6-12 months of paid corporate experience. After graduation, Optional Practical Training (OPT) gives you 12 months of US work rights, with a possible 24-month extension for STEM fields.</li>
+        <li>In addition to this, students earn over 21 internationally recognized certificates across Finance, Marketing, Human Resources, Business Analytics and Operations.</li>
+      </ul>
+
+      <h4>Enrol Today</h4>
+      <ul>
+        <li>If you're ready to think bigger and aim higher than your counterparts in business, an MBA+PGDM program from the Pune Institute of Business Management is a challenge you must take.</li>
+        <li>The question isn't whether you can afford to take this step, it's whether you can afford not to in 2025.</li>
+      </ul>
+
+      
+      <p>If you’re still confused about taking the leap, our qualified educational advisors who specialize in guiding aspiring business students and rising entrepreneurs like you towards their academic and professional dreams are here to help. 
+      <br/>
+       📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </br></p>
+    </div>
+  `,
+  author: "Uninxt Team",
+  date: "July 25, 2025"
+},
+  {
   id: 10,
   image: Img7, // Replace with actual import
   title: "Budget-Friendly Study Abroad Options For Indian Students",
