@@ -44,7 +44,7 @@ const BlogsData = [
         <li>The question isn't whether you can afford to take this step, it's whether you can afford not to in 2025.</li>
       </ul>
 
-      
+      <br/>
       <p>If you’re still confused about taking the leap, our qualified educational advisors who specialize in guiding aspiring business students and rising entrepreneurs like you towards their academic and professional dreams are here to help. 
       <br/>
        📞 Please call us at +91 9654023759<br/>
