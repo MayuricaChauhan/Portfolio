@@ -7,8 +7,8 @@ const brevo = () => {
 
     // Configure API key authorization: api-key
 
-    var apiKey = apiInstance.authentications['apiKey'];
-    apiKey.apiKey = "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"
+     var apiKey = apiInstance.authentications['apiKey'];
+  apiKey.apiKey = process.env.REACT_APP_BREVO_API_KEY;
 
     // Configure API key authorization: partner-key
 
