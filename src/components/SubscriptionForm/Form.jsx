@@ -23,6 +23,7 @@ const [formStatus, setFormStatus] = useState("");
   
   const handleSubmit = async (e) => {
     e.preventDefault();
+      const apiKey = process.env.REACT_APP_BREVO_API_KEY;
 
     try {
       // Add contact to Brevo list
@@ -34,13 +35,13 @@ const [formStatus, setFormStatus] = useState("");
             FIRSTNAME: formData.user_name,
             MESSAGE: formData.message
           },
-          listIds: [10], // Replace with your actual Brevo list ID
+          listIds: [2], // Replace with your actual Brevo list ID
           updateEnabled: true // ✅ This is required  
    
         },
         {
           headers: {
-            "api-key": "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", // Replace with your actual Brevo API key
+            "api-key": apiKey, // Replace with your actual Brevo API key
             "Content-Type": "application/json",
           },
            }
