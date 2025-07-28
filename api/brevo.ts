@@ -32,16 +32,25 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     return res.status(200).json({ message: 'Contact added', data: response.data });
   } catch (error: any) {
-    console.error('Brevo API failed:', error.response?.data || error.message);
+  console.error('Brevo API failed:', error.response?.data || error.message);
 
-    const statusCode = error.response?.status || 500;
-    const errorMessage =
-      typeof error.response?.data === 'object'
-        ? error.response.data.message || 'Brevo API error'
-        : error.message || 'Brevo API error';
+  const statusCode = error.response?.status || 500;
 
-    return res.status(statusCode).json({
-      error: errorMessage
-    });
+  // Some Brevo responses may not be JSON
+  let errorMessage = 'Brevo API error';
+
+  if (error.response?.data) {
+    if (typeof error.response.data === 'object') {
+      errorMessage = error.response.data.message || errorMessage;
+    } else if (typeof error.response.data === 'string') {
+      errorMessage = error.response.data;
+    }
+  } else {
+    errorMessage = error.message || errorMessage;
   }
+
+  return res.status(statusCode).json({
+    error: errorMessage
+  });
+}
 }
