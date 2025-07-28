@@ -7,50 +7,30 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: 'Only POST allowed' });
   }
 
-  const { user_name, user_email, user_message } = req.body;
+  const { user_name, user_email, message } = req.body;
 
-   try {
-    const response = await axios.post(
+  try {
+    const brevoRes = await axios.post(
       'https://api.brevo.com/v3/contacts',
       {
         email: user_email,
         attributes: {
           FIRSTNAME: user_name,
-          MESSAGE: user_message
+          MESSAGE: message,
         },
-        listIds: [2], // Replace with real list ID
-        updateEnabled: true
+        listIds: [2], // replace with your actual list ID
+        updateEnabled: true,
       },
       {
         headers: {
-          'api-key': process.env.BREVO_API_KEY,
+          'api-key': process.env.BREVO_API_KEY || '',
           'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        }
+        },
       }
     );
 
-    return res.status(200).json({ message: 'Contact added', data: response.data });
+    return res.status(200).json({ success: true, data: brevoRes.data });
   } catch (error: any) {
-  console.error('Brevo API failed:', error.response?.data || error.message);
-
-  const statusCode = error.response?.status || 500;
-
-  // Some Brevo responses may not be JSON
-  let errorMessage = 'Brevo API error';
-
-  if (error.response?.data) {
-    if (typeof error.response.data === 'object') {
-      errorMessage = error.response.data.message || errorMessage;
-    } else if (typeof error.response.data === 'string') {
-      errorMessage = error.response.data;
-    }
-  } else {
-    errorMessage = error.message || errorMessage;
+    return res.status(500).json({ error: error.message });
   }
-
-  return res.status(statusCode).json({
-    error: errorMessage
-  });
-}
 }
