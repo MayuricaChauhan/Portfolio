@@ -7,7 +7,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: 'Only POST allowed' });
   }
 
-  const { user_name, user_email, message } = req.body;
+  const { user_name, user_email, user_message } = req.body;
 
   try {
     const response = await axios.post(
@@ -15,7 +15,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       {
         email: user_email,
         attributes: {
-          FIRSTNAME: user_name
+          FIRSTNAME: user_name,
+          MESSAGE: user_message
         },
         listIds: [2], // Replace with real list ID
         updateEnabled: true
