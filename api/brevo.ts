@@ -9,7 +9,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const { user_name, user_email, user_message } = req.body;
 
-  try {
+   try {
     const response = await axios.post(
       'https://api.brevo.com/v3/contacts',
       {
@@ -31,11 +31,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     );
 
     return res.status(200).json({ message: 'Contact added', data: response.data });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Brevo API failed:', error.response?.data || error.message);
 
-    return res.status(500).json({
-      error: error.response?.data?.message || 'Brevo API error'
+    const statusCode = error.response?.status || 500;
+    const errorMessage =
+      typeof error.response?.data === 'object'
+        ? error.response.data.message || 'Brevo API error'
+        : error.message || 'Brevo API error';
+
+    return res.status(statusCode).json({
+      error: errorMessage
     });
   }
 }
