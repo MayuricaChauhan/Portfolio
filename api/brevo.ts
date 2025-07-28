@@ -87,7 +87,10 @@ if (action === 'subscribe') {
     const statusCode = error.response?.status || 500;
     let errorMessage = 'Brevo API error';
 
+    // 🔍 Print full response for debugging
     if (error.response?.data) {
+      console.log('🪵 Full Brevo error response:', JSON.stringify(error.response.data, null, 2));
+
       const data = error.response.data;
       if (typeof data === 'object') {
         errorMessage = data.message || JSON.stringify(data);
@@ -95,6 +98,7 @@ if (action === 'subscribe') {
         errorMessage = data;
       }
     } else {
+      console.log('🪵 Error message:', error.message || 'Unknown server error');
       errorMessage = error.message || 'Unknown server error';
     }
 
