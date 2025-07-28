@@ -34,20 +34,12 @@ const Form = () => {
   const [formStatus, setFormStatus] = useState("");
   const formRef = useRef();
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
   const handleSubmit = async (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-const { user_name, user_email } = formData;
+  const { user_name, user_email } = formData;
 
- try {
+  try {
     const response = await fetch("/api/brevo", {
       method: "POST",
       headers: {
@@ -59,7 +51,15 @@ const { user_name, user_email } = formData;
       })
     });
 
-    const data = await response.json();
+    const contentType = response.headers.get("content-type");
+    let data;
+
+    if (contentType && contentType.includes("application/json")) {
+      data = await response.json();
+    } else {
+      const text = await response.text();
+      throw new Error(`Unexpected response: ${text}`);
+    }
 
     if (response.ok) {
       setFormStatus("✅ Subscription successful!");
