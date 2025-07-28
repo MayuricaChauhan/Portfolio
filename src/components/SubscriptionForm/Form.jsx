@@ -85,6 +85,7 @@ const Form = () => {
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/100 focus:outline-none text-black placeholder-black"
             required
             placeholder="Enter your name"
+            autoComplete="user_name"
           />
         </div>
 
@@ -101,6 +102,8 @@ const Form = () => {
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/100 focus:outline-none text-black placeholder-black"
             required
             placeholder="Enter your email"
+            autoComplete="user_email"
+
           />
         </div>
 
@@ -116,6 +119,8 @@ const Form = () => {
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/100 focus:outline-none text-black placeholder-black"
             required
             placeholder="Type your message"
+            autoComplete="user_message"
+
           />
         </div>
 

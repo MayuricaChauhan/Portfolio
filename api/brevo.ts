@@ -82,26 +82,27 @@ if (action === 'subscribe') {
 
     return res.status(200).json({ success: true, message: 'User processed and email sent.' });
   } catch (error: any) {
-    console.error('Brevo API failed:', error.response?.data || error.message);
+  console.error('Brevo API failed:', {
+    message: error.message,
+    status: error.response?.status,
+    data: error.response?.data,
+    config: error.config,
+  });
 
-    const statusCode = error.response?.status || 500;
-    let errorMessage = 'Brevo API error';
+  const statusCode = error.response?.status || 500;
+  let errorMessage = 'Brevo API error';
 
-    // 🔍 Print full response for debugging
-    if (error.response?.data) {
-      console.log('🪵 Full Brevo error response:', JSON.stringify(error.response.data, null, 2));
-
-      const data = error.response.data;
-      if (typeof data === 'object') {
-        errorMessage = data.message || JSON.stringify(data);
-      } else if (typeof data === 'string') {
-        errorMessage = data;
-      }
-    } else {
-      console.log('🪵 Error message:', error.message || 'Unknown server error');
-      errorMessage = error.message || 'Unknown server error';
+  if (error.response?.data) {
+    const data = error.response.data;
+    if (typeof data === 'object') {
+      errorMessage = data.message || JSON.stringify(data);
+    } else if (typeof data === 'string') {
+      errorMessage = data;
     }
-
-    return res.status(statusCode).json({ error: errorMessage });
+  } else {
+    errorMessage = error.message || 'Unknown server error';
   }
+
+  return res.status(statusCode).json({ error: errorMessage });
+}
 }
