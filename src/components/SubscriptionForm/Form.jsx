@@ -1,5 +1,4 @@
 import { useState, useRef } from "react";
-import { useState } from "react";
 import axios from "axios";
 const formRef = useRef(null); // Add at the top
 
@@ -23,29 +22,11 @@ const [formStatus, setFormStatus] = useState("");
   
   const handleSubmit = async (e) => {
     e.preventDefault();
-      const apiKey = process.env.REACT_APP_BREVO_API_KEY;
 
     try {
       // Add contact to Brevo list
-      const contactResponse = await axios.post(
-        "https://api.brevo.com/v3/contacts",
-        {
-          email: formData.user_email,
-          attributes: {
-            FIRSTNAME: formData.user_name,
-            MESSAGE: formData.message
-          },
-          listIds: [2], // Replace with your actual Brevo list ID
-          updateEnabled: true // ✅ This is required  
-   
-        },
-        {
-          headers: {
-            "api-key": apiKey, // Replace with your actual Brevo API key
-            "Content-Type": "application/json",
-          },
-           }
-      );
+      
+      const contactResponse = await axios.post("/api/brevo", formData);
 
       if (contactResponse.status === 201) {
         setFormStatus("Subscription mail sent and email added to newsletter successfully!");
