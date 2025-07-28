@@ -29,7 +29,7 @@ const Form = () => {
   const [formData, setFormData] = useState({
     user_name: "",
     user_email: "",
-    message: "",
+    user_message: "",
   });
   const [formStatus, setFormStatus] = useState("");
   const formRef = useRef();
@@ -45,7 +45,7 @@ const Form = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-const { user_name, user_email } = formData;
+const { user_name, user_email , user_message} = formData;
 
  try {
     const response = await fetch("/api/brevo", {
@@ -55,7 +55,8 @@ const { user_name, user_email } = formData;
       },
       body: JSON.stringify({
         user_name,
-        user_email
+        user_email,
+        user_message
       })
     });
 
@@ -76,7 +77,7 @@ const { user_name, user_email } = formData;
     setFormData({
       user_name: "",
       user_email: "",
-      message: "",
+      user_message: ""
     });
     setFormStatus("");
   };
@@ -134,9 +135,9 @@ const { user_name, user_email } = formData;
             Your Message
           </label>
           <textarea
-            name="message" // Matches the template placeholder
+            name="user_message" // Matches the template placeholder
             id="message"
-            value={formData.message}
+            value={formData.user_message}
             onChange={handleInputChange}
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/100 focus:outline-none text-black placeholder-gray-500"
             required

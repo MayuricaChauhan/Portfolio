@@ -7,7 +7,7 @@ const Form = () => {
   const [formData, setFormData] = useState({
      user_name: "",
     user_email: "",
-    message: "",
+    user_message: "",
   });
 
 const [formStatus, setFormStatus] = useState("");
@@ -51,7 +51,7 @@ const [formStatus, setFormStatus] = useState("");
     setFormData({
        user_name: "",
       user_email: "",
-      message: "",
+      user_message: "",
     });
     setFormStatus("");
   };
@@ -108,9 +108,9 @@ const [formStatus, setFormStatus] = useState("");
             Your Message
           </label>
           <textarea
-            name="message" // Matches the template placeholder
+            name="user_message" // Matches the template placeholder
             id="message"
-            value={formData.message}
+            value={formData.user_message}
             onChange={handleInputChange}
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary/100 focus:outline-none text-black placeholder-black"
             required
