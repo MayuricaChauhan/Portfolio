@@ -1,6 +1,5 @@
 import { useState, useRef } from "react"; // Make sure useRef is imported here
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import emailjs from "@emailjs/browser";
 import { TfiEmail } from "react-icons/tfi";
 
 // Rest of the component code...
@@ -43,27 +42,35 @@ const Form = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Send email using EmailJS
-    emailjs
-    .sendForm(
-      "service_gww3nnl", // Replace with your EmailJS service ID
-      "template_ohvzoio", // Replace with your EmailJS template ID
-      formRef.current,
-      "jDGsTZzaR7TZgGvpB" // Replace with your EmailJS public key
-    )
-      .then(
-        () => {
-          setFormStatus("Email sent successfully!");
-        },
-        (error) => {
-          console.log("EmailJS error:", error.text);
-          setFormStatus("Failed to send email. Please try again.");
-        }
-      );
-  };
+const { user_name, user_email } = formData;
+
+ try {
+    const response = await fetch("/api/brevo", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        user_name,
+        user_email
+      })
+    });
+
+    const data = await response.json();
+
+    if (response.ok) {
+      setFormStatus("✅ Subscription successful!");
+    } else {
+      setFormStatus(`❌ Error: ${data.error || "Could not add contact."}`);
+    }
+  } catch (error) {
+    console.error("Brevo API error:", error);
+    setFormStatus("⚠️ Something went wrong. Please try again.");
+  }
+};
 
   const handleReload = () => {
     setFormData({
