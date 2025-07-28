@@ -1,6 +1,7 @@
 import { useState, useRef } from "react"; // Make sure useRef is imported here
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
+import axios from "axios";
 
 // Rest of the component code...
 
@@ -26,58 +27,55 @@ const ResourcesLinks = [
 
 // Form Component
 const Form = () => {
+  const formRef = useRef(null);
   const [formData, setFormData] = useState({
     user_name: "",
     user_email: "",
     user_message: "",
+    action: "subscribe", // 👈 Important to tell backend which template to use
   });
+
   const [formStatus, setFormStatus] = useState("");
-  const formRef = useRef();
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormData((prev) => ({
+      ...prev,
       [name]: value,
-    });
+    }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-const { user_name, user_email , user_message} = formData;
+    try {
+      const response = await axios.post("/api/brevo", formData);
 
- try {
-    const response = await fetch("/api/brevo", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        user_name,
-        user_email,
-        user_message
-      })
-    });
-
-    const data = await response.json();
-
-    if (response.ok) {
-      setFormStatus("✅ Subscription successful!");
-    } else {
-      setFormStatus(`❌ Error: ${data.error || "Could not add contact."}`);
+      if (response.status === 200) {
+        setFormStatus("Subscription mail sent and email added to newsletter successfully!");
+      } else {
+        setFormStatus("Failed to send message or add email to newsletter.");
+      }
+    } catch (error) {
+      console.error(error);
+      if (error.response) {
+        const errData = error.response.data;
+        const message = typeof errData === "object" ? errData.message : errData;
+        setFormStatus("Error: " + message);
+      } else if (error.request) {
+        setFormStatus("No response received from the server.");
+      } else {
+        setFormStatus("Error: " + error.message);
+      }
     }
-  } catch (error) {
-    console.error("Brevo API error:", error);
-    setFormStatus("⚠️ Something went wrong. Please try again.");
-  }
-};
+  };
 
   const handleReload = () => {
     setFormData({
       user_name: "",
       user_email: "",
-      user_message: ""
+      user_message: "",
+      action: "subscribe", // Keep this consistent
     });
     setFormStatus("");
   };

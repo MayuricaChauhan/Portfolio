@@ -3,58 +3,59 @@ import axios from "axios";
 
 
 const Form = () => {
-  const formRef = useRef(null); // Add at the top
+  const formRef = useRef(null);
   const [formData, setFormData] = useState({
-     user_name: "",
+    user_name: "",
     user_email: "",
     user_message: "",
+    action: "subscribe", // 👈 Important to tell backend which template to use
   });
 
-const [formStatus, setFormStatus] = useState("");
-   const handleInputChange = (e) => {
+  const [formStatus, setFormStatus] = useState("");
+
+  const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormData((prev) => ({
+      ...prev,
       [name]: value,
-    });
+    }));
   };
 
-  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      // Add contact to Brevo list
-      
-      const contactResponse = await axios.post("/api/brevo", formData);
+      const response = await axios.post("/api/brevo", formData);
 
-      if (contactResponse.status === 200) {
+      if (response.status === 200) {
         setFormStatus("Subscription mail sent and email added to newsletter successfully!");
       } else {
         setFormStatus("Failed to send message or add email to newsletter.");
       }
-    }  catch (error) {
-  console.error(error);
-  if (error.response) {
-    const errData = error.response.data;
-    const message = typeof errData === "object" ? errData.message : errData;
-    setFormStatus("Error: " + message);
-  } else if (error.request) {
-    setFormStatus("No response received from the server.");
-  } else {
-    setFormStatus("Error: " + error.message);
-  }
-}
+    } catch (error) {
+      console.error(error);
+      if (error.response) {
+        const errData = error.response.data;
+        const message = typeof errData === "object" ? errData.message : errData;
+        setFormStatus("Error: " + message);
+      } else if (error.request) {
+        setFormStatus("No response received from the server.");
+      } else {
+        setFormStatus("Error: " + error.message);
+      }
+    }
   };
 
   const handleReload = () => {
     setFormData({
-       user_name: "",
+      user_name: "",
       user_email: "",
       user_message: "",
+      action: "subscribe", // Keep this consistent
     });
     setFormStatus("");
   };
+
   return (
     <span
       data-aos="fade-up"
