@@ -33,16 +33,18 @@ const [formStatus, setFormStatus] = useState("");
       } else {
         setFormStatus("Failed to send message or add email to newsletter.");
       }
-    } catch (error) {
-      console.error(error);
-      if (error.response) {
-        setFormStatus("Error: " + error.response.data.message);
-      } else if (error.request) {
-        setFormStatus("No response received from the server.");
-      } else {
-        setFormStatus("Error: " + error.message);
-      }
-    }
+    }  catch (error) {
+  console.error(error);
+  if (error.response) {
+    const errData = error.response.data;
+    const message = typeof errData === "object" ? errData.message : errData;
+    setFormStatus("Error: " + message);
+  } else if (error.request) {
+    setFormStatus("No response received from the server.");
+  } else {
+    setFormStatus("Error: " + error.message);
+  }
+}
   };
 
   const handleReload = () => {
