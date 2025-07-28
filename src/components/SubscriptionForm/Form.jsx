@@ -1,9 +1,9 @@
 import { useState, useRef } from "react";
 import axios from "axios";
-const formRef = useRef(null); // Add at the top
 
 
 const Form = () => {
+  const formRef = useRef(null); // Add at the top
   const [formData, setFormData] = useState({
      user_name: "",
     user_email: "",
@@ -28,7 +28,7 @@ const [formStatus, setFormStatus] = useState("");
       
       const contactResponse = await axios.post("/api/brevo", formData);
 
-      if (contactResponse.status === 201) {
+      if (contactResponse.status === 200) {
         setFormStatus("Subscription mail sent and email added to newsletter successfully!");
       } else {
         setFormStatus("Failed to send message or add email to newsletter.");
