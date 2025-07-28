@@ -10,27 +10,31 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const { user_name, user_email, message } = req.body;
 
   try {
-    const brevoRes = await axios.post(
+    const response = await axios.post(
       'https://api.brevo.com/v3/contacts',
       {
         email: user_email,
         attributes: {
-          FIRSTNAME: user_name,
-          MESSAGE: message,
+          FIRSTNAME: user_name
         },
-        listIds: [2], // replace with your actual list ID
-        updateEnabled: true,
+        listIds: [2], // Replace with real list ID
+        updateEnabled: true
       },
       {
         headers: {
-          'api-key': process.env.BREVO_API_KEY || '',
+          'api-key': process.env.BREVO_API_KEY,
           'Content-Type': 'application/json',
-        },
+          'Accept': 'application/json'
+        }
       }
     );
 
-    return res.status(200).json({ success: true, data: brevoRes.data });
-  } catch (error: any) {
-    return res.status(500).json({ error: error.message });
+    return res.status(200).json({ message: 'Contact added', data: response.data });
+  } catch (error) {
+    console.error('Brevo API failed:', error.response?.data || error.message);
+
+    return res.status(500).json({
+      error: error.response?.data?.message || 'Brevo API error'
+    });
   }
 }
