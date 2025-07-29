@@ -49,7 +49,7 @@ const Form = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("./api/brevo", formData);
+      const response = await axios.post("/api/brevo", formData);
 
       if (response.status === 200) {
         setFormStatus("Subscription mail sent and email added to newsletter successfully!");
