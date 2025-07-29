@@ -4,12 +4,11 @@ async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Only POST allowed' });
   }
-
   const { user_name, user_email, user_message } = req.body;
 
   const defaultClient = SibApiV3Sdk.ApiClient.instance;
   const apiKey = defaultClient.authentications['api-key'];
-  apiKey.apiKey = process.env.BREVO_API_KEY.trim();
+  apiKey.apiKey = process.env.BREVO_API_KEY.replace(/[\r\n\t]/g, '').trim();
 
   const apiInstance = new SibApiV3Sdk.EmailCampaignsApi();
 
