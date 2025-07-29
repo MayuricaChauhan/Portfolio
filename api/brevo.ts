@@ -5,6 +5,10 @@ import axios from 'axios';
 
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
+  
+  console.log('Received body:', req.body);
+  console.log('BREVO_API_KEY exists:', !!process.env.BREVO_API_KEY);
+
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Only POST allowed' });
   }
