@@ -45,17 +45,27 @@ async function handler(req, res) {
 
     await emailApi.sendTransacEmail(sendToUser);
 
-    // 2️⃣ Send full form details to support email
-    const sendToSupport = new SibApiV3Sdk.SendSmtpEmail();
-    sendToSupport.to = [{ email: 'iec@mayuricaeducation.in', name: 'Mayurica' }];
-    sendToSupport.subject = 'New Support Request Submitted';
-    sendToSupport.htmlContent = `
-      <h1>New Support Request</h1>
-      <p><strong>Name:</strong> ${user_name}</p>
-      <p><strong>Email:</strong> ${user_email}</p>
-      <p><strong>Message:</strong> ${user_message || 'No message provided'}</p>      
-    `;
-    sendToSupport.sender = { email: 'iec@mayuricaeducation.in', name: 'Mayurica Website' };
+   // 2️⃣ Send full form details to support email
+const contactsApi = new SibApiV3Sdk.ContactsApi();
+const listContacts = await contactsApi.getContactsFromList(10);
+
+// 👇 Extract all emails from list
+const recipients = listContacts.contacts.map((contact) => ({
+  email: contact.email,
+  name: contact.attributes?.FIRSTNAME || contact.email,
+}));
+
+const sendToSupport = new SibApiV3Sdk.SendSmtpEmail();
+sendToSupport.to = recipients;
+sendToSupport.subject = 'New Support Request Submitted';
+sendToSupport.htmlContent = `
+  <h1>New Support Request</h1>
+  <p><strong>Name:</strong> ${user_name}</p>
+  <p><strong>Email:</strong> ${user_email}</p>
+  <p><strong>Message:</strong> ${user_message || 'No message provided'}</p>      
+`;
+sendToSupport.sender = { email: 'iec@mayuricaeducation.in', name: 'Mayurica Website' };
+
 
     await emailApi.sendTransacEmail(sendToSupport);
 
