@@ -47,7 +47,7 @@ async function handler(req, res) {
 
    // 2️⃣ Send full form details to support email
 const contactsApi = new SibApiV3Sdk.ContactsApi();
-const listContacts = await contactsApi.getContactsFromList(10);
+const listContacts = await contactsApi.getContactsFromList(2);
 
 // 👇 Extract all emails from list
 const recipients = listContacts.contacts.map((contact) => ({
