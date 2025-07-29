@@ -1,6 +1,6 @@
-const SibApiV3Sdk = require('sib-api-v3-sdk');
+import SibApiV3Sdk from 'sib-api-v3-sdk';
 
-module.exports = async function handler(req, res) {
+async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Only POST allowed' });
   }
@@ -29,8 +29,7 @@ module.exports = async function handler(req, res) {
   `;
 
   emailCampaigns.recipients = { listIds: [10] };
-  // emailCampaigns.scheduledAt = new Date(Date.now() + 60 * 60 * 1000).toISOString(); // 1 hour later
-  emailCampaigns.scheduledAt = new Date().toISOString();   // send instantly
+  emailCampaigns.scheduledAt = new Date().toISOString();
 
   try {
     const data = await apiInstance.createEmailCampaign(emailCampaigns);
@@ -39,4 +38,6 @@ module.exports = async function handler(req, res) {
     console.error('Campaign creation failed:', error);
     return res.status(500).json({ error: error.message });
   }
-};
+}
+
+export default handler; // ✅ Important for Vercel API route
