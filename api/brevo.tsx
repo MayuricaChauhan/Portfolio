@@ -1,8 +1,11 @@
-// File: /api/brevo.js
-  
- import axios from 'axios';
+// File: /api/brevo.ts
 
-export default async function handler(req, res) {
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+import axios from 'axios';
+
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+  
   console.log('Received body:', req.body);
   console.log('BREVO_API_KEY exists:', !!process.env.BREVO_API_KEY);
 
@@ -16,17 +19,20 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
-  const SUBSCRIBE_TEMPLATE_ID = 3; // 🔁 replace with real ID
-  let templateId;
+ // 🟢 Define correct template IDs here at the top
+const SUBSCRIBE_TEMPLATE_ID = 3;  // ✅ Replace with your actual "Thank you for subscription" template ID
 
-  if (action === 'subscribe') {
-    templateId = SUBSCRIBE_TEMPLATE_ID;
-  } else {
-    return res.status(400).json({ error: 'Invalid or missing action type' });
-  }
+// 🔁 Select template based on action
+let templateId: number;
+
+if (action === 'subscribe') {
+  templateId = SUBSCRIBE_TEMPLATE_ID;
+} else {
+  return res.status(400).json({ error: 'Invalid or missing action type' });
+}
 
   try {
-    // STEP 1: Add contact
+    // STEP 1: Add contact to list (only for subscription)
     if (action !== 'unsubscribe') {
       await axios.post(
         'https://api.brevo.com/v3/contacts',
@@ -36,7 +42,7 @@ export default async function handler(req, res) {
             FIRSTNAME: user_name,
             MESSAGE: user_message,
           },
-          listIds: [10], // 👉 Replace with your list ID
+          listIds: [10], // 📝 Your actual list ID here
           updateEnabled: true,
         },
         {
@@ -79,28 +85,28 @@ export default async function handler(req, res) {
     );
 
     return res.status(200).json({ success: true, message: 'User processed and email sent.' });
-  } catch (error) {
-    console.error('Brevo API failed:', {
-      message: error.message,
-      status: error.response?.status,
-      data: error.response?.data,
-      config: error.config,
-    });
+  } catch (error: any) {
+  console.error('Brevo API failed:', {
+    message: error.message,
+    status: error.response?.status,
+    data: error.response?.data,
+    config: error.config,
+  });
 
-    const statusCode = error.response?.status || 500;
-    let errorMessage = 'Brevo API error';
+  const statusCode = error.response?.status || 500;
+  let errorMessage = 'Brevo API error';
 
-    if (error.response?.data) {
-      const data = error.response.data;
-      if (typeof data === 'object') {
-        errorMessage = data.message || JSON.stringify(data);
-      } else if (typeof data === 'string') {
-        errorMessage = data;
-      }
-    } else {
-      errorMessage = error.message || 'Unknown server error';
+  if (error.response?.data) {
+    const data = error.response.data;
+    if (typeof data === 'object') {
+      errorMessage = data.message || JSON.stringify(data);
+    } else if (typeof data === 'string') {
+      errorMessage = data;
     }
-
-    return res.status(statusCode).json({ error: errorMessage });
+  } else {
+    errorMessage = error.message || 'Unknown server error';
   }
+
+  return res.status(statusCode).json({ error: errorMessage });
+}
 }
