@@ -3,9 +3,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import axios from 'axios';
 
-
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-
   console.log('Received body:', req.body);
   console.log('BREVO_API_KEY exists:', !!process.env.BREVO_API_KEY);
 
@@ -19,82 +17,37 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
-  // 🟢 Define correct template IDs here at the top
-  const SUBSCRIBE_TEMPLATE_ID = 3;  // ✅ Replace with your actual "Thank you for subscription" template ID
-
-  // 🔁 Select template based on action
-  let templateId: number;
-
-  if (action === 'subscribe') {
-    templateId = SUBSCRIBE_TEMPLATE_ID;
-  } else {
+  if (action !== 'subscribe') {
     return res.status(400).json({ error: 'Invalid or missing action type' });
   }
 
   const apiKey = `${process.env.BREVO_API_KEY}`.trim();
-
   if (!apiKey || apiKey.includes('undefined') || apiKey.includes('null')) {
     return res.status(500).json({ error: 'Missing or invalid Brevo API key' });
   }
 
   try {
-    // Step 1: Add contact (subscribe)
-    if (action === 'subscribe') {
-      await axios.post(
-        'https://api.brevo.com/v3/contacts',
-        {
-          email: user_email,
-          attributes: {
-            FIRSTNAME: user_name,
-            MESSAGE: user_message,
-          },
-          listIds: [10], // ✅ Replace with actual list ID
-          updateEnabled: true,
-        },
-        {
-          headers: {
-            "api-key": apiKey,
-            "Content-Type": "application/json",
-          },
-        }
-      );
-    }
-
-    // Step 2: Send transactional email
+    // Add contact to Brevo list
     await axios.post(
-      'https://api.brevo.com/v3/smtp/email',
+      'https://api.brevo.com/v3/contacts',
       {
-        sender: {
-          name: user_name,
-          email: user_email,
-        },
-        to: [
-          {
-            email: 'iec@mayuricaeducation.in',
-            name: 'Admin',
-          },
-          {
-            email: 'vc34400@gmail.com',
-            name: 'Vikas Chauhan',
-          },
-        ],
-        templateId,
-        params: {
+        email: user_email,
+        attributes: {
           FIRSTNAME: user_name,
-          EMAIL: user_email,
           MESSAGE: user_message,
         },
+        listIds: [10], // ✅ Replace with your actual Brevo List ID
+        updateEnabled: true,
       },
       {
         headers: {
-          "api-key": apiKey,
-          "Content-Type": "application/json",
-          Accept: "application/json",
+          'api-key': apiKey,
+          'Content-Type': 'application/json',
         },
       }
     );
 
-    return res.status(200).json({ success: true, message: 'User processed and email sent.' });
+    return res.status(200).json({ success: true, message: 'User added to Brevo contacts.' });
   } catch (error: any) {
     console.error('Brevo API failed:', {
       message: error.message,
