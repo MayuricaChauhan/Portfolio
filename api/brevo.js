@@ -9,7 +9,7 @@ async function handler(req, res) {
 
   const defaultClient = SibApiV3Sdk.ApiClient.instance;
   const apiKey = defaultClient.authentications['api-key'];
-  apiKey.apiKey = process.env.BREVO_API_KEY;
+  apiKey.apiKey = process.env.BREVO_API_KEY.trim();
 
   const apiInstance = new SibApiV3Sdk.EmailCampaignsApi();
 
