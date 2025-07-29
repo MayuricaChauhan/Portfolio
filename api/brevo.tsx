@@ -44,6 +44,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
           'api-key': apiKey,
           'Content-Type': 'application/json',
         },
+        timeout: 7000, 
       }
     );
 
