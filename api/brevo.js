@@ -53,9 +53,7 @@ async function handler(req, res) {
       <h1>New Support Request</h1>
       <p><strong>Name:</strong> ${user_name}</p>
       <p><strong>Email:</strong> ${user_email}</p>
-      <p><strong>Message:</strong> ${user_message || 'No message provided'}</p>
-      <hr/>
-      <p><em>This message is sent from the website contact form.</em></p>
+      <p><strong>Message:</strong> ${user_message || 'No message provided'}</p>      
     `;
     sendToSupport.sender = { email: 'iec@mayuricaeducation.in', name: 'Mayurica Website' };
 
