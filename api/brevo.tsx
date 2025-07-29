@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  
+
   console.log('Received body:', req.body);
   console.log('BREVO_API_KEY exists:', !!process.env.BREVO_API_KEY);
 
@@ -19,21 +19,27 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
- // 🟢 Define correct template IDs here at the top
-const SUBSCRIBE_TEMPLATE_ID = 3;  // ✅ Replace with your actual "Thank you for subscription" template ID
+  // 🟢 Define correct template IDs here at the top
+  const SUBSCRIBE_TEMPLATE_ID = 3;  // ✅ Replace with your actual "Thank you for subscription" template ID
 
-// 🔁 Select template based on action
-let templateId: number;
+  // 🔁 Select template based on action
+  let templateId: number;
 
-if (action === 'subscribe') {
-  templateId = SUBSCRIBE_TEMPLATE_ID;
-} else {
-  return res.status(400).json({ error: 'Invalid or missing action type' });
-}
+  if (action === 'subscribe') {
+    templateId = SUBSCRIBE_TEMPLATE_ID;
+  } else {
+    return res.status(400).json({ error: 'Invalid or missing action type' });
+  }
+
+  const apiKey = `${process.env.BREVO_API_KEY}`.trim();
+
+  if (!apiKey || apiKey.includes('undefined') || apiKey.includes('null')) {
+    return res.status(500).json({ error: 'Missing or invalid Brevo API key' });
+  }
 
   try {
-    // STEP 1: Add contact to list (only for subscription)
-    if (action !== 'unsubscribe') {
+    // Step 1: Add contact (subscribe)
+    if (action === 'subscribe') {
       await axios.post(
         'https://api.brevo.com/v3/contacts',
         {
@@ -42,19 +48,19 @@ if (action === 'subscribe') {
             FIRSTNAME: user_name,
             MESSAGE: user_message,
           },
-          listIds: [10], // 📝 Your actual list ID here
+          listIds: [10], // ✅ Replace with actual list ID
           updateEnabled: true,
         },
         {
           headers: {
-            'api-key': process.env.BREVO_API_KEY || '',
-            'Content-Type': 'application/json',
+            "api-key": apiKey,
+            "Content-Type": "application/json",
           },
         }
       );
     }
 
-    // STEP 2: Send transactional email
+    // Step 2: Send transactional email
     await axios.post(
       'https://api.brevo.com/v3/smtp/email',
       {
@@ -67,6 +73,10 @@ if (action === 'subscribe') {
             email: 'iec@mayuricaeducation.in',
             name: 'Admin',
           },
+          {
+            email: 'vc34400@gmail.com',
+            name: 'Vikas Chauhan',
+          },
         ],
         templateId,
         params: {
@@ -77,36 +87,36 @@ if (action === 'subscribe') {
       },
       {
         headers: {
-          'api-key': process.env.BREVO_API_KEY || '',
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
+          "api-key": apiKey,
+          "Content-Type": "application/json",
+          Accept: "application/json",
         },
       }
     );
 
     return res.status(200).json({ success: true, message: 'User processed and email sent.' });
   } catch (error: any) {
-  console.error('Brevo API failed:', {
-    message: error.message,
-    status: error.response?.status,
-    data: error.response?.data,
-    config: error.config,
-  });
+    console.error('Brevo API failed:', {
+      message: error.message,
+      status: error.response?.status,
+      data: error.response?.data,
+      config: error.config,
+    });
 
-  const statusCode = error.response?.status || 500;
-  let errorMessage = 'Brevo API error';
+    const statusCode = error.response?.status || 500;
+    let errorMessage = 'Brevo API error';
 
-  if (error.response?.data) {
-    const data = error.response.data;
-    if (typeof data === 'object') {
-      errorMessage = data.message || JSON.stringify(data);
-    } else if (typeof data === 'string') {
-      errorMessage = data;
+    if (error.response?.data) {
+      const data = error.response.data;
+      if (typeof data === 'object') {
+        errorMessage = data.message || JSON.stringify(data);
+      } else if (typeof data === 'string') {
+        errorMessage = data;
+      }
+    } else {
+      errorMessage = error.message || 'Unknown server error';
     }
-  } else {
-    errorMessage = error.message || 'Unknown server error';
-  }
 
-  return res.status(statusCode).json({ error: errorMessage });
-}
+    return res.status(statusCode).json({ error: errorMessage });
+  }
 }
