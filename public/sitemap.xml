@@ -11,7 +11,7 @@
 
   <!-- About Page -->
   <url>
-    <loc>https://www.mayuricaeducation.in/about</loc>
+    <loc>https://www.mayuricaeducation.in/#about</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -19,7 +19,7 @@
 
   <!-- Services Page -->
   <url>
-    <loc>https://www.mayuricaeducation.in/services</loc>
+    <loc>https://www.mayuricaeducation.in/#services</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -27,7 +27,7 @@
 
   <!-- Testimonials Page -->
   <url>
-    <loc>https://www.mayuricaeducation.in/testimonials</loc>
+    <loc>https://www.mayuricaeducation.in/#testimonials</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -35,7 +35,7 @@
 
   <!-- Blogs Page -->
   <url>
-    <loc>https://www.mayuricaeducation.in/blogs</loc>
+    <loc>https://www.mayuricaeducation.in/#blogs</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -51,7 +51,7 @@
 
   <!-- Contact / Get in Touch Page -->
   <url>
-    <loc>https://www.mayuricaeducation.in/contact</loc> <!-- Change if actual path differs -->
+    <loc>https://www.mayuricaeducation.in/clients</loc> <!-- Change if actual path differs -->
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
