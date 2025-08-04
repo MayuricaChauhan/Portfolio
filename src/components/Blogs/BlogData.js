@@ -19,14 +19,14 @@ const BlogsData = [
       <p>Over the last decade, Australia has gradually scaled its way up to become one of the world's top study destinations. In fact, the most recent QS World University Rankings reiterate this very journey and it is clear why. Six Australian universities have made their way up to the global top 50. This has offered Indian students some novel and emerging alternatives to conventional study abroad destinations such as the USA and UK.
       </p>
       
-      <h3>Why Australia Works for Indian Students</h3>
+      <b><h3>Why Australia Works for Indian Students</h3></b>
       <ul>
         <li>The numbers tell a compelling story but there's more to it than rankings. Australian universities offer something particularly valuable to Indian students. The mode of instruction in the country is primarily English. This saves you time on overcoming cultural barriers you might face elsewhere.</li>
 
         <li> The post-study work opportunities in the country are also attractive. Furthermore, most Australian Universities offer a multicultural campus environment hosting both native and international students from around the globe. International students in the country have ample opportunities to connect with a truly global and diverse community of peers and expand their horizons.</li>
       </ul>
 
-      <h3>Here Are The Top Six Universities Making Headlines</h3>
+      <b><h3>Here Are The Top Six Universities Making Headlines</h3></b>
       <ul>
         <li><strong>University of Melbourne</strong>(Global Rank: 19): With a score of 90.8, Melbourne consistently ranks as Australia's best university. Located in Parkville, the University has accumulated a solid reputation over the years and across disciplines, particularly in business, medicine and engineering. The university has strong research programs and attracts students from around the world.</li>
         <li><strong>UNSW Sydney</strong> (Global Rank: 20): Just one point behind Melbourne at 90.7, UNSW Sydney has earned its reputation for its strong industry ties, multifaceted internship opportunities and job placements. For Indian students interested in STEM fields, this is particularly relevant.</li>
@@ -36,7 +36,7 @@ const BlogsData = [
         <li><strong>University of Queensland</strong> (Global Rank: 42): With a score of 85.1, the University of Queensland, located in Brisbane, offers a more affordable cost of living in comparison to larger cities like Sydney or Melbourne.</li>  
       </ul>
 
-      <h3>Making Your Decision</h3>
+      <b><h3>Making Your Decision</h3></b>
       <ul>
         <li>Narrowing down on a University from among a number of reputed Universities can be a tough call. However, when choosing between these universities, it is of utmost importance to go over your chosen field of study. You may also want to run through the cost of living associated with your preferred city and determine if it falls under your budget.</li>
         <li>Melbourne and Sydney offer big-city experiences with plenty of opportunities to network, learn and grow. Cities like Brisbane, on the other hand, offer quality education at a much lower cost than bigger metropolitan cities. The key is to match your academic interests with what each university does best.</li>
