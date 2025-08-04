@@ -64,34 +64,34 @@ const BlogsData = [
       <p>The United States, United Kingdom, Canada and Australia are countries that Indian students continue to remain loyal to, despite their increasingly  bureaucratic shortcomings. However now, a new contender seems to have emerged on the horizon. New Zealand, although having had amicable ties with India over the decades in education and trade, is now rapidly picking up  recognition as a potential choice for Indian students aspiring to study overseas. All is not well in paradise, with the US and the UK cracking down on Indian immigrants and students. Therefore, the forthcoming graduates have turned to looking for quality education, promising career prospects and an exceptional quality of life. In 2025, New Zealand seems to be at the top of the game.
       </p>
       
-      <h3>A remarkable story of growth</h3>
+      <h3><strong>A remarkable story of growth</strong></h3>
       <ul>
         <li>Between January and August 2024, Indian student enrollments in New Zealand surged by an impressive 34%, jumping from 7,930 in 2023 to 10,640 in 2024. This has positioned Indian students as the second-largest international student group in the country, comprising 11% of all international university enrollments, trailing only behind Chinese students.</li>
 
         <li> What makes this even more significant is the notable increase in female Indian students choosing New Zealand. According to IDP Education data, the number of Indian women studying in New Zealand universities doubled between 2023 and 2024. New Zealand has rightfully earned its reputation as a safe and supportive country for female students.</li>
       </ul>
 
-      <h3>An Up-to-date Curriculum</h3>
+      <h3><strong>An Up-to-date Curriculum</strong></h3>
       <ul>
         <li>PIBM's curriculum stays current with global business trends. Instead of outdated textbook theories, you have the opportunity to work on projects and case studies that mimic the real world.</li>
         <li>The learning approach is practical from day one. The program's ties to the industry offer global internships, corporate training programs and placements with world-class companies.</li>
       </ul>
 
-      <h3>Great education at accessible costs</h3>
+      <h3><strong>Great education at accessible costs</strong></h3>
       <ul>
         <li>New Zealand's education system stands tall on the global stage. All eight of the country's universities feature in the QS World University Rankings 2026, with the University of Auckland securing the 65th position, followed by the University of Otago at 197th and Massey University at 230th.</li>
 
         <li>These institutions offer numerous programs across diverse fields like Data Science, Engineering, Financial Technology, Business Analytics, Nursing, Hospitality and Education. The financial aspect remains equally attractive. Annual tuition fees range between NZD 20,000 to 40,000 (approximately Rs 10,26,953 to Rs 20,53,906), making it competitive with other popular destinations.</li>
       </ul>
 
-      <h3>Post-study opportunities that matter</h3>
+      <h3><strong>Post-study opportunities that matter</strong></h3>
       <ul>
         <li>One of New Zealand's strongest selling points is its generous post-study work policy. International students who complete at least 30 weeks of a Master's or Doctoral program become eligible for a three-year post-study work visa. Recent policy additions in late 2024 have extended these benefits to students pursuing shorter, stackable postgraduate qualifications.</li>
 
         <li>This now lets graduates with a Postgraduate Diploma followed by a Master's degree to access full work rights. With the country's unemployment rate at 5.1% as of March 2025, graduates go out into the world with job market conditions, a phenomenon becoming increasingly uncommon in traditional competitors like the USA and UK.</li>        
       </ul>
 
-      <h3>The future looks bright</h3>
+      <h3><strong>The future looks bright</strong></h3>
       <ul>
       <li>New Zealand is also actively strengthening its educational partnerships with India. In 2024, Education New Zealand formalized agreements with prestigious Indian institutions including IIM Ahmedabad, GIFT City and the Karnataka State Higher Education Council. 2025's international students have more choices than ever. But more options also mean more confusion and deliberation.</li>
       
