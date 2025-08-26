@@ -9,13 +9,72 @@ import Img8 from "../../assets/blog/blog8.jpeg";
 import Img9 from "../../assets/blog/blog9.jpeg";
 import Img10 from "../../assets/blog/blog10.jpeg";
 import Img11 from "../../assets/blog/blog11.jpeg";
+import Img12 from "../../assets/blog/blog12.jpeg";
 
 const BlogsData = [
-{
-  id: 14,
-  image: Img11, // Replace with actual import
-  title: "Schengen visa secrets: Here's what a diplomatic officer really looks for",
-  description: `
+  {
+    id: 15,
+    image: Img12, // Replace with actual import
+    title: "How CBSE students can balance boards and building their international profile",
+    description: `
+    <div id="desc-13">
+      <p>
+      For many students of the Central Board of Secondary Education (CBSE), aspiring to study overseas appears a far-fetched dream. In the midst of an already overcharged academic season with incoming board examinations, the pressure in the room is palpable. 
+      However, the truth about studying overseas in 2025 is also imperative: international universities today want more than just high grade points. The centums in Math and Science mean little if you fail to present yourself as a well-rounded individual with interpersonal, technical as well as academic capabilities. But here's what most students don't realize: this isn't an either-or situation. You can outperform your peers in your board examinations and rightfully earn yourself a spot on your school’s roll of honor all while building the kind of profile that makes international admissions officers take notice of. All you need is a proactive attitude, the right strategy and the ability to manage your time.
+
+      </p>
+      
+      <b><h3>How do you build a profile that speaks to international universities?</h3></b>
+      <ul>
+        <li>Thousands of CBSE students with ambitions to cut through the crowd and into some of the most reputed universities around the world, ask themselves this very question as their public exams draw to an end.</li>
+
+        <li> The good news is that at UniNxt Study Overseas, we staunchly believe that it is absolutely doable. We've helped countless students along the way and no, you do not need to sacrifice your sanity or sleep to make it happen.</li>
+      </ul>
+
+      <b><h3>The early bird catches the worm, even in international universities</h3></b>
+      <ul>
+        <li>The single biggest mistake that more than half of all students make is treating their class 12 as the starting line for building their profile. By then, you're already in the final sprint and scurrying to get your academics straight. On top of this, committing to any one let alone multiple extracurricular activities is biting off more than you can chew. Instead, we encourage our students to think of classes 9 and 10 as their foundation years. Start small but start smart. The key here is to just start.</li>
+        <li>During your summer and winter break of your 10th and 11th grades, plan an internship in your area of interest, work on projects that you associate your values with, work alongside underprivileged communities and attempt to learn something new.</li>  
+        <li>Whilst your peers fritter away their time binge-watching Netflix and doomscrolling during holidays, you can outpace them with clever steps to building your future. Your summer and winter breaks are incredible pockets of time to go out in pursuit of meaningful interpersonal and community experiences without the pressure of assignments and tests dangling above your head. Intern with a local startup, volunteer for a community initiative or read about a topic that genuinely excites you. Never attempt everything all at once or you risk exhausting yourself till burnout. Pick one thing and challenge yourself to pursue it meaningfully and consistently.</li>  
+      </ul>
+
+      <b><h3>Fabrication lets you cut through the crowd, however only temporarily</h3></b>
+      <ul>
+        <li>Exaggerating and fabricating your experiences is the oldest trick in the book. Admissions officers have a radar for fake passion. Although such profiles may seem appealing from the outset, for these experienced professionals sifting through hundreds of thousands of profiles, authenticity is what stands out.</li>
+        <li>They've seen thousands of applications listing random clubs and one-off volunteer hours. Ultimately it is depth, reflection and a vision for impact that makes them stop and take notice. Instead of joining ten clubs for your resume, pick one or two causes you actually care about and go all in.</li>
+        <li>A student who spends a year mentoring underprivileged children and can articulate how it has changed their own values and goals for the future will always outshine someone with a laundry list of superficial activities.</li>
+      </ul>
+      
+      <b><h3>Your board exams are still important</h3></b>
+      <ul>
+        <li>The marks you score in your board examinations still remain your ticket to the game. Everything else you do outside of it is what helps you win it. To effectively balance both, create a realistic study schedule that treats academics as your primary job and incorporates profile-building activities as important but secondary pursuits. Think 70-30 and not 50-50.</li>
+        <li>You certainly do not need to enrol for expensive international programs beyond your fiscal capacity. If you manage to spearhead and create traction for a campaign in your hometown and connect it to larger international sustainability goals, you showcase the kind of global thinking universities seek. Universities want students who understand they're part of something bigger than themselves.</li>
+      </ul>
+      
+      <b><h3>The bottom line</h3></b>
+      <ul>
+        <li>Don't go through this journey alone. Seek out seniors who've walked this path, counselors who understand international admissions and alumni from your dream universities.</li>
+        <li>Their inputs can save you from going down a common slippery slope and help you make better choices than the rest of the applicant pool. As a CBSE student, your international ambition and your topper dreams don't have to be at odds.</li>
+        <li>The lives of students who study overseas and away from their comfort zones are forever changed. And these graduates go on to make impactful change that reverberates through the rest of the world.</li>
+      </ul>
+      
+      <br/>
+      <p>Do you dream of getting into a top institute abroad? Then book a session with us today and crack the code. Let's get you into your dream university:- 
+      <br/>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </br>
+     </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "August 26, 2025"
+  },
+  {
+    id: 14,
+    image: Img11, // Replace with actual import
+    title: "Schengen visa secrets: Here's what a diplomatic officer really looks for",
+    description: `
     <div id="desc-13">
       <p>Getting a Schengen visa can feel like solving a puzzle with missing pieces. While applicants often focus on gathering the right documents, a recent Reddit revelation from an experienced visa officer shows that the real game is far more complex than most people realize.
       </p>
@@ -61,14 +120,14 @@ const BlogsData = [
      </p>
     </div>
   `,
-  author: "Uninxt Team",
-  date: "August 11, 2025"
-},
-{
-  id: 13,
-  image: Img10, // Replace with actual import
-  title: "Are You An Aspiring International Student? Here Are 6 Australian Universities That Should Be on Your Radar",
-  description: `
+    author: "Uninxt Team",
+    date: "August 11, 2025"
+  },
+  {
+    id: 13,
+    image: Img10, // Replace with actual import
+    title: "Are You An Aspiring International Student? Here Are 6 Australian Universities That Should Be on Your Radar",
+    description: `
     <div id="desc-13">
       <p>Over the last decade, Australia has gradually scaled its way up to become one of the world's top study destinations. In fact, the most recent QS World University Rankings reiterate this very journey and it is clear why. Six Australian universities have made their way up to the global top 50. This has offered Indian students some novel and emerging alternatives to conventional study abroad destinations such as the USA and UK.
       </p>
@@ -106,14 +165,14 @@ const BlogsData = [
       to explore how we can help you turn your international career dreams into reality. Our experienced consultants are here to help!</p>
     </div>
   `,
-  author: "Uninxt Team",
-  date: "August 04, 2025"
-},
-{
-  id: 12,
-  image: Img9, // Replace with actual import
-  title: "New Zealand Is Now A Rising Star in Indian Students' Study Abroad Dreams",
-  description: `
+    author: "Uninxt Team",
+    date: "August 04, 2025"
+  },
+  {
+    id: 12,
+    image: Img9, // Replace with actual import
+    title: "New Zealand Is Now A Rising Star in Indian Students' Study Abroad Dreams",
+    description: `
     <div id="desc-12">
       <p>The United States, United Kingdom, Canada and Australia are countries that Indian students continue to remain loyal to, despite their increasingly  bureaucratic shortcomings. However now, a new contender seems to have emerged on the horizon. New Zealand, although having had amicable ties with India over the decades in education and trade, is now rapidly picking up  recognition as a potential choice for Indian students aspiring to study overseas. All is not well in paradise, with the US and the UK cracking down on Indian immigrants and students. Therefore, the forthcoming graduates have turned to looking for quality education, promising career prospects and an exceptional quality of life. In 2025, New Zealand seems to be at the top of the game.
       </p>
@@ -160,14 +219,14 @@ const BlogsData = [
       </br></p>
     </div>
   `,
-  author: "Uninxt Team",
-  date: "July 30, 2025"
-},
-{
-  id: 11,
-  image: Img8, // Replace with actual import
-  title: "First of its Kind: A Global Joint Degree Program (MBA+PGDM) offered by the Pune Institute of Business Management (PIBM)",
-  description: `
+    author: "Uninxt Team",
+    date: "July 30, 2025"
+  },
+  {
+    id: 11,
+    image: Img8, // Replace with actual import
+    title: "First of its Kind: A Global Joint Degree Program (MBA+PGDM) offered by the Pune Institute of Business Management (PIBM)",
+    description: `
     <div id="desc-11">
       <p>Business does not stop at borders anymore. Similarly, business education is also increasingly surpassing the limitations of geography. The companies that are leading the way into tomorrow's economy are ones that operate across continents and diverse markets. For ambitious business students and aspiring entrepreneurs, there is the pressing need to match up to the pace of a global, modern business arena.
          However, do not fret. The Pune Institute of Business Management (PIBM) has attempted to challenge this very phenomenon head on. And the pay-off is a Global Joint Degree Program (MBA+PGDM). Built to train students who have big dreams but remain grounded to their roots, this program is the perfect amalgam of local expertise and international experience. PIBM, year after year, molds students and sends them out into the world as graduates who can think globally and act locally.
@@ -207,14 +266,14 @@ const BlogsData = [
       </br></p>
     </div>
   `,
-  author: "Uninxt Team",
-  date: "July 25, 2025"
-},
+    author: "Uninxt Team",
+    date: "July 25, 2025"
+  },
   {
-  id: 10,
-  image: Img7, // Replace with actual import
-  title: "Budget-Friendly Study Abroad Options For Indian Students",
-  description: `
+    id: 10,
+    image: Img7, // Replace with actual import
+    title: "Budget-Friendly Study Abroad Options For Indian Students",
+    description: `
     <div id="desc-10">
       <p>Money goes further in some places than others, and for Indian students studying overseas, this adage echoes in familiarity. However, studying abroad is no longer the rich man's privilege, all thanks to countries that are welcoming ambitious students from humble, working-class Indian families. The good news that today's blog is bringing for you is that in order for you to study abroad, you no longer have to accumulate an exorbitant amount of student loans or pool in your parent's lifetime savings. In 2025, it is possible to study abroad as an Indian national and yet keep costs manageable. This blog details a list of countries that have some of the lowest costs of living across the world but who also house rising and accomplished educational infrastructure and employment opportunities.</p>
       
@@ -283,14 +342,14 @@ const BlogsData = [
       to explore how we can help you turn your international dreams into reality. Our experienced consultants are here to help!</p>
     </div>
   `,
-  author: "Uninxt Team",
-  date: "July 21, 2025"
-},
-{
-  id: 9,
-  image: Img6, // Replace with actual import
-  title: "The New Study Abroad Destinations In Town For Indian Students: Singapore, Ireland and Dubai",
-  description: `
+    author: "Uninxt Team",
+    date: "July 21, 2025"
+  },
+  {
+    id: 9,
+    image: Img6, // Replace with actual import
+    title: "The New Study Abroad Destinations In Town For Indian Students: Singapore, Ireland and Dubai",
+    description: `
     <div id="desc-9">
       <p>Going over some recent data, educational counselors and study abroad experts are now able to pinpoint a pattern. And this pattern is also why more and more Indian students are now choosing to pursue higher education in countries like Singapore, Dubai and Ireland. Traditional favorites like the US, UK and Australia have taken a backseat and are seeing declining numbers. On the other hand, countries like Singapore, Ireland and Dubai have come out as increasingly popular alternatives. This has directly contributed to a 38% increase in Indian student enrollment at universities in these countries.</p>
 
@@ -341,15 +400,15 @@ const BlogsData = [
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a></p>
     </div>
   `,
-  author: "Uninxt Team",
-  date: "May 15, 2025"
-},
+    author: "Uninxt Team",
+    date: "May 15, 2025"
+  },
 
   {
-  id: 8,
-  image: Img5, // Replace with actual image import
-  title: "Why Study in France? Here Are Some Top Universities to Target",
-  description: `
+    id: 8,
+    image: Img5, // Replace with actual image import
+    title: "Why Study in France? Here Are Some Top Universities to Target",
+    description: `
     <div id="desc-8">
       <p>In this article, let's talk about studying in France, one of the most picturesque and culturally sought-after countries in the world. However, France has so much more to offer—especially in education. For ambitious students seeking quality education with a rich cultural experience, France makes perfect sense.</p>
 
@@ -432,9 +491,9 @@ const BlogsData = [
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a></p>
     </div>
   `,
-  author: "Uninxt Team",
-  date: "May 9, 2025"
-},
+    author: "Uninxt Team",
+    date: "May 9, 2025"
+  },
 
   {
     id: 7,
@@ -492,7 +551,7 @@ const BlogsData = [
     date: "May 5, 2025"
   },
 
- {
+  {
     id: 1,
     image: "https://www.reachivy.com/wp-content/uploads/2017/07/Cultural-Diversity.jpg",
     title: "Coping with Cultural Differences Abroad: A Guide for International Students",
@@ -686,8 +745,8 @@ const BlogsData = [
     author: "Emily Davis",
     date: "September 2, 2022",
   },
- 
-  
+
+
 ];
 
 export default BlogsData;
