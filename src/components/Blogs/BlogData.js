@@ -10,8 +10,71 @@ import Img9 from "../../assets/blog/blog9.jpeg";
 import Img10 from "../../assets/blog/blog10.jpeg";
 import Img11 from "../../assets/blog/blog11.jpeg";
 import Img12 from "../../assets/blog/blog12.jpeg";
+import Img13 from "../../assets/blog/blog13.jpeg";
 
 const BlogsData = [
+  {
+    id: 16,
+    image: Img13, // Replace with actual import
+    title: "Common reasons for visa rejection and how to avoid it?",
+    description: `
+    <div id="desc-13">
+      <p>
+     Getting your student visa sanctioned is the final and most important step in your study abroad journey. Many students tend to disregard this decisive process. Perhaps, they think to themselves, “I’ve received an acceptance from the University of my dreams, what else matters now?” Yes, the most difficult part of your study abroad journey is behind you. But your visa acceptance or rejection can either make or break your long-dreamt dreams. </p> 
+    
+     <p>Visa rejections are more common than most people think they are. For instance, just last year, a record number of 253,355 student visas for international students were denied by consular officials worldwide. Here are 5 common reasons why your student visa may be rejected and ways to avoid them:
+
+      </p>
+      
+      <ol type='default'>
+        <li>
+        <h2><b>1) The consulate has an eagle’s eye:</b></h2> 
+        When it comes to your student visa application, even the seemingly meager details matter. Missing documents, inaccurate information and other errors in your application form can lead to immediate rejection. 
+        </br><b>How to avoid:</b>
+        Active your X-ray vision to combat the consular’s hawk-eye. Go over your visa application multiple times, in and out. Remember, until your visa acceptance, scrutiny is your best friend! 
+        </li>
+
+        <li>
+        <h2><b>2) The consulate cares about your bank balance:</b></h2> 
+        Visa officials review your financial records to ensure that you have the financial means to support yourself during your stay in the country. Moreover, if the official notices suspicious financial activity in your bank account, that's a different ball game altogether. This is why you must not break the bank prior to your visa application. 
+        </br><b>How to avoid:</b> 
+        Supplement your visa application with crystal-clear proof of your finances. Avoid making large or irregular deposits in your bank account. The last thing you want in your visa application is for the official to suspect that you may be up to something dubious. 
+        </li>
+       
+        <li>
+        <h2><b>3) The consulate wants you to come back:</b></h2> 
+        Your student visa is only valid for a stipulated period of 2-3 years. In other words, your visa is a temporary pass into the country. When you fail to map out a clear plan of return to your home country after the stipulated period, the visa official may come to believe that you intend to remain in the country for longer than you’re legally allowed to. 
+        </br><b>How to avoid:</b> 
+        Don't give the official any chances. Clearly delineate your course of action after completion of the program. Highlight job prospects and establish strong ties that lead back to your home country. 
+        </li>
+        
+        <li>
+        <h2><b>4) The consulate is putting you through a lie detector:</b></h2> 
+        Well, the consulate is not going to hook you to a lie detector in a literal sense. But they function the same way that a polygraph does. Remember that it is astonishingly easy for officials to ferret out any false information that you may provide. 
+        </br><b>How to avoid:</b> 
+        Do not lie to the officials at any cost. Do not attempt to attach false documents or incorrect information on your visa application. If false information is found on your visa application, it's immediate rejection. 
+        </li>
+        
+        <li>
+        <h2><b>5) The consulate’s last stop-your visa interview:</b></h2> 
+        Your visa interview is the final and decisive step in your study abroad journey. When you have checked all the boxes, the consulate makes their final decision based on your performance in the visa interview. Do not underperform or stutter during your visa interview. 
+        </br><b>How to avoid:</b> 
+        Appear confident and be familiar with the details you provided in your visa application including your financial documents and your SOP. Read <u style="color:blue;"><a target='blank' href='https://www.uninxt.com/post/understanding-the-visa-interview-process-for-the-usa'>this article</a></u> to understand the visa interview process for the USA in detail. 
+        </li>     
+
+      </ol>
+      <br/>
+      <p>For more personal guidance on visa application and processing, book a session with our professional counselors today. 
+      <br/>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </br>
+     </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "August 29, 2025"
+  },
   {
     id: 15,
     image: Img12, // Replace with actual import
