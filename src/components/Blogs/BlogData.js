@@ -11,19 +11,73 @@ import Img10 from "../../assets/blog/blog10.jpeg";
 import Img11 from "../../assets/blog/blog11.jpeg";
 import Img12 from "../../assets/blog/blog12.jpeg";
 import Img13 from "../../assets/blog/blog13.jpeg";
+import Img14 from "../../assets/blog/blog14.jpeg";
 
 const BlogsData = [
+  {
+    id: 17,
+    image: Img14, // Replace with actual import
+    title: "How to ace the IELTS Speaking Test?",
+    description: `
+    <div id="desc-17">
+      <p>
+        The IELTS (International English Language Testing System) is the most commonly attempted English-language test by students aspiring to pursue their higher education in English-speaking countries such as the USA, UK, Canada and Australia among others. The IELTS is segmented into four sub-tests, each assessing a basic skill: Listening, Reading, Writing and Speaking.
+      </p> 
+      <p>
+        For many students taking up the IELTS, with prior knowledge in English, the first three parts seem workable. But the fourth part, the speaking test, is what many students describe as being the toughest egg to crack. But in reality, there's no need to be afraid. With adequate practice and these 5 personalized tips, consider your IELTS speaking test aced. 
+      </p>
+      
+      <ol type='default'>
+        <li>
+        <b>Watch a mock interview:</b> Most things in life feel frightening when you look at it from the sidelines. Get into the ring and see what it is all about. This is when most people realize that things are not as scary as they seem. The first thing you must do to kickstart your prep for your IELTS speaking test is to watch a mock interview. Familiarize yourself with the pattern of the test. Not sure where to start? Check this channel on YouTube for bite-sized mock interviews and other helpful tips for your IELTS speaking test. You’d be surprised to know how doing something as simple as watching a mock interview can help ease some of your worries about the test. 
+        </li>
+
+        <li>
+        <b>Do a mock interview:</b> The next thing to do is attempt a mock interview by yourself. Invite a friend or a family member to pose as your examiner. Use a timer and try your best to replicate the test conditions in your original interview. Make sure to speak at a moderate pace. Don't hasten or hurry. Recording your mock interview and replaying it later can reveal areas of your speaking test that can benefit from more practice. But be sure to not pull yourself down if you don't like what you're seeing. It’s easy to be overly critical of yourself. Remember to take things one day at a time!
+        </li>
+       
+        <li>
+        <b>Watch out for fillers:</b> Fillers like ‘uh’, ‘um’ and ‘ah’, infiltrate our everyday speech automatically. But when you're seated in your speaking test room, the overuse of fillers can make you look nervous or underconfident when in reality, you aren't. Don't let these fillers undermine the things you want to tell your examiner. It is completely alright to pause briefly and collect your thoughts prior to answering a question.
+        </li>
+        
+        <li>
+        <b>Look good, feel better and do your best:</b> Well, the fillers we were talking about in the previous point are filler words. No, there is not a fifth segment of the IELTS test where your examiner will rate your outfit out of 10. In fact, the IELTS has nothing to do with anyone's outward appearance. But attending to your basic grooming and hygiene needs can help you feel better on the day of your interview. Put on your best formal clothes and spray a nice perfume. It’s all about what makes you feel more confident! 
+        </li>
+        
+        <li>
+        <b>Talk to a professional:</b> If you're still sweating bullets only thinking of going through the IELTS speaking test, we are here to help. At Uninxt, we’ve got all everything about the IELTS speaking test under one roof. Our certified and experienced trainers are offering real-time classes that you can tune into from anywhere in the world. We are also offering in-person coaching at our center in Gurugram 
+        </li>     
+
+      </ol>
+      <br/>
+      <p>
+      What’s on your mind? Do you want to take a mock speaking test? Have a query about a specific part of the test? Don't see where you’re going wrong? Our trained professionals at Uninxt have got you all covered with tips and strategies tailored for your unique needs.
+      </P>
+      <br/>
+      <p>
+      To help us understand your concerns better, book a free demo session today,
+      <br/>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </br>
+     </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "September 01, 2025"
+  },
   {
     id: 16,
     image: Img13, // Replace with actual import
     title: "Common reasons for visa rejection and how to avoid it?",
     description: `
-    <div id="desc-13">
+    <div id="desc-16">
       <p>
-     Getting your student visa sanctioned is the final and most important step in your study abroad journey. Many students tend to disregard this decisive process. Perhaps, they think to themselves, “I’ve received an acceptance from the University of my dreams, what else matters now?” Yes, the most difficult part of your study abroad journey is behind you. But your visa acceptance or rejection can either make or break your long-dreamt dreams. </p> 
+     Getting your student visa sanctioned is the final and most important step in your study abroad journey. Many students tend to disregard this decisive process. Perhaps, they think to themselves, “I’ve received an acceptance from the University of my dreams, what else matters now?” Yes, the most difficult part of your study abroad journey is behind you. But your visa acceptance or rejection can either make or break your long-dreamt dreams. 
+     </p> 
     
-     <p>Visa rejections are more common than most people think they are. For instance, just last year, a record number of 253,355 student visas for international students were denied by consular officials worldwide. Here are 5 common reasons why your student visa may be rejected and ways to avoid them:
-
+     <p>
+     Visa rejections are more common than most people think they are. For instance, just last year, a record number of 253,355 student visas for international students were denied by consular officials worldwide. Here are 5 common reasons why your student visa may be rejected and ways to avoid them:
       </p>
       
       <ol type='default'>
@@ -80,7 +134,7 @@ const BlogsData = [
     image: Img12, // Replace with actual import
     title: "How CBSE students can balance boards and building their international profile",
     description: `
-    <div id="desc-13">
+    <div id="desc-15">
       <p>
       For many students of the Central Board of Secondary Education (CBSE), aspiring to study overseas appears a far-fetched dream. In the midst of an already overcharged academic season with incoming board examinations, the pressure in the room is palpable. 
       However, the truth about studying overseas in 2025 is also imperative: international universities today want more than just high grade points. The centums in Math and Science mean little if you fail to present yourself as a well-rounded individual with interpersonal, technical as well as academic capabilities. But here's what most students don't realize: this isn't an either-or situation. You can outperform your peers in your board examinations and rightfully earn yourself a spot on your school’s roll of honor all while building the kind of profile that makes international admissions officers take notice of. All you need is a proactive attitude, the right strategy and the ability to manage your time.
@@ -138,7 +192,7 @@ const BlogsData = [
     image: Img11, // Replace with actual import
     title: "Schengen visa secrets: Here's what a diplomatic officer really looks for",
     description: `
-    <div id="desc-13">
+    <div id="desc-14">
       <p>Getting a Schengen visa can feel like solving a puzzle with missing pieces. While applicants often focus on gathering the right documents, a recent Reddit revelation from an experienced visa officer shows that the real game is far more complex than most people realize.
       </p>
       
