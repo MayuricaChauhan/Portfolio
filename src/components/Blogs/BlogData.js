@@ -31,19 +31,19 @@ const BlogsData = [
         <li>
         <b>Watch a mock interview:</b> Most things in life feel frightening when you look at it from the sidelines. Get into the ring and see what it is all about. This is when most people realize that things are not as scary as they seem. The first thing you must do to kickstart your prep for your IELTS speaking test is to watch a mock interview. Familiarize yourself with the pattern of the test. Not sure where to start? Check this channel on YouTube for bite-sized mock interviews and other helpful tips for your IELTS speaking test. You’d be surprised to know how doing something as simple as watching a mock interview can help ease some of your worries about the test. 
         </li>
-
+            </br>
         <li>
         <b>Do a mock interview:</b> The next thing to do is attempt a mock interview by yourself. Invite a friend or a family member to pose as your examiner. Use a timer and try your best to replicate the test conditions in your original interview. Make sure to speak at a moderate pace. Don't hasten or hurry. Recording your mock interview and replaying it later can reveal areas of your speaking test that can benefit from more practice. But be sure to not pull yourself down if you don't like what you're seeing. It’s easy to be overly critical of yourself. Remember to take things one day at a time!
         </li>
-       
+            </br>
         <li>
         <b>Watch out for fillers:</b> Fillers like ‘uh’, ‘um’ and ‘ah’, infiltrate our everyday speech automatically. But when you're seated in your speaking test room, the overuse of fillers can make you look nervous or underconfident when in reality, you aren't. Don't let these fillers undermine the things you want to tell your examiner. It is completely alright to pause briefly and collect your thoughts prior to answering a question.
         </li>
-        
+            </br>
         <li>
         <b>Look good, feel better and do your best:</b> Well, the fillers we were talking about in the previous point are filler words. No, there is not a fifth segment of the IELTS test where your examiner will rate your outfit out of 10. In fact, the IELTS has nothing to do with anyone's outward appearance. But attending to your basic grooming and hygiene needs can help you feel better on the day of your interview. Put on your best formal clothes and spray a nice perfume. It’s all about what makes you feel more confident! 
         </li>
-        
+            </br>
         <li>
         <b>Talk to a professional:</b> If you're still sweating bullets only thinking of going through the IELTS speaking test, we are here to help. At Uninxt, we’ve got all everything about the IELTS speaking test under one roof. Our certified and experienced trainers are offering real-time classes that you can tune into from anywhere in the world. We are also offering in-person coaching at our center in Gurugram 
         </li>     
