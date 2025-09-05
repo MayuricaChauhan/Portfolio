@@ -19,7 +19,7 @@ const HeroSection = () => {
         className="bg-white shadow-lg rounded-lg p-6 max-w-xl mx-auto animate-fade-in"
         data-aos="fade-up" // Add animation type here
       >
-        <h1>Mayurica Education – Expert Study Abroad Counseling & Visa Guidance</h1>
+        <h1 className="text-primary">Mayurica Education – Expert Study Abroad Counseling & Visa Guidance</h1> <br />
         <h2
           className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-1 flex items-center gap-2"
           data-aos="fade-up" // Add animation type here
