@@ -40,9 +40,6 @@ const BlogsData = [
       </ul>
       <br/>
       <p>If you're a recent graduate looking to jumpstart your business career, MiM offers immediate entry into management consulting, finance or corporate roles. MBA programs, on the other hand, cater to mid-career professionals who seek to move into leadership roles or kickstart their entrepreneurial ventures. Another important factor to consider is that MiM programs generally cost less due to their shorter duration and lower opportunity cost. You won't sacrifice years of salary like MBA students do. However, MBA graduates often command higher starting salaries and have access to more senior positions. Both programs offer valuable networking, but the nature differs. MiM connects you with peers starting their careers, while MBA circles include fairly established professionals from diverse industries and backgrounds.</p>
-      <p>
-      What’s on your mind? Do you want to take a mock speaking test? Have a query about a specific part of the test? Don't see where you’re going wrong? Our trained professionals at Uninxt have got you all covered with tips and strategies tailored for your unique needs.
-      </p>
       <br/>
       <h3><b>MBA or an MiM: Two things to note</b></h3>
       <p>If you are early in your career, or have no work experience but want to get into business administration and work your way up the corporate ladder, an MiM may be the right fit for you. On the other hand, if you are a working professional looking for career advancement, opportunities to network and to break free from the mundanity of your current job, an MBA may be the right fit for you.</p>
