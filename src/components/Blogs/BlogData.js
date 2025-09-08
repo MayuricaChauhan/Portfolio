@@ -12,8 +12,52 @@ import Img11 from "../../assets/blog/blog11.jpeg";
 import Img12 from "../../assets/blog/blog12.jpeg";
 import Img13 from "../../assets/blog/blog13.jpeg";
 import Img14 from "../../assets/blog/blog14.jpeg";
+import Img15 from "../../assets/blog/blog15.jpeg";
 
 const BlogsData = [
+  {
+    id: 18,
+    image: Img15, // Replace with actual import
+    title: "MiM vs MBA, which is better?",
+    description: `
+    <div id="desc-18">
+      <p>
+        For the millions of undergraduates who aspire to get into administration and allied careers such as finance, supply chain and marketing management, an MBA has proven to be the prime choice for years. And, for obvious reasons: it's lucrative and offers several electives and specializations. So, for the thousands that do get into the program out of a million aspirants, an MBA means business. More recently though, a newer program has riveted aspirants who were formerly headed for the good old MBA. The increasing popularity of a Master in Management(MiM) has opened up new opportunities for graduates. For students hoping to venture into managerial and administrative careers, an MBA and an MiM are two options worth considering. Both degrees offer distinctive opportunities that are a class of their own. Here are a few key differences between an MBA and an MiM:
+      </p> 
+      
+     <ul style="list-style-type:disc;padding-left: 50px;">
+        <li><b>Entry:</b> An MIM is typically aimed at recent graduates. Therefore, students with little to no work experience may also get into the course. In contrast, an MBA is aimed at professionals with at least a few years of work experience. Executive MBA programs, for instance, are specifically aimed at professionals with work experience ranging between 5-10 years.</li>
+        <br>
+        <li><b>Curriculum:</b> MiM is a 1-year long program whose curriculum is built on more theoretical knowledge of varied business disciplines such as marketing, finance, supply chain management and healthcare administration. Many programs include internships or practical projects. An MBA is a 2-year program whose curriculum is built on more practical aspects of business. The curriculum is broader and includes leadership, advanced finance, entrepreneurship and global business.</li>
+        <br>
+        <li><b>Job roles:</b> MiM graduates go on to take up roles such as business analysts, marketing associates, financial analyst or corporate consultants among others. Om MBA graduates often venture into managerial and senior-level positions such as project supervisors, marketing managers, and operation heads.</li>
+        <br>
+        <li><b>Pay scale:</b> Entry-level salaries of MiM graduates in India range anywhere between 5-8 lakhs per annum. While the initial pay scale may be lower than MBA graduates, who may make 8-15 lakhs per annum, there is significant room for growth as individuals climb the corporate ladder.</li>
+        <br>
+        <li><b>Recognition:</b> The MiM was first introduced in European business schools and continues to be widely recognised in several countries in Europe. However, globally, a MiM is still less established than an MBA. The USA, which is home to some of the most acclaimed business schools in the world, recognized an MBA degree more widely. While an MBA continues to dominate the global arena, the brand value and recognition of an MiM degree is steadily growing. </li>
+        <br>
+        <li><b>Top recruiters:</b> MBA graduates from top business schools such as Harvard, Stanford Wharton, INSEAD, and London Business School (LBS) have been recruited by leading companies in America and Asia such as Amazon, Google, Microsoft, McKinsey and JP Morgan among others. On the other hand, MiM graduates from business schools such as HEP Paris and ESCP Business school have been recruited by top consulting firms such as McKinsey, BCG and Roland Berger among others. Graduates in MiM go on to find plenty of employment opportunities in European countries such as France, Germany, Netherlands and the UK.</li>
+      </ul>
+      <br/>
+      <p>If you're a recent graduate looking to jumpstart your business career, MiM offers immediate entry into management consulting, finance or corporate roles. MBA programs, on the other hand, cater to mid-career professionals who seek to move into leadership roles or kickstart their entrepreneurial ventures. Another important factor to consider is that MiM programs generally cost less due to their shorter duration and lower opportunity cost. You won't sacrifice years of salary like MBA students do. However, MBA graduates often command higher starting salaries and have access to more senior positions. Both programs offer valuable networking, but the nature differs. MiM connects you with peers starting their careers, while MBA circles include fairly established professionals from diverse industries and backgrounds.</p>
+      <p>
+      What’s on your mind? Do you want to take a mock speaking test? Have a query about a specific part of the test? Don't see where you’re going wrong? Our trained professionals at Uninxt have got you all covered with tips and strategies tailored for your unique needs.
+      </p>
+      <br/>
+      <h3><b>MBA or an MiM: Two things to note</b></h3>
+      <p>If you are early in your career, or have no work experience but want to get into business administration and work your way up the corporate ladder, an MiM may be the right fit for you. On the other hand, if you are a working professional looking for career advancement, opportunities to network and to break free from the mundanity of your current job, an MBA may be the right fit for you.</p>
+      <p>
+      We are committed to helping more students and professionals find the right careers for themselves. For more personal guidance, book a session with us today.
+      <br/>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </br>
+     </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "September 08, 2025"
+  },
   {
     id: 17,
     image: Img14, // Replace with actual import
