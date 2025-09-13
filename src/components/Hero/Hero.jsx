@@ -1,7 +1,6 @@
-import yellowCar from "../../assets/website/mam.jpg";
+import yellowCar from "../../assets/website/logo.png";
 
 const Hero = () => {
-
   return (
     <div id = "about" className="dark:bg-gray-950 dark:text-white duration-300 ">
       <div className="container min-h-[620px] flex mt-10 sm:mt-0">
