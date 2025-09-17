@@ -13,8 +13,62 @@ import Img12 from "../../assets/blog/blog12.jpeg";
 import Img13 from "../../assets/blog/blog13.jpeg";
 import Img14 from "../../assets/blog/blog14.jpeg";
 import Img15 from "../../assets/blog/blog15.jpeg";
+import Img16 from "../../assets/blog/blog16.jpeg";
 
 const BlogsData = [
+  {
+    id: 19,
+    image: Img16, // Replace with actual import
+    title: "Everything you need to know about pursuing an MBBS in Kyrgyzstan",
+    description: `
+    <div id="desc-19">
+      <p>
+        This blog, as the name suggests, is an exhaustive and brief guide for medical aspirants. However, even before we get into the details, chances are that you are unaware of the existence of a country with such a name. But don't sweat it, you are not the only one. Half of the student population in India  have likely never heard of Kyrgyzstan. And this is perhaps why this promising country has seen so little enrollment into its programs. The country is one of the easiest to get into and also among the most affordable for the average Indian student.
+      </p> 
+      <p>
+      If you are a student dreaming of a medical career in 2025, you know that choosing where to study can make or break your future. Kyrgyzstan, a nation in Central Asia, has quietly attracted international medical students over the past few years. But today, we're letting the cat out of the bag. Here's everything you need to know about pursuing your MBBS degree in Kyrgyzstan.
+      </p>
+     
+      <h2><b>Kyrgyzstan makes financial sense</b></h2>
+      <p>
+    As is the case with most international study abroad destinations that are up and coming, Kyrgyzstan is a courteous and humble country that is hardly flashy in its offerings. The number of Indian students who enrol themselves into medical programs across the country is steadily increasing. This is the single most affirmative proof of the possibilities that the country is offering for Indian students on a tight financial budget. While private medical colleges in India can drain your savings, Kyrgyzstan acknowledged the fact that your dreams don't have to go bankrupt. The country is offering medical programs at a fraction of the cost of a similar program back in India.
+    </p>
+    <p>
+    Annual tuition in the country ranges anywhere between INR 15 lakhs to INR 30 lakhs for a 5 year degree in the country. When you compare this to Indian private institutions charging upwards of INR 50-80 lakhs, the savings become impossible to ignore. Yet the quality of education remains competitive with international standards.
+    </p>
+    
+    <h2><b>Getting in: What you need to know</b></h2>
+    <p>
+    The admission requirements are straightforward. You'll need to have completed your 12th grade with at least 50% in Physics, Chemistry and Biology. Indian students must clear NEET and the minimum age requirement is 17 years. Most universities in the country offer two major intake periods annually, falling in February and September respectively. The admission process is less competitive than many other countries and since most programs are taught in English, students do not have to worry about lingual barriers. The local culture is also highly receptive and welcoming to international students.
+    </p>
+
+    <h2><b>Top medical universities worth considering in Kyrgyzstan</b></h2>
+    <p>
+    Several Kyrgyz institutions have earned international recognition and approval from bodies like the National Medical Commission (NMC), World Health Organization (WHO) and FAIMER. Here are some prominent ones with a notable presence of Indian students:
+    </p>
+     <ul style="list-style-type:disc;padding-left: 50px;">
+        <li>Kyrgyz State Medical Academy</li>
+        <li>International School of Medicine (ISM), Bishkek</li>
+        <li>Jalal-Abad State Medical University</li>
+        <li>Osh State University</li>
+        <li>Asian Medical Institute</li>
+      </ul>
+      <br/>
+      <p>
+      The MBBS program spans six years with the final year dedicated to a compulsory internship. The first five years covers everything from basic anatomy and physiology, surgery, pediatrics and forensic medicine among others. The internship year is where students get to test their learning in practicality. Students work in actual hospital settings and benefit from experience that prepares them for medical practice anywhere in the world.
+      </p>
+      
+      <p>If you're an Indian student who is open to taking on the rewarding challenge of studying abroad and adapting to an entirely new environment, Kyrgyzstan is a country worth flying to in pursuit of your white cost dreams. However, you don't have to take the lead alone. To learn more about pruning and the MBBS programs in Kyrgyzstan,
+      <br/>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </br>
+     </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "September 17, 2025"
+  },
   {
     id: 18,
     image: Img15, // Replace with actual import
