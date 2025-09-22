@@ -14,8 +14,49 @@ import Img13 from "../../assets/blog/blog13.jpeg";
 import Img14 from "../../assets/blog/blog14.jpeg";
 import Img15 from "../../assets/blog/blog15.jpeg";
 import Img16 from "../../assets/blog/blog16.jpeg";
+import Img17 from "../../assets/blog/blog17.jpeg";
 
 const BlogsData = [
+  {
+    id: 20,
+    image: Img17, // Replace with actual import
+    title: "5 Things International Students Miss Close to Taking Off for Their International University Abroad",
+    description: `
+    <div id="desc-20">
+      <p>
+       With lakhs of Indian international students worldwide and September intake season approaching, thousands of students, as we speak, are finalizing their last-minute preparations for university abroad. As admissions offices across the globe welcome their largest annual cohorts, we've explored things that many students tend to miss in the critical final weeks just before departure. 
+      </p> 
+      <p>
+      Based on feedback from our international student community and pre-departure surveys, here are five key aspects that students frequently overlook in their preparation checklists but later identify as significant adjustments during their transition abroad.
+      </p>
+     <br/>
+      
+     <ol style="list-style-type:number;padding-left: 50px;">
+       <b> <li>Learning to cook</li></b>
+        <p>As elementary as it may seem, the single most persistent woe from international students is with regard to challenges in accessing familiar foods during their first semester abroad. Students consistently report underestimating how much they would miss home-cooked meals and specific dietary preferences from their culture. Therefore, pre-departure, students will benefit from jotting down family recipes with precise measurements and ingredient alternatives as available in your destination country. Research local grocery stores and international food markets near your campus. Consider packing essential spices or condiments that may be expensive or unavailable abroad. Many successful students also arrange care packages with family members or identify online retailers that ship to their university location.</p>
+       <b> <li>Language support resources and translation</li> </b>
+       <p>Even students with the most advanced English proficiency often encounter some language barriers in the beginning. University counseling services report that more than half of all international students experience communication anxiety during their first term, particularly in classroom discussions and administrative interactions. To combat this, we'd suggest students to fownload offline translation apps and dictionary tools. Familiarize yourself with academic terminology specific to your field of study. Practice phone conversations in English, as this skill differs significantly from face-to-face communication. Connect with current students from your country through university social media groups to understand common language challenges. Consider enrolling in your university's English support services before classes begin.</p>
+       <b><li>Building your network</li></b>
+       <p>University data shows that students who build social connections within their first two months of arrival have higher satisfaction rates and improved academic performance. However, many from incoming international student cohorts often report feeling unprepared for the social aspects of university life. Before you fly, it helps to research student clubs, societies and international student organizations at your university. Join incoming student social media groups and introduce yourself before arrival. Understand cultural norms around socializing in your destination country. Plan to attend orientation events and freshman activities, even if they seem intimidating. Consider joining sports teams, volunteer groups or academic societies related to your interests to meet like-minded peers.</p>
+        <b><li>Familiarize yourself with the local region</li></b>
+        <p>Many students underestimate the time needed to locate essential services and understand local transportation systems in their locality. This turns the first few weeks of arrival into a stressful and unpleasant affair rather than the sweet beginning of a new journey. Students can use Google Street View to familiarize themselves with campus and surrounding areas. Identify the nearest hospital, pharmacy, grocery store and bank branches. Download local transportation apps and understand fare systems. Research weather patterns and appropriate clothing needs. Locate the nearest embassy or consulate from your home country. Create a digital map of important locations and save offline copies on your phone.</p>
+        <b><li>Emergency contacts and independent problem-solving</li></b>
+        <p>While family support remains important, students who build independent problem-solving strategies see themselves as more confident and therefore better adapt to life overseas. Students must build a comprehensive emergency contact list including university support services, local emergency numbers and insurance information. Practice basic problem-solving scenarios like reporting maintenance issues, understanding bills, or handling minor medical situations. Set up international banking and understand currency exchange. Learn your university's student support system structure and available resources. Establish regular check-in schedules with family that don't create dependency for daily decisions.</p>
+      </ol>
+      <br/>
+      <p>
+      Just before departure, taking care of these five preparation areas will help you adapt much quicker when you arrive in the country of your dreams. Remember that you are not alone in this adventure and that every international student before you has faced these same challenges and come out as stronger and more independent individuals. The effort you put into preparation now will pay dividends in the relationships you build, the experiences you have and the person you become. Safe travels and we'll see you soon.
+      </p>
+      <br/>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </br>
+     </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "September 22, 2025"
+  },
   {
     id: 19,
     image: Img16, // Replace with actual import
