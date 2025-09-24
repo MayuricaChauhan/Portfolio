@@ -73,12 +73,12 @@ const App = () => {
             <>
               <Carousel slides={slides} />
               <HeroSection />
+              <Certificates />
               <Hero />
               <SummerCamp />
               <AppointmentPage/>
               <Services />
               <br /><br />
-              <Certificates />
               <Testimonial />
               <BlogsComp />
             

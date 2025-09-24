@@ -7,3 +7,30 @@
   letter-spacing: normal !important;
   text-align:left;
 }
+@media screen and (max-width: 460px) {
+  .certifications-section {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .certifications-section {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .certifications-section {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .certifications-section {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 260px) {
+  .certifications-section {
+    margin-top: 250px;
+  }
+}
