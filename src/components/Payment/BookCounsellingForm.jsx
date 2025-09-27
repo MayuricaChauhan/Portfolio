@@ -16,8 +16,8 @@ export default function BookCounsellingForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Form data backend ya Brevo API ko bhejna hai
-    navigate("/payment"); // pehle payment page par bhejenge
+    // ✅ Navigate ke sath formData bhej rahe hain
+    navigate("/payment", { state: formData });
   };
 
   return (

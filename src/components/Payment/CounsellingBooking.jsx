@@ -1,16 +1,42 @@
 import { useState } from "react";
-import qrImage from "../Payment/PaymentQR.jpeg"; // aapka QR code image yaha import karein
+import { useLocation } from "react-router-dom";
+import qrImage from "../Payment/PaymentQR.jpeg";
 
 export default function PaymentPage() {
+  const location = useLocation();
+  const customerData = location.state; // ✅ { name, email, phone }
+
   const [confirmed, setConfirmed] = useState(false);
   const [transactionId, setTransactionId] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const canProceed = confirmed && transactionId.trim() !== "";
+
+  const handleProceed = async () => {
+    setLoading(true);
+    try {
+      await fetch("http://localhost:5000/send-confirmation", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          transactionId,
+          customerData,
+        }),
+      });
+
+      // ✅ Redirect after email
+      window.location.href =
+        "https://educationandcareercounsellor.zohobookings.in/#/educationandcareercounsellor";
+    } catch (error) {
+      alert("❌ Failed to send email. Try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-yellow-50 p-6">
       <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-2xl text-center border-2 border-yellow-300">
-        {/* Heading */}
         <h2 className="text-2xl font-bold text-gray-900 mb-2">
           Complete Your Payment
         </h2>
@@ -42,35 +68,19 @@ export default function PaymentPage() {
             <h3 className="text-lg font-semibold mb-3 text-gray-800">
               Pay via Bank Transfer
             </h3>
-            <p>
-              <span className="font-semibold">Account Holder:</span> Mayurica
-              Chauhan
-            </p>
-            <p>
-              <span className="font-semibold">Account Number:</span> 418401503544
-            </p>
-            <p>
-              <span className="font-semibold">Bank:</span> ICICI Bank
-            </p>
-            <p>
-              <span className="font-semibold">Branch:</span> Bestech Business
-              Tower, Gurugram
-            </p>
-            <p>
-              <span className="font-semibold">IFSC:</span> ICIC000418
-            </p>
-            <p>
-              <span className="font-semibold">Amount:</span> ₹499
-            </p>
+            <p><b>Account Holder:</b> Mayurica Chauhan</p>
+            <p><b>Account Number:</b> 418401503544</p>
+            <p><b>Bank:</b> ICICI Bank</p>
+            <p><b>Branch:</b> Bestech Business Tower, Gurugram</p>
+            <p><b>IFSC:</b> ICIC000418</p>
+            <p><b>Amount:</b> ₹499</p>
           </div>
         </div>
 
-        {/* Note */}
         <p className="text-sm text-gray-500 mb-4">
           After payment, please enter your Transaction ID and confirm to proceed.
         </p>
 
-        {/* Transaction ID Input */}
         <input
           type="text"
           placeholder="Enter Transaction ID (required)"
@@ -79,7 +89,6 @@ export default function PaymentPage() {
           className="w-full p-2 border rounded-lg mb-4 text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400"
         />
 
-        {/* Checkbox Confirmation */}
         <div className="flex items-center justify-center gap-2 mb-6">
           <input
             type="checkbox"
@@ -93,13 +102,9 @@ export default function PaymentPage() {
           </label>
         </div>
 
-        {/* Direct Redirect Button */}
         <button
-          onClick={() =>
-            (window.location.href =
-              "https://educationandcareercounsellor.zohobookings.in/#/educationandcareercounsellor")
-          }
-          disabled={!canProceed}
+          onClick={handleProceed}
+          disabled={!canProceed || loading}
           className={`px-6 py-2 rounded-lg shadow-md font-semibold transition 
             ${
               canProceed
@@ -107,7 +112,7 @@ export default function PaymentPage() {
                 : "bg-gray-300 text-gray-600 cursor-not-allowed"
             }`}
         >
-          Proceed to Book Slot
+          {loading ? "Sending..." : "Proceed to Book Slot"}
         </button>
       </div>
     </div>
