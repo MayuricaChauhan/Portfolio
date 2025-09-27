@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import qrImage from "../Payment/PaymentQR.jpeg";
 
+
+
 export default function PaymentPage() {
   const location = useLocation();
   const customerData = location.state; // ✅ { name, email, phone }
@@ -12,27 +14,32 @@ export default function PaymentPage() {
 
   const canProceed = confirmed && transactionId.trim() !== "";
 
-  const handleProceed = async () => {
-    setLoading(true);
-    try {
-      await fetch("http://localhost:5000/send-confirmation", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          transactionId,
-          customerData,
-        }),
-      });
+ const handleProceed = async () => {
+  setLoading(true);
+  try {
+    await fetch("http://localhost:5000/send-confirmation", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        transactionId,
+        customerData: {
+          name: customerData?.name,   // ✅ correct
+          email: customerData?.email,
+          phone: customerData?.phone,
+        },
+      }),
+    });
 
-      // ✅ Redirect after email
-      window.location.href =
-        "https://educationandcareercounsellor.zohobookings.in/#/educationandcareercounsellor";
-    } catch (error) {
-      alert("❌ Failed to send email. Try again.");
-    } finally {
-      setLoading(false);
-    }
-  };
+    // ✅ Redirect after email
+    window.location.href =
+      "https://educationandcareercounsellor.zohobookings.in/#/educationandcareercounsellor";
+  } catch (error) {
+    alert("❌ Failed to send email. Try again.");
+  } finally {
+    setLoading(false);
+  }
+};
+
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-yellow-50 p-6">

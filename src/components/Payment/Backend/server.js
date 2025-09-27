@@ -26,32 +26,45 @@ app.post("/send-confirmation", async (req, res) => {
   const { transactionId, customerData } = req.body;
   const { name, email, phone } = customerData;
 
+  if (!transactionId || !email) {
+    return res.status(400).json({ success: false, message: "Missing details" });
+  }
+
   try {
+    // Send mail
     let info = await transporter.sendMail({
       from: process.env.ZOHO_USER,
-      to: email,
-      cc: process.env.ZOHO_USER,
-      subject: "Counselling Session Confirmation",
+      to: email, // customer ka email
+      cc: process.env.ZOHO_USER, // tumhe bhi copy milegi
+      subject: "Counselling Session Payment Received",
       text: `Hello ${name},
 
-We have received your payment successfully.
+We have received your payment request.
+
 Transaction ID: ${transactionId}
 Phone: ${phone}
+Email: ${email}
 
-We will check the payment details and confirm your counselling session shortly.
-After confirmation, please proceed to fill in your details here:
+We will verify the payment and confirm your counselling session shortly.
+After confirmation, please complete your booking details here:
 👉 https://educationandcareercounsellor.zohobookings.in/#/educationandcareercounsellor
 
 Thank you!`,
     });
 
     console.log("✅ Email sent:", info.messageId);
+
+    // ✅ Tum yaha DB (MongoDB/MySQL/JSON file) me save kar sakte ho
+    // Example ke liye:
+    // fs.appendFileSync("payments.json", JSON.stringify({ name, email, phone, transactionId }) + "\n");
+
     res.json({ success: true });
   } catch (error) {
     console.error("❌ Email Error:", error);
     res.status(500).json({ success: false, error: error.message });
   }
 });
+
 
 // ✅ Start server
 const PORT = 5000;
