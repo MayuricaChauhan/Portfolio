@@ -15,8 +15,62 @@ import Img14 from "../../assets/blog/blog14.jpeg";
 import Img15 from "../../assets/blog/blog15.jpeg";
 import Img16 from "../../assets/blog/blog16.jpeg";
 import Img17 from "../../assets/blog/blog17.jpeg";
+import Img18 from "../../assets/blog/blog18.jpeg";
 
 const BlogsData = [
+  {
+    id: 21,
+    image: Img18, // Replace with actual import
+    title: "Moving abroad is tough. Here's how you can take care of your mental well-being.",
+    description: `
+    <div id="desc-21">
+      <p>
+       When young students within the age group of 17-22 make the exciting and yet nerve-wracking call to move overseas in pursuit of newer, better opportunities for themselves, it can be difficult to cope. Specifically, the first few months after arrival are the most challenging. A new country, a strange culture and perhaps a language or an accent you don't make sense of just yet. Well, the good news is that it gets better, substantially. 
+      </p> 
+      <p>
+      The beginning of the road is bumpy and makes many students wonder if they made the right decision in choosing to leave their hometowns behind. Many are convinced they would have been better off at home. These are all common thoughts to have when you fly overseas for your education. Far from home, shifting to a new culture, lifestyle, and expectations can weigh heavily on your mind. At UniNxt, we understand that mental health is an inextricable part of your study abroad journey. When students are not supported during tough times, their mental health takes an obvious toll.
+      </p>
+     <br/>
+    
+     <b><h2>This is why students mental well-being cannot be overlooked</h2></b>
+      <p>It is normal to feel afraid, worried and have jitters as you prepare to move abroad and upon arrival. It is important to know when your feelings are pulling you down. Recent research highlights a worrying trend: mental health struggles are common among students worldwide and Indian students, in particular, are especially prone to struggling with their mental health.</p> 
+      <p>When you leave familiar support networks, homesickness can result in loneliness or anxiety. Research on international students in Australia, a popular study destination, estimates anxiety rates between 2.4% and 43%, depressive symptoms in up to 38%, and up to 65% suffer from isolation. Many Indian students face stigma around discussing mental health, which delays seeking help.</p>
+    <br/>
+    
+    <b><h2>How universities abroad are offering support</h2></b>
+     <p>Thankfully, universities globally are increasingly recognizing these challenges and have adapted their mental health services. Recognizing that stress doesn’t follow a 9-to-5 schedule, many universities offer 24/7 helplines, online therapy options and immediate crisis intervention. This around-the-clock availability makes help reachable even in the toughest moments. Academic advisors and student services work in tandem to spot early signs of distress and connect students quickly with counselors.</p>
+    <br/>
+
+    <b><h2>What Indian students should look for before applying</h2></b>
+    <p>No one is prone to mental health challenges. Even the most committed and passionate students have weak moments of self-doubt, homesickness and loneliness. There is no shame in admitting the fact that you need help with your mental health. 
+
+Therefore, while choosing a University, look for institutions that have a  network of student communities. Search for student health services. As study abroad partners, we encourage our applicants to think and prepare beyond paperwork and lectures. When selecting universities, make note of their mental health resources sharply. 
+</p>
+
+    <p>Here are some things to ponder upon when choosing your University:</p>
+     <ul style="list-style-type:disc;padding-left: 50px;">
+      <li>Does my University have dedicated international student mental health services?</li>    
+      <li>Are there peer support groups or mentorship programs? </li>
+      <li>Are there any resources provided to help with homesickness, academic stress or social adjustment? </li>
+      </ul>
+      <br/>
+      
+      <b><h2>Why this support matters</h2></b>
+      <p>
+      Your mental health impacts essentially every other part of your study abroad journey. With a healthy mind, you feel motivated to make the best out of the resources awarded to you during your time here. When you're confident about your capabilities, you talk to people easily, build yourself into communities and start meaningful initiatives of your own.
+      </p>
+      <p>
+      It is heartening that universities and educational bodies are now dedicating more resources to student well-being with every passing year. If you have questions about finding schools with excellent mental health support or want advice on preparing mentally for the journey, reach out to us. Book a session with us today and let's find the right University for you.
+      </p>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      
+     </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "September 27, 2025"
+  },
   {
     id: 20,
     image: Img17, // Replace with actual import
