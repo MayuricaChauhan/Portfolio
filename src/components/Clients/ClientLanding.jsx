@@ -13,10 +13,10 @@ const ClientLanding = () => {
           Personalized career guidance, international admissions support, and expert counselling — everything you need to shape a successful academic future.
         </p>
         <Link
-          to='/payment'
+          to='/book'
           className="bg-primary hover:bg-violet-800 text-white font-semibold py-3 px-8 rounded-lg transition duration-300"
         >
-          Book Your Free Counselling Session
+          Book Your Counselling Session
         </Link>
       </section>
 

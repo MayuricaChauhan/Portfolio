@@ -33,7 +33,9 @@ import USA from "./components/SummerCamp/USA";
 import UK from "./components/SummerCamp/UK";
 import Dubai from "./components/SummerCamp/Dubai";
 import ClientLanding from "./components/Clients/ClientLanding.jsx";
+import BookCounsellingForm from "./components/Payment/BookCounsellingForm.jsx";
 import CounsellingBooking  from "./components/Payment/CounsellingBooking.jsx"
+
 
 const App = () => {
   const slides = [
@@ -103,6 +105,8 @@ const App = () => {
           <Route path="/uk" element={<UK />} />
           <Route path="/dubai" element={<Dubai />} />
           <Route path="/clients" element={<ClientLanding/>} />
+          
+          <Route path="/book" element={<BookCounsellingForm />} />
           <Route path="/payment" element={<CounsellingBooking />} />
 
         </Routes>
