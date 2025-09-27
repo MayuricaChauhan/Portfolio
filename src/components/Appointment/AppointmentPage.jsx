@@ -52,7 +52,7 @@ function AppointmentPage() {
 
       <footer className="footer">
         <p>Your journey to academic excellence begins with a single step.</p>
-        <a href="https://educationandcareercounsellor.zohobookings.in/#/educationandcareercounsellor" className="book-session">Book Your Session Now</a>
+        <a href="/book" className="book-session">Book Your Session Now</a>
       </footer>
     </div>
   );
