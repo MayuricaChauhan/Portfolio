@@ -17,8 +17,44 @@ import Img16 from "../../assets/blog/blog16.jpeg";
 import Img17 from "../../assets/blog/blog17.jpeg";
 import Img18 from "../../assets/blog/blog18.jpeg";
 import Img19 from "../../assets/blog/blog19.jpeg";
+import Img20 from "../../assets/blog/blog20.jpeg";
 
 const BlogsData = [
+  {
+    id: 23,
+    image: Img20, // Replace with actual import
+    title: "New Zealand's Ambitious Bet: Doubling Its International Education Market by 2034",
+    description: `
+    <div id="desc-23">
+      <p>
+       The most sought-after countries to study overseas have tightened the screws on their doors. It's not harder to get in and get out. Certainly, this is no new headline. The USA and the UK have made it more challenging for Indian students to pursue international education within their borders. What is interesting here is the fact that despite this, the UK saw the most number of visa approvals from Indian students in the past year. As a matter of fact, the acceptance rate for the UK is at a commendable 96%, the highest for Indian-origin students. 
+      </p> 
+      <p>
+      As we speak, the United States of America, despite having introduced some significant changes in its enrolment and visa processes, still holds a coveted spot on the rankings. The country saw a record high enrolment of over 3 lakh Indian students in 2023. However, between August 2024 and August 2025, this number seems to have hit another record high: a whopping fall of 44.5%. In illustration, this means an average enrolment of 74,000 students dipped to 41,000, all within a year. That's almost half of all international students ditching the American dream, a pattern that the international education space has never encountered or even anticipated.  
+      </p>
+     <br/>
+    
+     <b><h2>Every cloud has a silver lining.</h2></b>
+      <p>The Trump administration-led government may have tightened its doors, but many other governments from around the world are throwing them wide open. New Zealand is a country worth exploring. In July 2025, the government announced its International Education Going for Growth Plan. The key proponent of this plan is to add to its existing wealth of international talent in education and employment. The country hopes to achieve a target of NZ$7.2 billion in contribution to the country's economy by 2034. On this note, the government now aims to facilitate this by encouraging more international students to enrol in institutions in the country. This is good news for the country, as universities in the vicinity faced a dip in enrolments since the pandemic. The plan now is steadily putting the country back towards enrolment levels that it saw pre-pandemic. The timing cannot get any better; New Zealand is rightfully capitalising on unprecedented changes in global education patterns.</p>
+    <br/>
+    
+    <b><h2>What's changing for international students?</h2></b>
+     <p>To make this vision a reality in the near future, New Zealand is now sweetening the deal considerably. Starting 3 November 2025, eligible student visa holders will be allowed to work 25 hours per week during their studies, an increase from the current limit of 20 hours. While this might seem like a minimal increase, in perspective, it can mean potentially 25% more earning potential for students juggling living costs in larger cities like Auckland and Wellington. The government is also extending work rights to all tertiary students in approved exchange or study abroad programmes, including those attending for just one semester. This student demographic was previously excluded from these work entitlements, making short-term study options less financially viable.</p>
+    <br/>
+
+    <b><h2>What this can mean for you</h2></b>
+    <p>
+    If you're an Indian student weighing your options, New Zealand's offerings – increased work hours, better financial flexibility and more opportunities for practical work – make it a destination worth exploring. For those in the hospitality, retail, or tech sectors, these hours can all make the difference between living in constant financial worry or comfortably.  ENZ Chief Executive Amanda Malu sees international education as more than economics. "International education fuels innovation, boosts our economy, creates business opportunities, and delivers essential cross-cultural skills for a more connected world," Malu says. This broader vision has prompted New Zealand to look at international students as contributors rather than as simply temporary consumers of its resources. For students seeking holistic education with varied work opportunities and a stable policy environment, New Zealand's ambitious bet might just pay off for everyone involved.</p>
+    
+    <p>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>  
+    </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "October 06, 2025"
+  },
   {
     id: 22,
     image: Img19, // Replace with actual import
