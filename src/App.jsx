@@ -35,6 +35,7 @@ import Dubai from "./components/SummerCamp/Dubai";
 import ClientLanding from "./components/Clients/ClientLanding.jsx";
 import BookCounsellingForm from "./components/Payment/BookCounsellingForm.jsx";
 import CounsellingBooking  from "./components/Payment/CounsellingBooking.jsx"
+import TrainingFeeTable from "./components/TrainingFeeTable/TrainingFeeTable.jsx"
 
 
 const App = () => {
@@ -87,6 +88,7 @@ const App = () => {
             
               <Chatbot />
               <FAQ />
+              <TrainingFeeTable/>
             </>
           } />
           <Route path="/blog/:blogId" element={<BlogDetail />} />
@@ -105,9 +107,9 @@ const App = () => {
           <Route path="/uk" element={<UK />} />
           <Route path="/dubai" element={<Dubai />} />
           <Route path="/clients" element={<ClientLanding/>} />
-          
           <Route path="/book" element={<BookCounsellingForm />} />
           <Route path="/payment" element={<CounsellingBooking />} />
+          
 
         </Routes>
         <Footer />
