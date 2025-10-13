@@ -18,8 +18,77 @@ import Img17 from "../../assets/blog/blog17.jpeg";
 import Img18 from "../../assets/blog/blog18.jpeg";
 import Img19 from "../../assets/blog/blog19.jpeg";
 import Img20 from "../../assets/blog/blog20.jpeg";
+import Img21 from "../../assets/blog/blog21.jpeg";
 
 const BlogsData = [
+  {
+    id: 24,
+    image: Img21, // Replace with actual import
+    title: "Top US Universities Offering Substantial Scholarships",
+    description: `
+    <div id="desc-24">
+      <p>
+       If you have been conditioned to believe that it is only Ivy League institutions that offer partial or full financial aid for international students, we're glad to prove you wrong with this article. Contrary to popular belief, there are plenty of tier one and tier two institutions in the States that offer generous financial support for promising candidates. These Universities offer all kinds of scholarships including those that are merit-based as well as need-based assistance. With many educational institutions in the United States committed to making the best of higher education attainable for qualified students from a diversity of socio-economic and cultural backgrounds from around the world, here's a comprehensive guide to some Universities that are known for their generous financial support.
+      </p> 
+     <br/>
+    
+     <b><h2>Types of Scholarships Available in US Universities</h2></b>
+     <ul style="list-style-type:disc;padding-left: 50px;">
+     <li><b>Merit-Based Scholarships:</b> Merit-based scholarships are awarded primarily on the basis of previously demonstrated academic achievement. These may also take into account leadership qualities, community service and other specific talents.</li>
+     <li><b>Need-Based Financial Aid:</b> Need-based aid is one that is largely determined by an individual student's financial circumstances. The primary aim is to make education accessible regardless of economic background.</li>
+     <li><b>Athletic Scholarships:</b> Many US universities offer athletic scholarships to talented student-athletes who represent the institution in various sports on regional, state and national levels.</li>
+     <li><b>Diversity and Inclusion Scholarships:</b> These scholarships are exclusively offered to increase diversity and representation on campus and support the aspirations of underrepresented student populations.</li>
+     </ul>
+    <br/>
+    
+    <b><h2>Non-Ivy League Universities Offering Scholarships</h2></b>
+    <ol style="list-style-type:number;padding-left: 50px;">
+    <li>Northwestern University</li>
+    <li>Duke University</li>
+    <li>Vanderbilt University</li>
+    <li>Carnegie Mellon University</li>
+    <li>Johns Hopkins University</li>
+    <li>University of California System</li>
+    <li>University of Michigan</li>
+    <li>University of Virginia</li>
+    <li>University of Texas at Austin</li>
+    <li>Georgia Institute of Technology</li>
+    <li>Boston University</li>
+    <li>New York University</li>
+    <li>Northeastern University</li>
+    <li>University of Southern California</li>
+    <li>Boston College</li>
+    </ol>
+  
+    <br/>
+    
+    <b><h2>Here Are A Few Other Universities with Notable Scholarships</h2></b>
+    <ol style="list-style-type:number;padding-left: 50px;">
+    <li>Emory University</li>
+    <li>Tufts University</li>
+    <li>Case Western Reserve University</li>
+    <li>Lehigh University</li>
+    <li>Tulane University</li>
+    </ol>
+     <br/>
+
+    <b><h2>The Bottom Line </h2></b>
+    <p>
+   These institutions prove that quality education needn't require massive student loans. Beyond rankings and statistics, these universities offer something equally valuable: a chance to study in some of the world's best Universities.</p>
+    
+    <p>To learn more about studying in these Universities,
+    <br/>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> 
+      <br/>
+      to explore how we can help you turn your international career dreams into reality. Our experienced consultants are here to help!
+ 
+    </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "October 06, 2025"
+  },
   {
     id: 23,
     image: Img20, // Replace with actual import
