@@ -4,13 +4,13 @@ export default function SkillEnhancementSection() {
   const rows = [
     {
       type: "Communication Skills",
-      individual: "₹3,000 / month",
-      group: "₹2,500 per head / month",
+      individual: "₹6,000 / month",
+      group: "₹5,000 per head / month",
     },
     {
       type: "Soft Skills",
-      individual: "₹4,000 / month",
-      group: "₹3,000 per head / month",
+      individual: "₹5,500 / month",
+      group: "₹4,500 per head / month",
     },
   ];
 
