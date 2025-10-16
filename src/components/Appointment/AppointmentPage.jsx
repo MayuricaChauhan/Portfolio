@@ -18,7 +18,7 @@ function AppointmentPage() {
           <li>✓ Identifying your true potential</li>
           <li>✓ Initial roadmap creation</li>
         </ul>
-        <p className="free">Free of cost!</p>
+       
       </section>
 
       <section className="journey-steps">
@@ -52,7 +52,7 @@ function AppointmentPage() {
 
       <footer className="footer">
         <p>Your journey to academic excellence begins with a single step.</p>
-        <a href="/book" className="book-session">Book Your Session Now</a>
+        <a href="/book" className="book-session">Book your session now at INR 499</a>
       </footer>
     </div>
   );

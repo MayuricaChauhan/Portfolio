@@ -15,7 +15,7 @@ export default function SkillEnhancementSection() {
   ];
 
   return (
-    <section className="skill-section" role="region" aria-labelledby="skill-heading">
+    <section className="skill-section" role="region" aria-labelledby="skill-heading" id="skill-enhancement"> 
       <style>{`
         .skill-section {
           max-width: 900px;
@@ -122,14 +122,14 @@ export default function SkillEnhancementSection() {
       `}</style>
 
       <h2 id="skill-heading" className="skill-heading">
-        Skill Enhancement – Converse E Plus
+        Skill Enhancement
       </h2>
       <p className="skill-quote">
         "Knowledge expands with sharing." — <strong>Paromita Dutta</strong>
       </p>
 
       <p className="skill-about">
-        Led by <strong>Paromita Dutta</strong>, Founder of <strong>Converse E Plus</strong>,
+        Led by <strong>Paromita Dutta</strong>, with 22 years of experience,
         this program helps individuals and professionals enhance their communication and
         soft skills through personalized and group training. Paromita brings years of
         experience, having trained executives from top organizations like

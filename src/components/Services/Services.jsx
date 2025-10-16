@@ -124,7 +124,7 @@ const Services = () => {
                 key={skill.name}
                 data-aos="fade-up"
                 data-aos-delay={skill.aosDelay}
-                className="card space-y-3 sm:space-y-4 p-4 relative overflow-hidden group rounded-lg"
+                className="card space-y-3  p-4 relative overflow-hidden group rounded-lg"
               >
                 <div className="group-hover:blur-sm transition-all duration-300">{skill.icon}</div>
                 <h1 className="text-lg font-semibold group-hover:blur-sm transition-all duration-300">{skill.name}</h1>
