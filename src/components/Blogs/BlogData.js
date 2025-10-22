@@ -19,8 +19,61 @@ import Img18 from "../../assets/blog/blog18.jpeg";
 import Img19 from "../../assets/blog/blog19.jpeg";
 import Img20 from "../../assets/blog/blog20.jpeg";
 import Img21 from "../../assets/blog/blog21.jpeg";
+import Img22 from "../../assets/blog/blog22.jpeg";
 
 const BlogsData = [
+  {
+    id: 25,
+    image: Img22, // Replace with actual import
+    title: "University of New Haven Makes History: First U.S. Institution Approved for Saudi Arabia Branch Campus",
+    description: `
+    <div id="desc-25">
+      <p>
+      The University of New Haven's announcement earlier this month is enough to make the entire sector pause and take notice. The University of New Haven has just given the nod to set up a branch campus in Saudi Arabia, the first of its kind in the Kingdom. Certainly, other universities may follow this path in the coming years but it's time to acknowledge what this achievement means for the middle eastern region and for international students out of Asia. 
+      </p> 
+     <br/>
+    
+     <b><h2>Global education is the future</h2></b>
+     <p>The conventional image of American universities is perhaps that of students attending classes exclusively on U.S. soil and this is now progressively becoming an outdated model. In today's higher education sector, being global is the fastest route to expanding impact and serving diverse student populations. The University of New Haven is the first to receive this approval but their two-decade commitment to Saudi Arabian education is sure to have paved the way. In fact, this long-standing relationship can be seen as the foundation for today's historic announcement. </p>
+    <br/>
+    
+    <b><h2>Alright, this is historic. Now what's the plan?</h2></b>
+    <p>Before anyone assumes this campus will simply replicate the Connecticut experience, it is important to know that not all branch campuses are created equal. The contemporary international education space is now offering institutions various models for global expansion at different scales. Here's what the University of New Haven's Riyadh campus will offer:</p>
+    <ul style="list-style-type:disc;padding-left: 50px;">
+    <li><b>College of Business and Digital Innovation:</b> This is perfect for students seeking skills in the digital economy that Vision 2030 prioritizes.</li>
+    <li><b>College of Engineering and Advanced Manufacturing:</b> These programs are created for students who will drive the Kingdom's industrial diversification goals.</li>
+    <li><b>College of Arts and Applied Sciences:</b> An ideal place for students passionate about the arts and allied sciences and can work critically across disciplines.</li>
+    <li><b>Executive Education and Micro-Credentials:</b> A multitude of short-term degree programs that lets professionals and students upskill or take a career detour without pausing their present work.</li>
+   
+    </ul>
+  
+    <br/>
+    
+    <b><h2>The future looks promising</h2></b>
+    <p>The campus is estimated to eventually become home to about 13,000 students. Thousands of students will gain access to American higher education but after completing their programs, graduates will also return to Saudi society with:</p>
+    <ul style="list-style-type:circle;padding-left: 50px;">
+    <li>Professional networks that span continents and create global business partnerships.</li>
+    <li>Technical skills that position them to lead in pioneering industries.</li>
+    <li>Case Western Reserve University</li>
+    <li>Leadership skills that can steer the Kingdom's ‘Vision 2030’ initiatives forward.</li>
+    <li>Career opportunities that contribute to the Kingdom's larger goal of economic prosperity.</li>
+    </ul>
+     <br/>
+
+    <b><h2>Supporting Vision 2030: The bigger picture</h2></b>
+    <p>
+   University President Jens Frederiksen noted that the University has been an active supporter of higher education in Saudi Arabia for more than 20 years, both within the Kingdom and on the Connecticut campus. For Saudi students and other Asian countries, this memorandum means access to American higher education without having to move to the other side of the globe. For the broader higher education sector, it sets a precedent that other institutions will study and potentially follow. 
+    <p>The University of New Haven in Riyadh is open for admissions starting Fall 2026.
+    <br/>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> 
+      <br/> 
+    </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "October 23, 2025"
+  },
   {
     id: 24,
     image: Img21, // Replace with actual import
@@ -87,7 +140,7 @@ const BlogsData = [
     </div>
   `,
     author: "Uninxt Team",
-    date: "October 06, 2025"
+    date: "October 14, 2025"
   },
   {
     id: 23,
