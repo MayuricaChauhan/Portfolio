@@ -20,8 +20,46 @@ import Img19 from "../../assets/blog/blog19.jpeg";
 import Img20 from "../../assets/blog/blog20.jpeg";
 import Img21 from "../../assets/blog/blog21.jpeg";
 import Img22 from "../../assets/blog/blog22.jpeg";
+import Img23 from "../../assets/blog/blog23.jpeg";
 
 const BlogsData = [
+  {
+    id: 26,
+    image: Img23, // Replace with actual import
+    title: "MBBS in the Philippines: Affordable Medical Education for Indian Students",
+    description: `
+    <div id="desc-26">
+      <p>
+      Saving lives is noble work. Being a doctor is regarded as one of the most respectable careers in India. 
+      </p> 
+      <p>Each year, lakhs of Indian students attempt the NEET (National Eligibility Cum Entrance Test) examination to qualify for admission into MBBS programmes across the country. However, of late, the number of test takers has increased multifold. This has compromised the dreams of many aspirants. </p>
+      <p>But true dreams persevere, don't they? If you are someone who aspires to become a doctor but find yourself hindered by the circumstances around you in this country, don't give up just yet, there is still hope for your dream. </p>
+      <p>Currently, about 10,000 Indian students are pursuing an MD program in the Philippines. This M.D. program is recognised as being analogous to the MBBS program in India. The M.D. is a four-year and six months professional degree program which qualifies the degree holder to take the licensure exam for medical doctors in the Philippines. More and more medical aspirants are now flocking to the Philippines, one of the finest countries in Asia offering education for foreign students. </p>
+     <br/>
+    
+    <b><h2>Here are 4 key reasons why you must consider studying medicine in the Philippines:</h2></b>
+    <ol style="list-style-type:number;padding-left: 50px;">
+    <li><b>The tuition fee is lesser in comparison to MBBS in India:</b> The total fee for a student pursuing an M.D. in the Philippines may range anywhere between 2-3 lakhs per academic year. This amounts to an average of 20-25 lakhs for the entire programme.</li>
+    <li><b>One does not have to worry about cutoffs, a pass in the NEET examination is sufficient for eligibility:</b> The basic eligibility for students hoping to pursue an M.D. in the Philippines is to qualify the NEET examination with a minimum pass percentage.</li>
+    <li><b>The cost of living in the Philippines is reasonable:</b> Indian students living in the Philippines spend anywhere between 20 and 30k INR per month to cover their basic expenses.</li>
+    <li><b>Upon completion, the degree offers a number of opportunities:</b> An M.D. graduate may return to India and appear for the FMGE (Foreign Medical Graduate Examination) to gain licensure to practice in India as a physician. Alternatively, the graduate may also attempt the licensure examination in the Philippines to practice as a physician. </li>
+    </ol>
+    
+    <br/>
+    <p>These are only a few out of many reasons why the Philippines has now become a popular choice for those unable to secure admission to MBBS programmes in India. Students say that they often find it easier to adjust to the living conditions in the Philippines in comparison with other countries. The Philippines is a predominantly English-speaking nation. Therefore, students need not worry about barriers in communicating with the locals for day-to-day necessities. Moreover, it comes as a relief to both students and their families that the Philippines is a largely safe country to live in especially for female students.</p>
+    <p>Annually, admissions for M.D. programs in the Philippines begin in the month of June. Before you apply to colleges in the Philippines, it is important to verify if they have been recognised by the CHED (Commission on Higher Education) in the Philippines. Ensure that the colleges that you have narrowed down on are also recognised by the MCI (Medical Council of India). </p>
+ 
+    <p>We are committed to helping more students live out their overseas dreams. For more personal
+guidance on MBBS in the Philippines, book a session with us today.</p> <br/>
+    <p>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> 
+    </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "October 24, 2025"
+  },
   {
     id: 25,
     image: Img22, // Replace with actual import
@@ -72,7 +110,7 @@ const BlogsData = [
     </div>
   `,
     author: "Uninxt Team",
-    date: "October 23, 2025"
+    date: "October 22, 2025"
   },
   {
     id: 24,
