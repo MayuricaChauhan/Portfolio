@@ -21,8 +21,55 @@ import Img20 from "../../assets/blog/blog20.jpeg";
 import Img21 from "../../assets/blog/blog21.jpeg";
 import Img22 from "../../assets/blog/blog22.jpeg";
 import Img23 from "../../assets/blog/blog23.jpeg";
+import Img24 from "../../assets/blog/blog24.jpeg";
 
 const BlogsData = [
+  {
+    id: 27,
+    image: Img24, // Replace with actual import
+    title: "It is now harder to study and work in the UK than ever: Key policy changes",
+    description: `
+    <div id="desc-27">
+      <p>
+      For those who have been following the international education space religiously, the recent policy changes announced by the United Kingdom is no surprise. The signs were there all along, and they're now reflecting in policy changes as well. However, for many aspiring Indian students and unassuming workers with plans to move to the country, the changes may come as a shock. The country that once welcomed global talent with open arms is now pulling up the drawbridge, and the changes hitting in 2025 and 2026 are anything but subtle. 
+      </p> 
+      <p>However, this is not a deterrent to your dreams. Here's why:</p>
+     <br/>
+    
+    <b><h2>What's changing for workers?</h2></b>
+    <p>The UK government announced sweeping immigration reforms in October 2025 with the primary, overarching goal of cutting down on net migration in the country. Despite a marked decrease in migration rates to 431,000 in December 2024, the country believes that the number is still far too high. Therefore, the country has now decided to tighten its borders to international students and professionals.</p>
+    <p>The impact of these policy changes on universities and businesses is worth nothing. Starting January 2026, foreign nationals applying for skilled worker, scale-up or high potential individual visas will need to attain a B2 level in English. This is one level higher than the existing B1 requirement. These changes are complicated by the fact that the government has announced this less than three months before its promised implementation. Companies and applicants are now scrambling to meet the new standard with very little time to prepare. The immigration skills charge that employers pay is also jumping by 32%. For businesses already struggling with recruitment costs, this is a significant financial drawback as hiring international talent will now become a lot more expensive.</p>
+    
+    <br/>
+    <b><h2>Students face shorter post-study opportunities</h2></b>
+    <p>International students completing Bachelor's or Master's degrees will now have just 18 months to work in the UK after graduation, down from two years. The UK wants fewer graduates staying long-term. PhD students still get three years, but for Bachelor's and Master's students, the clock just started ticking faster. This change takes effect in January 2027, so current students and those enrolling soon can still access the full two years.</p>
+    <p>The government is also raising financial requirements for students and hiking up the immigration skills charge for employers by 32%. For businesses already stretched thin, this makes hiring international workers significantly more expensive. The government is also concerned about the surge in study visas for lower-ranked institutions. Between 2021 and 2023, visas for universities ranked between 601 and 1,200 increased by 49%, yet visas for top 100 universities dropped by 7%.</p>
+
+    <br/>
+    <b><h2>Other countries are watching</h2></b>
+    <p>The UK isn't the only player in the game anymore, and other countries have begun to take notice of these restrictions and use them to their advantage. Germany, Australia, Ireland, and the UAE are rolling out policies that target the talent the UK is turning away. </p>
+    <p>Students and workers are asking the right questions now:</p>
+    <ul>
+   <li>Will this visa actually get me where I want to go?</li>
+   <li>Can I afford it without drowning in debt?</li>
+   <li>Does this country value international talent?</li>
+    </ul>
+    <p>And in 2025, the UK is answering those questions less convincingly than it used to.</p>
+    
+    <br/>
+   <b><h2>What this means for you</h2></b>
+   <p>Countries that were once the biggest players have now, evidently, taken a backseat owing to a plethora of factors. Students and workers are now learning to look beyond that which has been said, done, and repeated for years together. If you're planning to study or work in the UK, the window is narrowing. Start preparing now for higher English requirements, tighter financial checks and shorter post-graduation timelines.</p>
+    
+   <p>If there's one thing we've learned from the UK's tightening policies, it is that the world is bigger than we've been taught to believe. International students and workers are no longer bound by geography and are now free to explore, experiment and find the destination of their dreams. Our advisors are trained to work with perplexed yet ambitious students like you to narrow down on the right choice for your academic and career goals.</p> <br/>
+    <p>
+      📞 Please call us at +91 9654023759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> 
+    </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "October 27, 2025"
+  },
   {
     id: 26,
     image: Img23, // Replace with actual import
