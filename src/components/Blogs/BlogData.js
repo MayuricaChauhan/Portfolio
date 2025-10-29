@@ -62,7 +62,7 @@ const BlogsData = [
     
    <p>If there's one thing we've learned from the UK's tightening policies, it is that the world is bigger than we've been taught to believe. International students and workers are no longer bound by geography and are now free to explore, experiment and find the destination of their dreams. Our advisors are trained to work with perplexed yet ambitious students like you to narrow down on the right choice for your academic and career goals.</p> <br/>
     <p>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> 
     </p>
     </div>
@@ -99,7 +99,7 @@ const BlogsData = [
     <p>We are committed to helping more students live out their overseas dreams. For more personal
 guidance on MBBS in the Philippines, book a session with us today.</p> <br/>
     <p>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> 
     </p>
     </div>
@@ -150,7 +150,7 @@ guidance on MBBS in the Philippines, book a session with us today.</p> <br/>
    University President Jens Frederiksen noted that the University has been an active supporter of higher education in Saudi Arabia for more than 20 years, both within the Kingdom and on the Connecticut campus. For Saudi students and other Asian countries, this memorandum means access to American higher education without having to move to the other side of the globe. For the broader higher education sector, it sets a precedent that other institutions will study and potentially follow. 
     <p>The University of New Haven in Riyadh is open for admissions starting Fall 2026.
     <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> 
       <br/> 
     </p>
@@ -216,7 +216,7 @@ guidance on MBBS in the Philippines, book a session with us today.</p> <br/>
     
     <p>To learn more about studying in these Universities,
     <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> 
       <br/>
       to explore how we can help you turn your international career dreams into reality. Our experienced consultants are here to help!
@@ -254,7 +254,7 @@ guidance on MBBS in the Philippines, book a session with us today.</p> <br/>
     If you're an Indian student weighing your options, New Zealand's offerings – increased work hours, better financial flexibility and more opportunities for practical work – make it a destination worth exploring. For those in the hospitality, retail, or tech sectors, these hours can all make the difference between living in constant financial worry or comfortably.  ENZ Chief Executive Amanda Malu sees international education as more than economics. "International education fuels innovation, boosts our economy, creates business opportunities, and delivers essential cross-cultural skills for a more connected world," Malu says. This broader vision has prompted New Zealand to look at international students as contributors rather than as simply temporary consumers of its resources. For students seeking holistic education with varied work opportunities and a stable policy environment, New Zealand's ambitious bet might just pay off for everyone involved.</p>
     
     <p>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>  
     </p>
     </div>
@@ -309,7 +309,7 @@ guidance on MBBS in the Philippines, book a session with us today.</p> <br/>
       <p>
       Our advisors are trained to work with perplexed yet ambitious students like you to narrow down on the right choice for your academic and career goals.
       </p>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       
      </p>
@@ -363,7 +363,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       <p>
       It is heartening that universities and educational bodies are now dedicating more resources to student well-being with every passing year. If you have questions about finding schools with excellent mental health support or want advice on preparing mentally for the journey, reach out to us. Book a session with us today and let's find the right University for you.
       </p>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       
      </p>
@@ -403,7 +403,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       Just before departure, taking care of these five preparation areas will help you adapt much quicker when you arrive in the country of your dreams. Remember that you are not alone in this adventure and that every international student before you has faced these same challenges and come out as stronger and more independent individuals. The effort you put into preparation now will pay dividends in the relationships you build, the experiences you have and the person you become. Safe travels and we'll see you soon.
       </p>
       <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br>
      </p>
@@ -456,7 +456,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       
       <p>If you're an Indian student who is open to taking on the rewarding challenge of studying abroad and adapting to an entirely new environment, Kyrgyzstan is a country worth flying to in pursuit of your white cost dreams. However, you don't have to take the lead alone. To learn more about pruning and the MBBS programs in Kyrgyzstan,
       <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br>
      </p>
@@ -496,7 +496,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       <p>
       We are committed to helping more students and professionals find the right careers for themselves. For more personal guidance, book a session with us today.
       <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br>
      </p>
@@ -548,7 +548,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       <p>
       To help us understand your concerns better, book a free demo session today,
       <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br>
      </p>
@@ -611,7 +611,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       <br/>
       <p>For more personal guidance on visa application and processing, book a session with our professional counselors today. 
       <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br>
      </p>
@@ -669,7 +669,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       <br/>
       <p>Do you dream of getting into a top institute abroad? Then book a session with us today and crack the code. Let's get you into your dream university:- 
       <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br>
      </p>
@@ -722,7 +722,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       <br/>
       <p>For more personal guidance:- 
       <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br>
      </p>
@@ -767,7 +767,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       <br/>
       <p>If you're still perplexed about narrowing down on your dream University in the land down under, 
       <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br>
       to explore how we can help you turn your international career dreams into reality. Our experienced consultants are here to help!</p>
@@ -822,7 +822,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       <br/>
       <p>We are committed to helping students like you find their passion and make the most out of it. For more personal guidance on studying abroad, book a session with us today. 
       <br/>
-      📞 Please call us at +91 9654023759<br/>
+      📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br></p>
     </div>
@@ -869,7 +869,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       <br/>
       <p>If you’re still confused about taking the leap, our qualified educational advisors who specialize in guiding aspiring business students and rising entrepreneurs like you towards their academic and professional dreams are here to help. 
       <br/>
-       📞 Please call us at +91 9654023759<br/>
+       📞 Please call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br></p>
     </div>
@@ -944,7 +944,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
 
       <p>To learn more about studying in these countries, please
       <br/>
-       📞 Call us at +91 9654023759<br/>
+       📞 Call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
       </br>
       to explore how we can help you turn your international dreams into reality. Our experienced consultants are here to help!</p>
@@ -1004,7 +1004,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
 
       <p>Are you an Indian student dreaming of studying in one of these three countries? Then, why wait? Book a session with us today and crack the code. Let's get you into your dream University!</p>
 
-      <p>📞 Call us at +91 9654023759<br/>
+      <p>📞 Call us at +91 9654223759<br/>
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a></p>
     </div>
   `,
@@ -1095,7 +1095,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
 
       <p>Are you an Indian student dreaming of studying at a top French university? Book a session with us and let's help you crack the code.</p>
 
-      <p>📞 Call us at +91 9654023759<br />
+      <p>📞 Call us at +91 9654223759<br />
       📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a></p>
     </div>
   `,
@@ -1309,7 +1309,7 @@ Therefore, while choosing a University, look for institutions that have a  netwo
       
       <p>We are committed to helping students find their passion and make the most out of it. For more personal career guidance, book a session with us today.</p>
       
-      <p>Please call us at  <a href="tel:+919654023759">+9196540 23759</a> or send an email to <a href="mailto:info@uninxt.com">info@uninxt.com</a>.</p>
+      <p>Please call us at  <a href="tel:+919654223759">+9196540 23759</a> or send an email to <a href="mailto:info@uninxt.com">info@uninxt.com</a>.</p>
 
 
       </div>
