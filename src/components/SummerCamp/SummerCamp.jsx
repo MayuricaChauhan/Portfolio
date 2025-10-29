@@ -18,12 +18,7 @@ const SummerCamp = () => {
           </button>
         </Link>
 
-        {/* UK Button */}
-        <Link to="/uk">
-          <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition">
-            UK 
-          </button>
-        </Link>
+       
 
         {/* Dubai Button */}
         <Link to="/dubai">

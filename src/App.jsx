@@ -30,7 +30,6 @@ import RefundPolicy from "./components/RefundPolicy/RefundPolicy.jsx";
 
 import SummerCamp from "./components/SummerCamp/SummerCamp.jsx"; // Import the component
 import USA from "./components/SummerCamp/USA";
-import UK from "./components/SummerCamp/UK";
 import Dubai from "./components/SummerCamp/Dubai";
 import ClientLanding from "./components/Clients/ClientLanding.jsx";
 import BookCounsellingForm from "./components/Payment/BookCounsellingForm.jsx";
@@ -100,11 +99,9 @@ const App = () => {
           <Route path="/privacypolicy" element={<PrivacyPolicy />}/>
           <Route path="/refundpolicy" element={<RefundPolicy />}/>
           <Route path="/SummerCamp/usa" element={<SummerCamp country="USA" />} /> 
-          <Route path="/SummerCamp/uk" element={<SummerCamp country="UK" />} />
           <Route path="/SummerCamp/dubai" element={<SummerCamp country="Dubai" />} />
           <Route path="/" element={<SummerCamp />} />
           <Route path="/usa" element={<USA />} />
-          <Route path="/uk" element={<UK />} />
           <Route path="/dubai" element={<Dubai />} />
           <Route path="/clients" element={<ClientLanding/>} />
           <Route path="/book" element={<BookCounsellingForm />} />
