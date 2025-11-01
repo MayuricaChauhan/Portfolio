@@ -59,7 +59,7 @@ const BlogsData = [
     </div>
   `,
     author: "Uninxt Team",
-    date: "October 24, 2025"
+    date: "November 01, 2025"
   },
   {
     id: 27,
