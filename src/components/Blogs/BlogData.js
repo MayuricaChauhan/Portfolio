@@ -24,8 +24,42 @@ import Img23 from "../../assets/blog/blog23.jpeg";
 import Img24 from "../../assets/blog/blog24.jpeg";
 import Img25 from "../../assets/blog/blog25.jpeg";
 import Img26 from "../../assets/blog/blog26.jpeg";
+import Img27 from "../../assets/blog/blog27.jpeg";
 
 const BlogsData = [
+  {
+    id: 30,
+    image: Img27, // Replace with actual import
+    title: "Germany: The Recent Favorite Among Indian Students",
+    description: `
+    <div id="desc-30">
+      <p>
+   For aspiring Indian students hoping to study overseas, 2025 has been a year of uncertainties. If you're nodding along, you're not alone. Thousands of Indian students are discovering that sometimes the best opportunities come from looking beyond the obvious choices. While countries like the US and UK tighten their visa policies and create bureaucratic mazes, Germany has quietly become a recent favourite among Indian students. The country is now a refreshing alternative that Indian students have been long searching for. 
+      </p>
+
+     <br/>
+     <b><h2>Why Germany is winning hearts and applications</h2></b>
+     <p>The numbers tell a compelling story. Applications from India to German universities have jumped by an impressive 35% in recent months. This is allegedly owing to the fact that Germany is offering something increasingly rare in international education: transparency and affordability without compromising on quality. Most German universities charge minimal or no tuition fees. This is in stark contrast to the hefty price tags attached to degrees in other countries.</p>
+     <p>Dr. Philipp Ackermann, the German Ambassador to India, recently highlighted this during a press briefing in New Delhi. He noted that amid the challenges Indian students face elsewhere, Germany has witnessed a sharp rise in interest for its universities and research institutions.</p>
+  
+     <br/>
+
+    <b><h2>Why Germany may could be your dream study abroad destination this 2025</h2></b>
+   <p>Currently, around 50,000 Indian students call Germany their home away from home. This makes it one of the top five study destinations for Indians. But what makes this figure particularly interesting is its trajectory. Unlike other countries where Indian student numbers are stagnating or declining due to policy changes, Germany's numbers are climbing steadily. German universities have built their reputation on the basis of rigorous academic standards and state-of-the-art research facilities. Germany also maintains a relatively straightforward and predictable visa processing system. Students report fewer last-minute rejections and more clarity throughout the application process.</p>  
+   
+  <br/>
+   <b><h2>Looking Ahead</h2></b>
+    <p>As global education continues to reshape itself post-pandemic, Germany is welcoming Indian students in hundreds with each passing year. For Indian students weighing their options, Germany offers something precious in these uncertain times: a clear path forward with transparent processes, quality education and reliable opportunities for growth. Sometimes, the road less traveled really does make all the difference.</p>
+    <p>To learn more about studying in Germany, <br/>
+      📞 Please call us at +91 9654223759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> <br/>
+      to explore how we can help you turn your international career dreams into reality. Our experienced consultants are here to help!
+    </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "November 07, 2025"
+  },
   {
     id: 29,
     image: Img26, // Replace with actual import
