@@ -26,8 +26,57 @@ import Img25 from "../../assets/blog/blog25.jpeg";
 import Img26 from "../../assets/blog/blog26.jpeg";
 import Img27 from "../../assets/blog/blog27.jpeg";
 import Img28 from "../../assets/blog/blog28.jpeg";
+import Img29 from "../../assets/blog/blog29.jpeg";
 
 const BlogsData = [
+  {
+    id: 32,
+    image: Img29, // Replace with actual import
+    title: "The American Dream Slips Away: Indian Students Turn Their Backs On the USA",
+    description: `
+    <div id="desc-32">
+      <p>
+        Indian student applications to colleges in the USA from India have dropped by a whopping 14% this year. It is the first decline since 2020 and one of the largest yet. The American dream now appears to be slipping away. This data is extracted from Common App, a unified system that more than 1,100 American universities rely on to process international applications. 
+      </p>
+      <p>
+        Overall international applications fell 9% by November compared to last year. India, the largest source of foreign students to America, leads this retreat with Indian students turning their backs on the USA. African applications have dropped 18%. Asian applications fell 9%. Even China, the second-biggest contributor, saw numbers dip by 1% after strong growth last year. All of these statistics mark something shifting beneath the surface of what we thought we knew about opportunity and belonging in America.
+      </p>
+      <br/>
+      <b><h2>The Visa Labyrinth</h2></b>
+      <p>Visa processing in the USA now spans months and sometimes even an entire year. When interview slots open up, they vanish within seconds, and bureaucratic delays stretch from weeks to. A fear of rejection hangs heavy for many Indian applicants, with qualified candidates being turned away without explanation. There is minimal logic to it. However, there's a whole lot of waiting and hoping, and sometimes neither of them seems to work.</p>
+      <p>The situation has only intensified since January this year, which roughly marks when the White House began tightening its immigration policies. The government has made it much harder to get in, the effects and consequences of which are just beginning to reflect in enrolment numbers. Application and visa requirements have become labyrinths with no clear exit, and the rules have all abruptly changed as Indian students attempted to catch up midway.</p>  
+      
+      <br/>
+      <b><h2>Universities in the USA Begin to Feel the Heat</h2></b>
+      <p>
+        The Trump administration has proposed a $100,000 fee on H-1B visa employers. They want to cap international students at 15% per campus. For Indian families already stretching every rupee, the math no longer adds up. Many families are reconsidering whether the investment makes sense: spending lakhs on education with no guarantee of post-graduation employment. Indian students are now asking themselves if the cost is worth the gamble. Increasingly, the answer is no.
+      </p>
+      <p>On that note, American universities are losing applicants as well as looking on as their revenue streams run dry. Most international students who enrol pay full tuition with little or no financial aid. This is an attractive proposition for institutions that are struggling with budgets. Presently, as a direct consequence of a drop in enrolments, acclaimed schools like Cornell and Columbia are finding themselves under federal investigation for depending too heavily on international enrolment.</p>    
+      <p>Cornell struck a deal recently to restore $250 million in federal funding. In exchange, they agreed to invest $60 million in agricultural research and payments to the US government. Columbia University has also promised to reduce its reliance on foreign students. They have since agreed to cooperate with immigration enforcement against visa violators.</p>    
+      
+      <br/>
+      <b><h2>Where Indian Students Are Going Instead</h2></b>
+      <p>
+        Indian students are not giving up on education abroad and have begun to look elsewhere. Canada, the UK, Australia and a number of European countries with straightforward visa processes are becoming much more alternative. These countries are making international education accessible without the anxiety and bureaucratic confusion that now defines the American visa application process. They are offering something that America seems to have forgotten: a sense that foreign students might actually be wanted. 
+      </p>   
+     
+       <br/>
+      <b><h2>What the Future Holds</h2></b>
+      <p>
+        Statistics from Common App only display applications that are submitted by November 1. The full cycle, however, runs through March. Therefore, we might see changes and further decline. We may also witness some recovery. Last year showed us that these early numbers do not always predict final outcomes. Applications were strong initially but concluded with an overall decline by March. 
+      </p>
+      <p>
+        For decades, studying in America meant opportunity and a pathway to something better than what Indian students left behind in their homeland. In 2025, it increasingly means uncertainty and expense and risk without reward.  Until US immigration policies stabilise and visa processes become transparent, Indian families will continue weighing their options.
+      </p>    
+      <p>
+      📞 Please call us at +91 9654223759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> <br/>
+    </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "November 21, 2025"
+  },
   {
     id: 31,
     image: Img28, // Replace with actual import
