@@ -32,7 +32,7 @@ import Img30 from "../../assets/blog/blog30.jpeg";
 const BlogsData = [
   
   { id: 33,
-  image: "Img30", // Replace with actual import
+  image: Img30, // Replace with actual import
   title: "The OPT Pathway Crisis: What To Do To Better Your Chances",
   description: `
   <div id="desc-33">
