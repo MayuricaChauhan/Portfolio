@@ -28,9 +28,96 @@ import Img27 from "../../assets/blog/blog27.jpeg";
 import Img28 from "../../assets/blog/blog28.jpeg";
 import Img29 from "../../assets/blog/blog29.jpeg";
 import Img30 from "../../assets/blog/blog30.jpeg";
+import Img31 from "../../assets/blog/blog31.jpeg";
 
 const BlogsData = [
   
+  { id: 34,
+  image: Img31, // Replace with actual import
+  title: "The OPT Pathway Crisis: What To Do To Better Your Chances",
+  description: `
+  <div id="desc-34">
+  <p>
+      A short answer to this long-standing question is yes, extracurricular activities do play a significant role in your admissions process. 
+      Now, here’s the longer answer:
+    </p>
+
+    <p>
+      Undoubtedly, a strong academic record will help your application stand out from the crowd. But here's the catch—take a moment to consider how many of your 
+      fellow applicants will have excellent grades too. This is especially true for top schools in the country. The best academic minds from across the globe 
+      are racing to get in. When your A’s don’t help, what else will?
+    </p>
+
+    <br/>
+
+    <h2><b>Why should I engage in extracurricular activities as a student?</b></h2>
+    <p>
+      Dear applicants, this is your reminder to not put all your eggs in one basket. Admissions committees look beyond grades to discover well-rounded individuals 
+      who demonstrate leadership, commitment, and passion. These extracurricular activities help paint a fuller picture of your personality, interests, and your 
+      vision as a student.
+    </p>
+
+    <p>
+      This is why you must engage in extracurricular activities from as early as high school. If you haven't started yet, don't worry. It’s never too late. 
+      Now is a good time to start!
+    </p>
+
+    <br/>
+
+    <h2><b>What are some extracurricular activities that will make me stand out from the rest?</b></h2>
+    <p>
+      There is an exhaustive list of extracurricular activities for you to pick from. However, here we are highlighting 4 extracurricular activities that are sure 
+      to make you stand out in the applicant pool:
+    </p>
+
+    <ol>
+      <li>
+        <b>1) Take up a leadership position:</b><br/>
+        Holding a leadership position in a student organization or club demonstrates your ability to manage, motivate, and lead others. Serving as student body 
+        president, captain of a sports team, or founder of a new club can add a valuable feather to your hat.
+      </li>
+
+      <br/>
+
+      <li>
+        <b>2) Do volunteer work:</b><br/>
+        Volunteering shows your commitment to community service and your desire to create a positive impact. You may organize community clean-up events or 
+        volunteer at local shelters or food banks.
+      </li>
+
+      <br/>
+
+      <li>
+        <b>3) Participate in clubs:</b><br/>
+        Participation in academic clubs and competitions displays your intellectual curiosity and dedication to learning beyond the classroom. Being active in 
+        the debate team or competing in a math olympiad can help you make your mark.
+      </li>
+
+      <br/>
+
+      <li>
+        <b>4) Engage in research projects:</b><br/>
+        Conducting research—and especially publishing or presenting it publicly—demonstrates your commitment to advancing knowledge in your field. Not many of 
+        your peers may be doing research, because it is time-consuming and requires hard, dedicated work.
+      </li>
+    </ol>
+
+    <br/>
+
+    <p>
+      We are committed to helping students find their passion and make the most out of it. For more personal career guidance, book a session with us today.
+    </p>
+
+      <p>
+      📞 Please call us at +91 9654223759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> <br/>
+    </p>
+
+  </div>
+  `,
+  author: "Uninxt Team",
+  date: "November 28, 2025"
+},
   { id: 33,
   image: Img30, // Replace with actual import
   title: "The OPT Pathway Crisis: What To Do To Better Your Chances",
@@ -142,7 +229,9 @@ const BlogsData = [
   </div>
   `,
   author: "Uninxt Team",
-  date: "November 24, 2025"},
+  date: "November 24, 2025"
+}
+,
   {
     id: 32,
     image: Img29, // Replace with actual import
