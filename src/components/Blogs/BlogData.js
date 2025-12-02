@@ -29,9 +29,103 @@ import Img28 from "../../assets/blog/blog28.jpeg";
 import Img29 from "../../assets/blog/blog29.jpeg";
 import Img30 from "../../assets/blog/blog30.jpeg";
 import Img31 from "../../assets/blog/blog31.jpeg";
+import Img32 from "../../assets/blog/blog32.jpeg";
 
 const BlogsData = [
-  
+  {
+  id: 35,
+  image: Img32, // Replace with actual import
+  title: "Why Indian Students in the UK Deserve Better Career Support",
+  description: `
+  <div id="desc-35">
+    <p>
+      Graduating from a top UK university should feel like opening doors and not hitting walls. 
+      For the approximately 166,000 Indian students currently pursuing education in Britain, 
+      the largest international student group in the country, the reality after graduating 
+      with their hard-earned degrees has become increasingly frustrating.
+    </p>
+
+    <p>
+      Despite investing thousands of pounds in their education, many Indian students and their 
+      families find themselves sending out job applications that seem to disappear into a void 
+      of rejection, silence, and uncertainty.
+    </p>
+
+
+    <h2><b>However, we have good news.</b></h2>
+    <p>
+      Earlier this week, something significant began to transpire for Indian graduates in the UK on 
+      the hunt for jobs. The Indian National Students Association (INSA) UK joined hands with 
+      AI-powered platform Creoo to launch the Indian National Students Employability Council (INSEC) 
+      at the India-UK Student Leadership Summit in London. Held in the Houses of Parliament complex, 
+      the summit brought attention to a problem that's been quietly growing: Indian graduates in the UK 
+      aren't getting fair shots at employment, regardless of their qualifications, which many Indian 
+      graduates say is a result of an ‘underlying bias’ held by British employers.
+    </p>
+
+    <h2><b>The Past and Hopes of a Better Future</b></h2>
+    <p>
+      Over the past 18 months, more than 36 panels have taken it upon themselves to actively bat for 
+      and discuss challenges faced by international students in the UK and beyond. Yet, Indian students 
+      report seeing almost no real improvement in their job prospects. 
+    </p>
+
+    <p>
+      But representatives like Ayesha Goyal, founder and CEO of Creoo, are now stepping in to offer this 
+      negotiation a better chance at fighting. Goyal has made it clear that INSEC is not merely another 
+      talking shop. It is a commitment that starts immediately, with concrete actions planned for the 
+      welfare of talented Indian graduates in the UK.
+    </p>
+
+    <h2><b>The Post-Study Work Visa Problem</b></h2>
+    <p>
+      Indian students arrive in the UK with high hopes, backed by the graduate route visa that allows 
+      them to work for up to 18 months after finishing their studies. On paper, it sounds promising. 
+      But in practice, students report that companies either reject them outright or simply never respond 
+      to their applications at all.
+    </p>
+
+    <p>
+      "What is the point of doing studies here when I do not even get a response to my application from the employer?" 
+      asked Amit Tiwari, INSA UK National President. This question represents the experiences of hundreds of thousands 
+      of Indian graduates who moved to the UK in hopes of better career prospects.
+    </p>
+
+    <h2><b>What INSEC Plans to Do</b></h2>
+    <p>INSEC has committed to specific actions rather than vague promises:</p>
+    <ul style="list-style-type:disc;padding-left: 50px;">
+      <li>Launching a National Career Roadshow across leading universities to provide direct support to students.</li>
+      <li>Conducting the first UK-wide study on Indian student outcomes, with findings to be released early next year.</li>
+      <li>Establishing a National Advisory Board to offer Indian students direct representation in policy decisions affecting their futures.</li>
+      <li>Collaborating with the High Commission of India and the Foreign, Commonwealth and Development Office to lobby for employer education programs, aiming to ensure UK companies treat Indian students equally.</li>
+    </ul>
+
+    <h2><b>The Bigger Picture</b></h2>
+    <p>
+      2025 has been an important year for India's relation with the UK, with education, employment, and trade at the forefront. 
+      With the Comprehensive Economic and Trade Agreement (CETA) finalized during Prime Minister Narendra Modi's visit in July, 
+      the international education space awaits new opportunities for Indian students. Labour MP Navendu Mishra opened the summit 
+      by noting that after 10 years of dialogue, the two countries have finally reached this trade deal.
+    </p>
+
+    <p>
+      For Indian students who've left their country for the first time, invested heavily in their education, and followed all the rules, 
+      the current situation is a waste of talent that both countries need. INSEC has taken on the task of breaking this pattern and 
+      allowing better employment opportunities to knock through the doors of talented Indian graduates in Britain.
+    </p>
+
+     <p>
+      📞 Please call us at +91 9654223759<br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a> <br/>
+    </p>
+    
+  </div>
+
+  `,
+  author: "Uninxt Team",
+  date: "December 2, 2025"
+}
+,
   { id: 34,
   image: Img31, // Replace with actual import
   title: "The OPT Pathway Crisis: What To Do To Better Your Chances",
