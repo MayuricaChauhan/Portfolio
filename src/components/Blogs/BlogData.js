@@ -31,8 +31,98 @@ import Img30 from "../../assets/blog/blog30.jpeg";
 import Img31 from "../../assets/blog/blog31.jpeg";
 import Img32 from "../../assets/blog/blog32.jpeg";
 import Img33 from "../../assets/blog/blog33.jpeg";
+import Img34 from "../../assets/blog/blog34.jpeg";
 
 const BlogsData = [
+{
+  id: 37,
+  image: Img34, // Replace with actual import
+  title: "Is Fashion Design Management Worth It?",
+  description: `
+  <div id="desc-37">
+
+    <p>
+    Have you ever wondered what happens behind the scenes when Zara drops a collection
+    that sells out in hours? Or how Gucci’s latest campaign starts trending overnight?
+    That’s where <strong>Fashion Design Management</strong> comes in — and it’s far more
+    exciting than its formal name suggests.
+  </p>
+
+  <h2><b>What's It Really About?</b></h2>
+
+  <p>
+    Fashion Design Management is a multidisciplinary field that combines creativity
+    with business strategy. Many students assume fashion careers are only about sketching
+    designs or choosing fabrics. In reality, this field focuses on understanding
+    <strong>why certain designs succeed</strong>, how trends evolve, and how brands turn
+    creativity into profitable business models.
+  </p>
+
+  <p>
+    As a Fashion Design Manager, you analyze consumer behavior, manage brand identity,
+    work on sustainable strategies, and ensure that creative ideas align with commercial
+    goals across different markets.
+  </p>
+
+  <h2><b>The Industry Wants You</b></h2>
+
+  <p>
+    Some of the top players in the fashion industry are on a serious talent hunt right now. Hermès, Chanel, and Louis Vuitton are actively recruiting graduates with specialized fashion management degrees. You may ask why. This is because they need people who understand both the art and science of fashion. LVMH, a fashion conglomerate, recently launched their own talent accelerator program for fashion graduates. Gucci's parent company, Kering, is constantly on the lookout for fresh perspectives in their management trainee programs. Even digital-first brands like Farfetch and Net-a-Porter are building teams of fashion management specialists who can innovate in luxury and technology.
+
+  </p>
+
+  <p>
+   With a degree in Fashion Design Management, you're someone who speaks the fashion industry's secret language. Beyond the glitter and glamor, brands value this because you understand everything from supply chain sustainability to digital showroom management and possess skills that are now non-negotiable in fashion's new era.
+  </p>
+
+  <h2><b>The Digital Revolution Has Changed Everything</b></h2>
+
+  <p>
+   Do you remember when fashion was all about physical stores and seasonal catalogs? Those days are gone. The industry has gone through a massive digital transformation, and it's creating jobs we couldn't have imagined a few years ago. Major brands are scrambling to find people who get both fashion and digital innovation. Luxury powerhouses like Louis Vuitton and Burberry aren't just looking for traditional designers. They now want people who understand TikTok trends, virtual try-ons, and how to make sustainable fashion appeal to Gen Z.
+
+  </p>
+
+  <ul>
+    <li>Managing virtual fashion shows (yes, that's a real thing)</li>
+    <li>Creating strategies for digital-first fashion brands</li>
+    <li>Leading sustainability initiatives for major labels</li>
+    <li>Running e-commerce operations for luxury houses</li>
+    <li>Developing AR/VR shopping experiences</li>
+  </ul>
+
+  <h2><b>The Reality Check</b></h2>
+
+  <p>
+    Let's talk about money and prospects because passion doesn't pay the bills. But I have good news for you. Fashion Design Management can be surprisingly lucrative. Starting salaries are decent ($45,000-$60,000), but here's where it gets interesting. After a few years of work experience, you could be looking at $80,000+ managing brand strategies or digital initiatives. And, the real goldmine here is that the industry keeps growing in unexpected ways. Sustainable fashion is a booming industry, luxury brands are expanding into gaming and NFTs and personalized shopping experiences are becoming the norm. Each of these trends bring promising new opportunities for Fashion Design Management graduates.
+  </p>
+
+  <h2><b>Why a degree in Fashion Design Management is Worth Considering</b></h2>
+
+  <p>
+    The field allows you to be creative while making a real business impact. You could be the brain behind strategies that make sustainable fashion mainstream, or pioneer new ways for people to experience fashion through technology.
+  </p>
+
+  <p>
+    And the best part is that you don't need to be a fashion insider to start. What brands really want are people who understand both creativity and commerce. To get started, look for programs that offer real-world projects with actual brands, strong digital components, and good internship connections. The fashion world is always looking for fresh perspectives, and right now, it needs people who can help it plan for the future.
+  </p>
+
+  <p>
+    If you are someone who gets excited about both the creative and business sides of fashion, and you're curious how technology is reshaping the industry, Fashion Design Management could be your calling. The industry is evolving fast, and it needs people who can keep up with its pace while pushing it forward. The future isn't coming: it's here, and a career in Fashion Design Management puts you right at its center.
+
+  </p>
+    <p>
+      📞 Call us at <b>+91 9654223759</b><br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </br>
+      to explore how we can help you build an international career in fashion.
+    </p>
+
+  </div>
+  `,
+  author: "Uninxt Team",
+  date: "December 14 2025"
+}
+,
 {
   id: 36,
   image: Img33, // Replace with actual import
