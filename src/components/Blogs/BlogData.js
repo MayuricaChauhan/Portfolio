@@ -82,7 +82,7 @@ const BlogsData = [
 
   </p>
 
-  <ul>
+  <ul style="list-style-type:disc;padding-left: 50px;">
     <li>Managing virtual fashion shows (yes, that's a real thing)</li>
     <li>Creating strategies for digital-first fashion brands</li>
     <li>Leading sustainability initiatives for major labels</li>
