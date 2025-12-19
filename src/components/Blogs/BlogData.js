@@ -32,9 +32,68 @@ import Img31 from "../../assets/blog/blog31.jpeg";
 import Img32 from "../../assets/blog/blog32.jpeg";
 import Img33 from "../../assets/blog/blog33.jpeg";
 import Img34 from "../../assets/blog/blog34.jpeg";
+import Img35 from "../../assets/blog/blog35.jpeg";
 
 const BlogsData = [
 {
+  id: 38, // incremented ID
+  image: Img35, // Replace with your actual import (e.g., IvyLeagueBlogImg)
+  title: "The Real Deal on Getting into the Ivy League as an Indian Student",
+  description:`
+   <div id="desc-38">
+
+    <p>
+     If you're an Indian high schooler presently eyeing the ‘big American’ dream, there are things that you need to do, right now, to make sure that it does not remain a mere dream. Let's face it, not every Indian who dreams of studying in America, and particularly in an Ivy League institution like Harvard or Yale, gets to walk their corridors. Most fail to get through. Some do not apply at all for fear of the obvious: blatant rejection.
+    </p>
+
+    <p>
+The dreamers who do apply, all throughout the process, are overcome by a feeling of being an imposter. You feel like you don't have enough activities on your resume or enough projects to show off to the admissions committee. With each passing moment, hundreds of students from all over the world are also scurrying to get a place in the institution and program you are dreaming of. The Ivy League is an entirely different game altogether. And it starts way earlier than you think. Here is the real deal on getting into the Ivy League fresh out of high school as an Indian student.
+    </p>
+
+    <h2><b>The Ivy League plays by different rules: How the admission process is different from the standard</b></h2>
+    <p>
+      Indian universities look at your board marks and entrance exam scores at the most. That is pretty much it. But Ivy League universities like Harvard, Stanford, and Yale demand to know you beyond the numbers on your academic transcripts. They want to see the whole picture and you up close as an individual, as a future leader, and as a potential changemaker.
+    </p>
+
+    <p>
+This is not to mean that your SAT scores matter. They certainly do. However, when you ponder upon why even those students with extraordinary SAT scores also face rejection. As much as the marks matter, so do the things that the Indian educational system conveniently teaches us to neglect: community and personal passion projects done outside the classroom. A packed term schedule that leaves students with little time outside of academics. Some parents and teachers discourage their students from taking on extra projects, believing that academics come above all else. 
+
+Good grades open the door, but your personal statement is what makes them want to let you in. Admissions officers are looking for students who can think and lead. They want to know what keeps you up at night and what you'd do if you had unlimited resources.
+    </p>
+
+       <h2><b>The timeline: You must begin now.</b></h2>
+       <P>Most students start thinking about US colleges in Class 12. That is already too late. Here's what you need to do at the right time to mold yourself into an Ivy League candidate:</p>
+    <ul style="list-style-type:disc;padding-left: 50px;">
+      <li><b>Class 9 and 10:</b> This is when you should be exploring and not stressing but trying things out. Take harder classes if they interest you, join the debate team if arguing excites you, and start coding if you're curious about how apps work. Do anything that appeals to you. The key words here are passion and interest. The element that makes these passions count in the end is consistency. Admissions officers can smell forced activities from miles away. Keep a simple document of what you do and why you did it. Future you will thank present you when essay deadlines hit.</li>
+      <li><b>Class 11:</b> This is the time when things get real. This is your year to go deep into something you truly care about. Not five things, just one or two where you can show real impact or growth. Start your SAT prep between January and March and take the test by June if feasible. This gives you ample time for a retake should that be needed. Look into summer programs at places like MIT or Yale. They are competitive to get in similarly, but your application alone shows universities that you're willing to push yourself. Research colleges during this year too. Not just rankings but how you might actually fit in the overall institutional environment.</li>
+      <li><b>Class 12:</b> The final year of high school is when you reap the fruits of the seeds you have sown over the years. It is showtime. Common applications open approximately on August 1st. Early decision deadlines hit on November 1st, and regular decisions are usually finalized by January 1st to 5th. Your personal essay is everything. Don't write what you think they want to hear. Rather, write about something that changed how you see the world. Write about a failure that taught you something. Write in your own voice instead of the ‘impressive college application’ voice. Get recommendation letters from teachers who actually know you. The physics teacher who saw you struggle and persist is better than the English teacher who gave you an A but barely knows your name.</li>
+    </ul>
+
+    <h2><b>What actually makes you stand out?</b></h2>
+    <p>
+      Every year thousands of Indian students with perfect scores get rejected. The ones who get in often have something specific going for them. Maybe they started a tutoring program for underprivileged kids and stuck with it for three years. Maybe they conducted independent research on water quality in their city. Maybe they built an app that actually solved a local problem.
+
+The pattern is that they've found something they cared about and went deep. Really deep.
+    </p>
+
+    <h2><b>What not to do</b></h2>
+    <p>
+      Admissions officers read thousands of applications, and they can tell when something sounds fake. Don't pad your resume with activities you did for two weeks. Don't apply to all eight Ivies just because you can. Apply to places where you actually want to spend four years.
+
+Don't let your parents take over the process either. This is your application and your life. Their job is to support you but not to write your story for you.
+    </p>
+
+    <p>
+      📞 Call us at <b>+91 9654223759</b><br/>
+      📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+    </p>
+
+  </div>`,
+  author: "Uninxt Team",
+  date: "December 20, 2025"
+}
+,
+  {
   id: 37,
   image: Img34, // Replace with actual import
   title: "Is Fashion Design Management Worth It?",
