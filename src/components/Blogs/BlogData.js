@@ -33,13 +33,102 @@ import Img32 from "../../assets/blog/blog32.jpeg";
 import Img33 from "../../assets/blog/blog33.jpeg";
 import Img34 from "../../assets/blog/blog34.jpeg";
 import Img35 from "../../assets/blog/blog35.jpeg";
+import Img36 from "../../assets/blog/blog36.jpeg";
 
 const BlogsData = [
-{
-  id: 38, // incremented ID
-  image: Img35, // Replace with your actual import (e.g., IvyLeagueBlogImg)
-  title: "The Real Deal on Getting into the Ivy League as an Indian Student",
-  description:`
+  {
+    id: 39, // previous ID before Ivy League blog
+    image: Img36, // Replace with your actual import (e.g., FinancialPlanningImg)
+    title: "Financial Planning for International Students: Budgeting and Saving Tips",
+    description: `
+    <div id="desc-37">
+      <p>
+        Studying abroad is a one of a kind opportunity. And all such opportunities come with their own set of challenges. For many students hoping to study overseas, money tends to be a strong deterrent. 
+      </p>
+
+      <p>
+        However, when students plan their budget carefully and take advantage of scholarships and funding resources, they can significantly reduce the financial burden. Studying abroad involves a number of financial considerations. Here’s a quick overview of what you’ll need to plan for:
+      </p>
+
+      <ul style="list-style-type:disc;padding-left: 50px;">
+        <li><b>Visa fees:</b> Different countries have varying visa requirements and associated costs vary accordingly.</li>
+        <li><b>Tuition fees:</b> These can range significantly based on the country and university you go to.</li>
+        <li><b>Accommodation:</b> This largely depends on your choice of living arrangements (on-campus vs. off-campus) and costs can vary.</li>
+        <li><b>Transportation:</b> Includes public transit or the cost of purchasing and maintaining a vehicle.</li>
+        <li><b>Daily living expenses:</b> Food, utilities, and other day-to-day personal expenses.</li>
+      </ul>
+</br>
+      <h2><b>How can I budget efficiently as an international student?</b></h2>
+      <ol style="list-style-type:number;padding-left: 50px;">
+        <li><b>Be realistic:</b> When you're planning an itinerary for a vacation, among your first steps is to know your intended destination. Similarly, before your budget for your studies, begin by researching living costs in your intended country of study. Weigh in on tuition, accommodation, food, transportation and occasional leisure.</li>
+        <li><b>Learn to cook:</b> Think of cooking as a life skill and not a chore. Eating out often can drain your wallet and your health faster than you often realize. Invest time and effort into learning how to cook simple and nutritious meals.</li>
+        <li><b>Watch out for student discounts:</b> Many countries offer discounts for students in a number of settings. Your student status is your golden ticket to saving. Many places such as museums, public transport, cinemas, and even restaurants offer discounts for students. Make sure to always carry your student ID and be on the lookout for any discounted prices. This is a smart way to say albeit small. But these small savings can add up to greater things later on.</li>
+        <li><b>Live on a budget:</b> When you're on a budget, live like you’re on a budget. Try and prioritize what truly matters to you. Choose memories over splurging on material goods like gadgets or luxury clothing. Instead, students can choose to explore the city leisurely by taking short trips, attending cultural festivals and exploring local neighborhoods.</li>
+        <li><b>Work part-time:</b> Consider working part-time to support your lifestyle as an international student on a budget. Most countries offer work opportunities for international students, whether on-campus or in associated sectors. Balancing part-time work with studies can be challenging but the financial relief you will get will make it a worthwhile grind.</li>
+      </ol>
+</br>
+      <h2><b>What are the Scholarship and Funding resources available for students? 
+</b></h2>
+      <p>One of the best ways to ease your financial pressure is through scholarships and funding opportunities. Here are a few resources to help you find the right scholarship for your program:</p>
+
+      <h3><b>United States</b></h3>
+      <ul style="list-style-type:number;padding-left: 50px;">
+      <li>Fulbright-Nehru Master's Fellowships</li>
+      <li>Tata Scholarship (Cornell University)</li>
+      <li>Inlaks Shivdasani Foundation Scholarships</li>
+      <li>AAUW International Fellowships</li>
+      <li>Stanford Reliance Dhirubhai Fellowships</li></ul>
+
+      <h3><b>United Kingdom</b></h3>
+      <ul style="list-style-type:number;padding-left: 50px;">
+      <li>Chevening Scholarships</li>
+      <li>Commonwealth Scholarships</li>
+      <li>Rhodes Scholarships (University of Oxford)</li>
+      <li>GREAT Scholarships</li>
+      <li>Felix Scholarships</li>
+      </ul>
+
+      <h3><b>Australia</b></h3>
+      <ul style="list-style-type:number;padding-left:50px;">
+      <li>Australia Awards Scholarships</li>
+      <li>Endeavour Leadership Program</li>
+      <li>Macquarie University India Scholarships</li>
+      <li>University of Sydney International Scholarships</li>
+      <li>Indian Global Leaders Scholarship (University of Queensland)</li>
+      </ul>
+
+      <h3><b>Europe</b></h3>
+      <ul style="list-style-type:number;padding-left: 50px;">
+      <li>Erasmus Mundus Scholarships</li>
+      <li>DAAD Scholarships (Germany)</li>
+      <li>Eiffel Excellence Scholarship Programme (France)</li>
+      <li>NL Scholarship</li>
+      <li>Swiss Government Excellence Scholarships</li></ul>
+
+      <h3><b>United Arab Emirates</b></h3>
+      <ul style="list-style-type:number;padding-left: 50px;">
+      <li>Mohamed Bin Zayed University International Scholarships</li>
+      <li>Khalifa University International Graduate Student Program</li>
+      <li>Masdar Institute Scholarships</li>
+      <li>Al Qasimi Foundation’s Sheikh Saud bin Saqr Al Qasimi Doctoral Research Grants</li>
+      </ul>
+</br>
+      <p>
+        We are committed to helping students find the right country and university for their career aspirations. For more personal guidance on studying overseas, book a session with us today.<br/>
+        📞 Call us at <b>+91 9654223759</b><br/>
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "December 25, 2025" // example date before Ivy League blog
+  }
+
+  , {
+    id: 38, // incremented ID
+    image: Img35, // Replace with your actual import (e.g., IvyLeagueBlogImg)
+    title: "The Real Deal on Getting into the Ivy League as an Indian Student",
+    description: `
    <div id="desc-38">
 
     <p>
@@ -89,15 +178,15 @@ Don't let your parents take over the process either. This is your application an
     </p>
 
   </div>`,
-  author: "Uninxt Team",
-  date: "December 20, 2025"
-}
-,
+    author: "Uninxt Team",
+    date: "December 20, 2025"
+  }
+  ,
   {
-  id: 37,
-  image: Img34, // Replace with actual import
-  title: "Is Fashion Design Management Worth It?",
-  description: `
+    id: 37,
+    image: Img34, // Replace with actual import
+    title: "Is Fashion Design Management Worth It?",
+    description: `
   <div id="desc-37">
 
     <p>
@@ -178,15 +267,15 @@ Don't let your parents take over the process either. This is your application an
 
   </div>
   `,
-  author: "Uninxt Team",
-  date: "December 14 2025"
-}
-,
-{
-  id: 36,
-  image: Img33, // Replace with actual import
-  title: "Everything You Need to Know About Pursuing an MBBS in Kyrgyzstan",
-  description: `
+    author: "Uninxt Team",
+    date: "December 14 2025"
+  }
+  ,
+  {
+    id: 36,
+    image: Img33, // Replace with actual import
+    title: "Everything You Need to Know About Pursuing an MBBS in Kyrgyzstan",
+    description: `
   <div id="desc-36">
 
     <p>
@@ -239,14 +328,14 @@ Don't let your parents take over the process either. This is your application an
 
   </div>
   `,
-  author: "Uninxt Team",
-  date: "December 9 2025"
-}
-  ,  {
-  id: 35,
-  image: Img32, // Replace with actual import
-  title: "Why Indian Students in the UK Deserve Better Career Support",
-  description: `
+    author: "Uninxt Team",
+    date: "December 9 2025"
+  }
+  , {
+    id: 35,
+    image: Img32, // Replace with actual import
+    title: "Why Indian Students in the UK Deserve Better Career Support",
+    description: `
   <div id="desc-35">
     <p>
       Graduating from a top UK university should feel like opening doors and not hitting walls. 
@@ -332,14 +421,15 @@ Don't let your parents take over the process either. This is your application an
   </div>
 
   `,
-  author: "Uninxt Team",
-  date: "December 2, 2025"
-}
-,
-  { id: 34,
-  image: Img31, // Replace with actual import
-  title: "The OPT Pathway Crisis: What To Do To Better Your Chances",
-  description: `
+    author: "Uninxt Team",
+    date: "December 2, 2025"
+  }
+  ,
+  {
+    id: 34,
+    image: Img31, // Replace with actual import
+    title: "The OPT Pathway Crisis: What To Do To Better Your Chances",
+    description: `
   <div id="desc-34">
   <p>
       A short answer to this long-standing question is yes, extracurricular activities do play a significant role in your admissions process. 
@@ -419,13 +509,14 @@ Don't let your parents take over the process either. This is your application an
 
   </div>
   `,
-  author: "Uninxt Team",
-  date: "November 28, 2025"
-},
-  { id: 33,
-  image: Img30, // Replace with actual import
-  title: "The OPT Pathway Crisis: What To Do To Better Your Chances",
-  description: `
+    author: "Uninxt Team",
+    date: "November 28, 2025"
+  },
+  {
+    id: 33,
+    image: Img30, // Replace with actual import
+    title: "The OPT Pathway Crisis: What To Do To Better Your Chances",
+    description: `
   <div id="desc-33">
 
     <p>
@@ -532,10 +623,10 @@ Don't let your parents take over the process either. This is your application an
 
   </div>
   `,
-  author: "Uninxt Team",
-  date: "November 24, 2025"
-}
-,
+    author: "Uninxt Team",
+    date: "November 24, 2025"
+  }
+  ,
   {
     id: 32,
     image: Img29, // Replace with actual import
