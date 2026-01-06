@@ -181,7 +181,7 @@ const BlogsData = [
     </div>
   `,
     author: "Uninxt Team",
-    date: "January 02, 2026"
+    date: "January 06, 2026"
   }
   ,
   {
