@@ -37,8 +37,74 @@ import Img36 from "../../assets/blog/blog36.jpeg";
 import Img37 from "../../assets/blog/blog37.jpeg";
 import Img38 from "../../assets/blog/blog38.jpeg";
 import Img39 from "../../assets/blog/blog39.jpeg";
+import Img40 from "../../assets/blog/blog40.jpeg";
 
 const BlogsData = [
+  {
+    id: 43, // incremented ID
+    image: Img40, // Replace with your actual import
+    title: "Making the right choices in 2026",
+    description: `
+    <div id="desc-43">
+      <p>
+       This year, the conversation around studying abroad is turning over a new leaf. Previously, studying abroad had much to do with the country and university. However, at this point in time, Indian students are breaking the mold. Students are looking at and applying for programs that are quickly gaining momentum around the globe in terms of employment prospects and supply and demand. Students and their families, who invest lakhs into funding their time abroad, must also prepare to face the competitive global job market today.
+      </p>
+
+      <p>
+        Rising tuition fees, tighter visa policies and shifting workforce demands have made course selection more important than destination. Students who pick degrees based on skill gaps and industry needs are seeing better employment outcomes than those who chase brand names alone.
+      </p>
+
+  </br>
+    
+      <h2><b>Why your program matters more than your university ranking</b></h2>
+      <p>
+       International education now works within some strict policy boundaries. Many countries are tying student visas to labor shortages and offer post-study work rights only in specific sectors. A degree that sounds impressive but doesn't match market demand can limit both your career growth and return on investment.
+      </p>
+
+      <p>
+       The right program gives you access to jobs across multiple countries, not just one. It also opens pathways across skilled migration and into professional stability in the longer run.
+      </p>
+</br>
+
+      <h2><b>Programs that lead to jobs</b></h2>
+      <ul style="list-style-type:disc;padding-left: 50px;">
+      <li><b>STEM and engineering</b>  remain strong choices. Demand for these skills continues across IT, manufacturing, infrastructure and automation. Most universities offer research opportunities and strong industry connections that translate into smoother job placements.</li>
+      <li><b>Data science, AI and analytics</b>  are now essential across all sectors. Whether it's finance, healthcare or consulting, organizations need professionals who can work with data. These skills are portable and continue to hold value regardless of where you eventually work.</li>
+      <li><b>Business programs</b>  have moved beyond theory. Modern curricula focus on analytics, strategy and leadership. Graduates find roles in consulting, finance and multinational organizations that value practical business thinking.</li>
+      <li><b>Healthcare and life sciences</b>  are expanding beyond clinical roles. Public health, biotech, research and policy positions are growing as populations age and health systems modernize. Academic programs now integrate research and industry exposure more closely.</li>
+      <li><b>Sustainability and renewable energy</b>  are gaining traction as governments and companies commit to climate goals. These interdisciplinary programs cover science, policy and management, preparing graduates for a sector that is receiving major funding globally.</li>
+      <li><b>Creative fields like media and design</b>  reward your skills over degrees. Programs that focus on portfolios, hands-on projects and industry collaboration help graduates enter global creative markets.</li>
+      </ul>
+</br>
+
+      <h2><b>What to evaluate before you decide</b></h2>
+      <p>
+     Before committing to a program, check if you will gain skills that are in demand in your target country. Look at total costs against expected career returns and understand post-study work visa availability and whether the degree offers career flexibility if you later decide to move to another market.
+      </p>
+      <p>
+      Don't pick a course simply because it is popular. Choose it because it prepares you for the jobs that exist and the ones being created.
+      </p>
+</br>
+   <h2><b>What to evaluate before you decide</b></h2>
+   <p>
+   When you go out to study abroad, you leave the comfort of your childhood life behind and make what is an incredible yet rewarding investment when done right. The outcomes post your program now depend less and less on prestige and rankings and lean more on program selection that speaks to your career goals and the skills that the global workforce needs.
+   </p>
+   <p>
+   To learn more about studying overseas and choosing the right program,
+   </p>
+      <p>
+        📞 Call us at <b>+91 9654223759</b><br />
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    <p>
+    to explore how we can help you turn your international career dreams into reality. Our experienced consultants are here to help!
+    </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "January 13, 2026"
+  }
+  ,
   {
     id: 42, // incremented ID
     image: Img39, // Replace with your actual import
