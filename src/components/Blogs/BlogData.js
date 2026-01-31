@@ -39,10 +39,76 @@ import Img38 from "../../assets/blog/blog38.jpeg";
 import Img39 from "../../assets/blog/blog39.jpeg";
 import Img40 from "../../assets/blog/blog40.jpeg";
 import Img41 from "../../assets/blog/blog41.jpeg";
+import Img42 from "../../assets/blog/blog42.jpeg";
 
 const BlogsData = [
+  {
+    id: 45, // incremented ID
+    image: Img42, // Replace with your actual import
+    title: "Why Only Some Indian States Are Sending the Most Number of Students to Study Overseas",
+    description: `
+    <div id="desc-45">
+      <p>
+       NITI Aayog, the Indian government's apex body for public policy, has recently discovered a pattern about Indian students studying overseas that has left many confused, curious, and fishing for answers. The finding is that not all Indian states are contributing evenly to the international education industry. While that may sound like a reasonable average, that some states have greater numbers than others, NITI Aayog has observed something much more concerning. Many Indian students currently studying overseas all originate from the same few Indian states. This means that the average is severely skewed toward some states but completely excludes some others. Now this is a pattern worth looking at, and we'll tell you why. 
+      </p>
 
-    {
+      <p>
+      At UniNxt Study Overseas, we believe that all students, regardless of demographic or personal differences, deserve to be able to fulfill their dream of studying abroad in a country of their choice and at a university and program of their liking. When there are clear and noticeable indications that some states are able to better support their students flying overseas for bigger pursuits as opposed to others, we find this inconsistency a threat to the democratization of international education. Between 2016 and 2020, the same handful of states consistently dominated international student numbers, creating what experts now call India's ‘outbound corridor.’
+      </p>
+
+  </br>
+    
+      <h2><b>Which Indian States Are Leading, and Why?</b></h2>
+      <p>
+       The southern state Andhra Pradesh has continually remained the leading region in the list of states sending students abroad. Andhra Pradesh has managed to retain its position at the top of the table spectacularly across three benchmark years: 2016, 2018, and 2020. Punjab and Maharashtra closely follow Andhra Pradesh and keep rotating between the second and third positions on the table over the years. The neighboring state of Gujarat has also shown some steady growth in terms of the number of students flying to pursue overseas education. 
+
+Coming right back to where we started, the Southern part of the country, the table places Tamil Nadu, Kerala, and Karnataka among permanent members of the top-ten list. This means that all Southern states are contributing exponentially to the international education space, supporting the aspirations of the most number of Indian students. Their northern counterparts, while some states are still making substantial contributions, are still failing to catch up in terms of stability and consistency. The figures coming out of the former show drastic fluctuations across benchmark years, whereas the latter have remained largely consistent but show little growth. What makes this pattern among Southern states particularly interesting is its stability. Even a global pandemic that shut down normal life and disrupted global travel did not influence these numbers too much. Not even a deadly pandemic could change this interesting yet skewed hierarchy. 
+      </p>
+
+      
+</br>
+
+      <h2><b>Why It Matters</b></h2>
+     <p>This concentration makes us ask ourselves an important question:</p>
+    <p>Why aren't demographically larger states like Uttar Pradesh, Bihar, or Madhya Pradesh, with their massive populations, sending proportionally more students abroad? </p>
+<p>
+The answer to this depends on a number of factors, but it is infrastructure that is most decisive. And not student aspiration. Let us explain why.
+</p>
+<p>
+There are 4 key factors that are presently separating these high-spending states apart from the rest of the country.</p>
+
+<ul style="list-style-type:disc;padding-left: 50px;">
+      <li>First, these Southern regions and a few Northern states have invested heavily in professional and engineering education during the 1990s and early 2000s. This has since created a pipeline of students that are already at par with the global demand for STEM professionals.</li>
+      <li>Second, these regions developed some truly dense networks of private colleges, test-preparation centers, and overseas admission consultants. These states have plenty of guidance available for students throughout the process.</li>
+      <li>The third factor is financial culture. High-sending states treat education loans as investments rather than as liabilities that need to be paid off at the soonest. It is this mindset toward international education that motivates many families to support their children''s aspirations. It is also notable that statistically, these states enjoy better access to things like formal credit and are generally much more financially literate. This, in turn, makes families more willing to take calculated risks. Punjab, despite being smaller than its northern counterparts, consistently outperforms larger ones because of this very reason.</li>
+      <li>Finally, what is referred to as migration memory also plays a very important role. What this means is that regions that already have established diaspora communities across the globe enjoy less uncertainty about moving overseas. There may be better support networks or simply a greater understanding of what it takes to live in a foreign country for school or work. The peer effect is visible. As families see their neighbors and relatives’ children successfully complete foreign degrees and build careers abroad, the path appears less daunting when it comes to their own children. In fact, parents may even encourage their wards to reach high and aim for the sky, having been inspired by the stories of others.</li>
+      </ul>
+
+    <p>For policymakers and others in the international education space, this pattern should be a wake-up call. We must probe ourselves. </p>
+    <p>Why is it that some of our own get access to better opportunities but others don't?
+
+Why are there not enough support networks for first-generation international aspirants?
+
+The problem with international education being incredibly common in some regions but scarce in others is that when a basic right like education becomes geographically inherited, it reiterates regional inequality across generations. Students who access foreign degrees gain better networks, higher-return careers, and global opportunities, and when this advantage clusters in specific states, the gap only grows, prepared to swallow the generations to come too. </p>
+
+<p>
+It is 2026, and it's about time to break this pattern. At UniNxt Study Overseas, we believe that international education is an opportunity that should be made available equally for all students. On the flip side, the data recorded also offers hope. The data is helping us see what is causing this divide and what can be done to close in. We now know that international mobility relies on systems that we can build: better counseling networks and stronger professional education pipelines.  
+</p>
+
+   <p>
+  If you are an Indian student dreaming of getting into a top institute abroad but do not know where to start or how to approach the process, book a session with us today.
+   </p>
+      <p>
+        📞 Call us at <b>+91 9654223759</b><br />
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "January 31, 2026"
+  }
+  ,
+  {
     id: 44, // incremented ID
     image: Img41, // Replace with your actual import
     title: "The latest of studying abroad in 2026",
@@ -112,7 +178,7 @@ To counteract these concerns, it is important for aspiring students and their fa
     date: "January 23, 2026"
   }
   ,
-    {
+  {
     id: 43, // incremented ID
     image: Img40, // Replace with your actual import
     title: "Making the right choices in 2026",
