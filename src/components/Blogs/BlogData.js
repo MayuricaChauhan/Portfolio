@@ -40,8 +40,73 @@ import Img39 from "../../assets/blog/blog39.jpeg";
 import Img40 from "../../assets/blog/blog40.jpeg";
 import Img41 from "../../assets/blog/blog41.jpeg";
 import Img42 from "../../assets/blog/blog42.jpeg";
+import Img43 from "../../assets/blog/blog43.jpeg";
 
 const BlogsData = [
+
+  {
+    id: 46, // incremented ID
+    image: Img43, // Replace with your actual import
+    title: "What Union Budget 2026 Mandates for Students Returning After Studying Abroad",
+    description: `
+    <div id="desc-46">
+      <p>
+       If you are an Indian student who is currently pursuing a program overseas and inching closer to the end of your cherished days in your study country, here's something important that you ought to make note of. Read along carefully because most mainstream platforms are not talking about some key changes that the Union Budget 2026 has brought about in the international education space. The recent budget roundup now mandates taxes for those who've just returned from a foreign country. Yes, taxes. 
+      </p>
+
+      <p>
+      You may have put off taxes towards the back of your mind. Perhaps you believe that taxes come after employment and earning. Therefore, just fresh out of university, it is common to assume that India's tax provisions do not concern you yet. However, this is precisely what the Union Budget 2026 is changing. In this blog, let's understand why.
+      </p>
+
+  </br>
+    
+      <h2><b>What's the new rule all about?</b></h2>
+     
+      <p><i>Well, what's the fuss?</i></p>
+     
+      <p><i>Why do international students suddenly have to pay up?</i></p>
+
+      <p>
+       Before you ask these questions, let's understand the provisions. India's current Finance Minister, Ms. Nirmala Sitharaman, recently announced a disclosure period of ‘6 months’ for international student taxpayers to disclose any foreign income or assets they may have acquired during their time overseas. This essentially means that you will have come clean to the IT department about your foreign habits. This provision only applies if you fall within the specified limits of up to ₹1 crore or ₹5 crore, depending on the category. Should you voluntarily declare these assets within the stipulated time period of 6 months, then you are free to spend your time back in India without facing any prosecution or penalties. 
+      </p>
+
+      
+</br>
+
+      <h2><b>Why should international students care?</b></h2>
+     <p>
+     When we speak of ‘foreign assets,' it is important to understand what they entail. Assets, in this context, do not necessarily refer to properties or fancy cars. In the case of international students, they start accumulating what are technically foreign assets as soon as they open a local bank account to pay rent and buy groceries for survival. Foreign assets also include any scholarship money, internship, or research stipend one may have received during their time overseas. 
+     </p>
+   
+     <p>
+     It is true that none of this appears like true wealth accumulation, given that these have more to do with meeting your day-to-day needs. While you're still overseas, you remain a foreign student raking up bills and juggling part-time jobs to make ends meet. But by the time you return to India, you'll become a taxable resident yet again. Therefore, it is important to comply with the latest regulations underlined by the Union Budget 2026. 
+     </p>
+
+</br>
+     
+    <h2><b>The bigger picture</b></h2>
+
+    <p>
+    This blog is not a cue for you to panic. Rather, it is simply yet another layer of adjusting to life back in India after spending a few years growing in a foreign country. It is merely leveling ground that will make you adapt quicker to India and bridge any gaps in capital and taxation so you can begin anew.  
+    </p>
+
+   <p>
+  Tax compliance is probably not the first thing you would like to deal with when you return home. Especially not when you are just soaking in the familiarity of your home and having a good Indian meal after what feels like decades. However, the Union Budget 2026 is offering returnees plenty of time to sort their disclosure and taxation. Previously, tax regulations haven't kept pace with this mobility. Many young professionals are technically non-compliant, not because they tried to hide anything but because tax literacy hasn't caught up with global education patterns. This year's budget provision acknowledges this reality. It sees that many returnees are just unaware and not dishonest.
+   </p>
+   <p>
+   If you've studied abroad and are now filing taxes in India, don't assume small amounts go unnoticed. Even if you only had a few thousand dollars in a foreign account or received modest research payments, disclosure obligations may still apply.
+   </p>
+   
+   <p>
+        📞 Call us at <b>+91 9654223759</b><br />
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "February 9, 2026"
+  }
+  ,
   {
     id: 45, // incremented ID
     image: Img42, // Replace with your actual import
