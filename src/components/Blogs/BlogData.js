@@ -41,9 +41,71 @@ import Img40 from "../../assets/blog/blog40.jpeg";
 import Img41 from "../../assets/blog/blog41.jpeg";
 import Img42 from "../../assets/blog/blog42.jpeg";
 import Img43 from "../../assets/blog/blog43.jpeg";
+import Img44 from "../../assets/blog/blog44.jpeg";
 
 const BlogsData = [
 
+  {
+    id: 47, // incremented ID
+    image: Img44, // Replace with your actual import
+    title: "Indian Students Are Flocking to Pursue This Discipline Over STEM",
+    description: `
+    <div id="desc-47">
+      <p>
+       STEM has always been the go-to educational pathway for students who study in India as well as overseas. However, this is a trend that has been quietly rewiring itself over the last decade. More recently, this rewiring has a lot to do with the advent of artificial intelligence and other allied innovations of the contemporary 21st century. The choices are now plenty for students fresh out of high school and their families. It is indeed commendable that Indian students are choosing a wide range of fields to study, to gain professional experience in, and to build fulfilling careers. That being said, the Indian education and overseas educational space have, of late, picked up a certain pattern of students increasingly flocking to pursue this discipline over more conventional STEM subjects. 
+      </p>
+
+      <p>
+      The discipline we are talking about here is none other than psychology. Yes, psychology. Why this is particularly noteworthy is that, just a decade ago, its existence and scope as a separate discipline outside of the humanities stream was largely unknown. The average Indian may have perhaps been unable to differentiate between a psychiatrist, a qualified professional with a medical degree, and a psychologist, whose credentials are governed by bodies such as the RCI (Rehabilitation Council of India).
+      </p>
+
+  </br>
+    
+      <h2><b>Why Is Psychology Suddenly Trending, and What Does AI Have to Do With It?</b></h2>
+     
+      <p>
+      A growing concern and a persistent question among salaried professionals today is, "Will AI replace my job too?" Well, this fear and uncertainty is fair given that AI has, in fact, eliminated the need for humans to perform some tasks. However, psychology as a discipline is associated with a greater sense of security and a much lower possibility of AI ever replacing its human mental health professionals. This is because artificial intelligence, or rather any other technology, can never match up to the empathetic capabilities of a human therapist or psychologist. It is a possibility that seems largely unlikely in the foreseeable future. This is a major reason why more Indian students are confidently opting to pursue psychology and allied mental health disciplines.
+      </p>
+     
+      <p>
+      Indian students are making a calculated pivot toward a field that seems remarkably AI-resistant: psychology and mental health. 
+      </p>
+
+      
+</br>
+
+      <h2><b>How Strong or Noticeable is the Pattern?</b></h2>
+     <p>
+    The surge in applications for psychology programs is very pronounced. The momentum has been gradually building up post pandemic, and the statistics are now clearly skewed toward a steady rise in applications for psychology programs abroad. Psychology program inquiries have also multiplied nearly tenfold between 2020 and 2024. And well into 2026, there are still no signs of slowing. Students and families are more interested than ever in exploring psychology as a discipline, with a particular surge in Indian students pursuing psychology-related postgraduate programs abroad. What makes this particularly interesting is that postgraduate applications now comprise over three-quarters of the total. 
+     </p>
+   
+</br>
+     
+    <h2><b>Psychology Is Now Beyond Traditional Social Science and Humanities</b></h2>
+
+    <p>
+   Psychology aspirants today are looking at their path as a sophisticated intersection of human behavior, data analysis, and technology. And not as a soft and laid-back alternative to more rigorous and academically demanding STEM disciplines. Psychology as a field is also demanding as a discipline, and students are also explicitly seeking out programs that move into fields such as statistical methods, research design, and digital mental health tools.
+
+Applications also come in from surprisingly diverse backgrounds. We are past the days where psychology used to be a discipline meant only for those who could not get into any of the other more rigorous ‘STEM’ programs. It is also worth noting that psychology is not just a field for those who have pursued humanities in high school. We are seeing engineering graduates, business students, UX designers, and even economics majors applying for variegated programs in psychology, with most programs converging on behavioral science. Students are recognizing that understanding human cognition and emotion becomes more valuable and not less, as these machines continue to handle routine cognitive tasks.  
+    </p>
+
+</br>
+  
+   <h2><b> Learning More About Psychology as a Career</b></h2>
+   <p>
+   The career calculus is straightforward. AI threatens countless white-collar jobs, yet mental health care remains fundamentally human-centered. Counseling and behavioral health roles are projected to grow 17% by 2034 in the United States alone, with median psychologist salaries hovering around $94,000 annually. The financial case is solid. India also faces a severe shortage, with just 0.47 clinical psychologists per 100,000 people. This creates nearly guaranteed demand for trained professionals. Psychology is moving beyond a clinical discipline into something broader: an important framework for an AI-saturated society. Students pursuing these paths are preparing for careers that address the psychological and social consequences of living in a world that is digital. In an era of technological disruption and innovation, betting on human connection and mental health might just be the most pragmatic choice available. To learn more about psychology and allied programs overseas,
+   </p>
+   
+   <p>
+        📞 Call us at <b>+91 9654223759</b><br />
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "February 16, 2026"
+  }
+  ,
   {
     id: 46, // incremented ID
     image: Img43, // Replace with your actual import
