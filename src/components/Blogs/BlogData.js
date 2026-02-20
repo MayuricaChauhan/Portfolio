@@ -42,9 +42,121 @@ import Img41 from "../../assets/blog/blog41.jpeg";
 import Img42 from "../../assets/blog/blog42.jpeg";
 import Img43 from "../../assets/blog/blog43.jpeg";
 import Img44 from "../../assets/blog/blog44.jpeg";
+import Img45 from "../../assets/blog/blog45.jpeg";
 
 const BlogsData = [
 
+  {
+    id: 48, // incremented ID
+    image: Img45, // Replace with your actual import
+    title: "University of Northampton: A Complete Guide",
+    description: `
+    <div id="desc-48">
+      <p>
+       For Indian students with an aspiration to pursue international education and particularly in the United Kingdom, a treasure trove sits right in the heart of Northampton city in England. Holding national accreditations and a steady graduate employability rate of 93% to 96% consistently over the past 10 years, the University of Northampton makes taking your big, life-changing decision of studying overseas considerably easier and much more pleasant. This blog is a complete guide to all the programs offered by the University of Northampton this academic year, popular scholarships and financial aid for Indian students and the course-based entry requirements. 
+      </p>
+
+  </br>
+      <h2><b>In The Heart Of The City</b></h2>  
+      <p>
+     Northampton sits at the heart of England. International students find themselves just an hour away from major cities like London, Birmingham, Oxford and Cambridge, accessible by rail. Northampton University is also centrally located with five international airports, all of which are easily accessible from the city. Therefore, however far you may have come from, there is always a flight back home. Beyond connectivity by air and rail, it is notable that Northampton city itself is an important industrial and financial center in England. The University's campus named the ‘Waterside Campus’ is just a 5 to 10 minute walk from the town centre.
+      </p>
+      <p>
+      The Waterside Campus hosts infrastructure that was built with the student in mind. Some key academic facilities available for student use include program-driven state-of-the-art science labs, computing and gaming suites, a rehearsal studio and even a recording suite for television and radio production. Beyond academics, the campus houses on-site accommodation, a mini market, a post office, a launderette, a multi-faith centre, a health centre and several restaurants and cafés. Key spaces like the Creative Hub, Learning Hub, The Engine Shed, Sports Dome and the internationally recognised Institute for Creative Leather Technologies all sit within the same campus, so students spend considerably less time on the commute and are instead able to channelize their time and focus into what matters most for them: <i>academics, co-curricular activities, a personal project or even a team undertaking.</i>
+      </p>
+  </br>
+    
+      <h2><b>Courses Offered By The University Of Northampton </b></h2>
+      <p>
+     <b>Undergraduate programs:</b> The September 2026 intake is offering Indian students plenty of choice, with over a 100 undergraduate programs. At the undergraduate level, students can choose from Business Management, Accounting and Finance, Advertising and Digital Marketing, Law, Games Art, Film and Screen Studies, Multimedia Journalism, Biomedical Science, Pharmacology and Adult Nursing, among many others. 
+     </p>
+     <p>
+     The best ranked UG courses include:
+     </p>
+     <ul style="list-style-type:disc;padding-left: 50px;">
+          <li>Adult Nursing</li>
+          <li>Biomedical Science</li>
+          <li>Health Sciences</li>
+          <li>Health and Social Care Practice</li>
+      </ul>
+</br>
+      <p>
+      <b>Postgraduate programs:</b> At the postgraduate level, there are presently 40 active programmes for admission. Notably, PG students can choose between a 28-month student visa pathway and a 16-month pathway.
+      </p>
+     
+      <p>
+      The longer <b>28-month</b> pathway includes programmes such as the MBA, MBA Finance, Accounting and Finance MSc, Computing MSc, Logistics and Supply Chain Management MSc and Human Resource Management MA. 
+      </p>
+      <p>
+      The <b>16-month</b> route covers LLM Law and Social Justice, MSc Public Health, MSc Psychology, MSc Business Analytics, MA Education and multiple MSc Computing specialisations.
+      </p>
+      <p>
+      The best ranked PG courses include:
+      </p>
+      <ul style="list-style-type:disc;padding-left: 50px;">
+          <li>MSc Accounting and Finance</li>
+          <li>MSc Public Health</li>
+          <li>MA Social Work</li>
+          <li>MA International Relations</li>
+          <li>MSc Psychology</li>
+      </ul>
+      
+</br>
+
+      <h2><b>Entry Requirements for Indian Students</b></h2>
+     <p>
+        Indian students applying for postgraduate programmes starting June 2026 must possess the following qualifications:  
+     </p>
+     <ol style="list-style-type:lower-roman;padding-left: 50px;">
+       <li>A 3 or 4-year bachelor's degree with at least 55% marks.</li>
+       <li>English proficiency must be established through 70% in Standard 12 from selected boards including CBSE, CISCE and state boards across Kerala, Karnataka, Maharashtra, Tamil Nadu, Andhra Pradesh, Telangana and West Bengal.</li>
+       <li>For other states, alternatively, an IELTS score of 6.5 with 6 in writing and 5.5 in other sections is accepted.</li>
+       <li>Students from premier institutions such as Delhi, Mumbai, Madras, Savitribai Phule Pune and Calcutta universities or IITs may qualify at 50%.</li>
+     </ol>
+   
+</br>
+     
+    <h2><b>Living Costs and Scholarships:</b></h2>
+
+    <p>
+      In terms of fiscal spend, living costs in Northampton city are about 44% lower than in London and the University also ranks among the top 20 for most affordable student accommodation in the UK.
+    </p>
+    <p>
+      For scholarships, for the oncoming September 2026 intake, students are eligible for a 30% discount on rent at Scholars Green Student village.
+    </p>
+    <p>
+      Other academic scholarship support goes up to £12,000 for the full duration of an undergraduate course and up to £4,000 for postgraduate programmes. The University of Northampton also offers merit-based scholarships offering between 10% and 30%. These are awarded on the basis of academic performance.
+    </p>
+
+</br>
+  
+   <h2><b> Intakes</b></h2>
+    <p>
+      <b>January:</b> January is generally the main application period for PG programs at the University. A selected number of UG programs also open for applications around this time.
+    </p>
+    <p>
+      <b>June:</b> The University of Northampton opens up applications exclusively for programs in MBA and MSc Project Management in the month of June.
+    </p>
+    <p>
+      <b>September:</b> September is the main application period for all UG programs, 40+ PG programs and other programs.
+    </p>
+</br>
+
+    <h2><b>Enquire Today For A Future At The University of Northampton </b></h2>
+    <p>
+    If you are an Indian student actively weighing your options to study in the United Kingdom, the University of Northampton is a destination well worth exploring. To learn more about more specific entry requirements and how and when to apply for your preferred program,
+    </p>
+  
+   <p>
+        📞 Call us at <b>+91 9654223759</b><br />
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "February 20, 2026"
+  }
+  ,
   {
     id: 47, // incremented ID
     image: Img44, // Replace with your actual import
