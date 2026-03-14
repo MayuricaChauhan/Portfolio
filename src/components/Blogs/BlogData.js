@@ -44,8 +44,71 @@ import Img43 from "../../assets/blog/blog43.jpeg";
 import Img44 from "../../assets/blog/blog44.jpeg";
 import Img45 from "../../assets/blog/blog45.jpeg";
 import Img46 from "../../assets/blog/blog46.jpeg";
+import Img47 from "../../assets/blog/blog47.jpeg";
 
 const BlogsData = [
+  {
+    id: 50, // incremented ID
+    image: Img47, // Replace with your actual import
+    title: "Going back to New Haven: A full circle",
+    description: `
+    <div id="desc-50">
+      <p>
+       There is certainly something about going back to the places that raised you. As for me, going back on a virtual tour to my alma mater, the University of New Haven in Connecticut, brought back a flood of memories for me. Especially now that I work as a study abroad consultant and run UniNxt Study Overseas, I am honored to be able to help more students find the ideal universities for themselves just as I once did in New Haven.  
+      </p>
+
+      <p>
+     Piqued by curiosity on how New Haven may have changed over the years, I embarked on a virtual tour. The last time I was here was in 2011 as I was pursuing an MBA degree. My return to the University of New Haven was not in person this time but it was no less vivid. The university's official virtual tour was my initial destination. It allowed me to explore the campus buildings and get a sense of the main areas. I spent a good chunk of time reacquainting myself with the campus where I completed my MBA back in 2011. What I found left me genuinely surprised.
+      </p>
+
+  </br>
+    
+      <h2><b>The University that shaped me, a decade on</b></h2>
+     
+      <p>
+     The university I knew was already doing meaningful things, particularly in forensic science, a field where it had earned a serious name for itself. The campus felt warm and professional, the kind of place that did not talk too loudly about itself but consistently delivered. What I encountered on this virtual visit, though, was a campus that has stepped fully into a new chapter of its story.
+      </p>
+
+      <ul style="list-style-type:disc;padding-left: 50px;">
+          <li><b>Campus Vibe and Demographics:</b> From what I could gather virtually, the student body still seems quite diverse, and the university definitely leans into a professional, career-focused energy, especially with its location near major cities. It's a place where students seem eager to get hands-on experience. It feels more vibrant and bustling than it did when I was walking the halls.</li>
+          <li><b>A Newer, Better, Bigger Campus:</b> The biggest eye-opener was the amount of new construction and upgraded facilities.</li>
+          <li>The Bergami Center for Science, Technology, and Innovation is completely renovated, made modern, glass-filled and packed with state-of-the-art infrastructure. And this is nothing quite like that which existed in my day. I am glad to see the upscaling and the resources being put to productive use.</li>
+          <li>They are building (or have just finished) a brand-new home for the Pompea College of Business, which is a great deal and a massive upgrade from where we had classes back in the day.</li>
+      </ul>
+
+      <p>
+      In addition to this, I also noticed that there has been a massive upgrade in programs related to the health sciences. The campus is now equipped with specialized simulation labs and has expanded clinical spaces for student use and practice. A part of the campus that, to my great surprise and fascination, has also seen massive overhauls is sports. The campus appears to have undergone a complete renovation of the athletic center, making it almost unrecognizable. As an alumnus and as an educational consultant, I am glad to see the emphasis that universities are finally awarding to the physical health and sporting aspirations of students. I also noted that New Haven is also supporting its students in pursuing several different sports consistently and without being a blow to their academics. The campus now holds NCAA Division I accreditation in some sports. 
+      </p>
+      
+</br>
+
+      <h2><b>The people and the place</b></h2>
+     <p>
+   The student body at UNH continues to be meaningfully diverse and the university's professional, career-forward culture seems even more pronounced than it was in my day. Its location within the reach of some major cities has always been an asset. New Haven continues to tap into this and is bound for greater ambitions in the future. The energy in the campus, one of community, self-improvement and inclusivity, still remains palpable. This is one of the few things about New Haven that has not changed and rightly so. People look purposeful there and busy in a good way. What also struck me was how the campus feels physically livelier. Construction, renovation and expansion projects have reshaped the physical experience of walking those grounds and even through a screen, the change in scale and ambition was obvious. 
+     </p>
+   
+</br>
+     
+    <h2><b>What present students are saying</b></h2>
+
+    <p>
+       What I found most reassuring about the Niche reviews was how much they matched what I was observing independently. Students consistently point to the modern facilities, especially the labs and newer academic buildings, as a genuine draw. Career services come up again and again as a strength and many reviewers note how the university pushes students toward internships and hands-on learning early. On the flip side, dining and housing drew mixed opinions, and a few reviewers noted the social scene was quieter than they had expected.  
+    </p>
+
+   <p>
+   Going back, even virtually, reminded me of how formative those MBA years were for me. Seeing how much the university has invested in its future made me proud in a way that I did not entirely expect. It's exciting to see a place evolve so much, and the virtual tour definitely showed me that the University of New Haven in Connecticut is a dynamic and thriving campus today.
+   </p>
+   
+   <p>
+        📞 Call us at <b>+91 9654223759</b><br />
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "March 14, 2026"
+  }
+  ,
   {
     id: 49, // incremented ID
     image: Img46, // Replace with your actual import
