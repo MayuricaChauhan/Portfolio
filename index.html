@@ -97,7 +97,45 @@ apply to foreign universities from India
 </head>
 
 <body>
+
+    <!-- ===== RUNNING NEWS BAR ===== -->
+<div class="news-ticker">
+  <div class="news-track">
+    🎓 Great News for Indian Students! Royal Holloway, University of London now accepts 
+    70% in Class 12 English (CBSE / ICSE / State Boards) for September 2026 postgraduate programmes. 
+    No additional English test required! | 
+    🎓 Earlier requirement was 80% – making applications easier for Indian students.
+  </div>
+</div>
+<style>
+  .news-ticker{
+  width:100%;
+  background:#0b1a53;
+  color:#fff;
+  overflow:hidden;
+  padding:8px 0;
+  font-size:15px;
+  font-weight:500;
+}
+
+.news-track{
+  display:inline-block;
+  white-space:nowrap;
+  padding-left:100%;
+  animation:scrollNews 25s linear infinite;
+}
+
+@keyframes scrollNews{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform:translateX(-100%);
+  }
+}
+</style>
   <div id="root"></div>
+
   <script type="module" src="/src/main.jsx"></script>
 </body>
 
