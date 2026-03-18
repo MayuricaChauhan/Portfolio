@@ -93,7 +93,6 @@ const App = () => {
           <Route path="/blog/:blogId" element={<BlogDetail />} />
           <Route path="/book-counselling" element={<BookCounselling />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="*" element={<Navigate to="/" />} />
           <Route path="/university" element={<University/>}/>
           <Route path="/termsandconditions" element={<TermsAndConditions />}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy />}/>
@@ -106,6 +105,7 @@ const App = () => {
           <Route path="/clients" element={<ClientLanding/>} />
           <Route path="/book" element={<BookCounsellingForm />} />
           <Route path="/payment" element={<CounsellingBooking />} />
+          <Route path="*" element={<Navigate to="/" />} />
           
 
         </Routes>
