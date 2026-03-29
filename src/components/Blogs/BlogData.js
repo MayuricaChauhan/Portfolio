@@ -47,8 +47,74 @@ import Img46 from "../../assets/blog/blog46.jpeg";
 import Img47 from "../../assets/blog/blog47.jpeg";
 import Img48 from "../../assets/blog/blog48.jpeg";
 import Img49 from "../../assets/blog/blog49.jpeg";
+import Img50 from "../../assets/blog/blog50.jpeg";
 
 const BlogsData = [
+  {
+    id: 53, // incremented ID
+    image: Img50, // Replace with your actual import
+    title: "Are extracurricular activities important for the admissions committee?",
+    description: `
+    <div id="desc-53">
+      <p>
+      A short answer to this long-standing question is yes, extracurricular activities do play a significant role in your admissions process. Now, here’s the longer answer:  
+      </p>
+
+      <p>
+    Undoubtedly, a strong academic record will help your application stand out from the crowd. But here's the catch. Take a moment to ponder upon how many of your fellow applicants will have excellent grades in their academic record, too. This is especially the case for the top schools in the country. The best academic minds from across the globe are scurrying to get in. When your A’s don't help, what else will?
+      </p>
+
+  </br>
+    
+      <h2><b>Why should I engage in extracurricular activities as a student?</b></h2>
+     
+      <p>
+    Dear applicants, this is your reminder to not put all your eggs in one basket. Admissions committees look beyond grades to discover well-rounded individuals who demonstrate leadership, commitment, and passion. These extracurricular activities are what will help you paint a fuller picture of your personality, interests and your vision as a student.
+      </p>
+      
+      <p>
+      This is why you must engage in extracurricular activities from as early as high school. If you haven't started yet, don't worry. It’s never too late. 
+      </p>
+
+    <p>Now is a good time to start!</p>
+    
+    </br>
+
+     <h2><b>What are some extracurricular activities that will make me stand out from the rest?</b></h2>
+    
+      <p>
+      There is an exhaustive list of extracurricular activities for you to pick from. However, here we are highlighting 4 extracurricular activities that are sure to make you stand out in the applicant pool:
+      </p>
+      
+  <ol style="list-style-type:number;padding-left: 50px;">
+    
+      <li><strong>Take up a leadership position</strong>: Holding a leadership position in a student organization or a club demonstrates your ability to manage, motivate, and lead others. Serving as student body president, captain of a sports team or founder of a new club can add a valuable feather to your hat.</li>
+
+    <li><strong>Do volunteer work</strong> : Volunteering shows your commitment to community service and your strong desire to create a positive impact in the society. You may organize community clean-up events, volunteer at local shelters or food banks.</li>
+    
+    <li><strong> Participate in clubs</strong> : Participation in academic clubs and competitions shows off your intellectual curiosity and dedication to learning that goes beyond the classroom. Being an active member of the debate team or competing in a math olympiad could help you make your mark. </li>
+    
+    <li><strong>Engage in research projects</strong> : Conducting research and especially if you go on to publish or present your findings in a public forum, will reflect your commitment to advancing knowledge in your field of interest. Not too many of your peers may be doing research on their own. This is the case for obvious reasons: research is time-consuming and is hard, tedious work.</li>
+    
+  </ol>
+</br>
+
+      <p>
+      We are committed to helping students find their passion and make the most out of it. For more personal career guidance, book a session with us today. 
+      </p>
+      
+</br>
+   
+   <p>
+        📞 Call us at <b>+91 9654223759</b><br />
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "March 29, 2026"
+  }
+  , 
   {
     id: 52, // incremented ID
     image: Img49, // Replace with your actual import
