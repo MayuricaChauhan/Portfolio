@@ -48,9 +48,70 @@ import Img47 from "../../assets/blog/blog47.jpeg";
 import Img48 from "../../assets/blog/blog48.jpeg";
 import Img49 from "../../assets/blog/blog49.jpeg";
 import Img50 from "../../assets/blog/blog50.jpeg";
+import Img51 from "../../assets/blog/blog51.jpeg";
 
 const BlogsData = [
   {
+    id: 54, // incremented ID
+    image: Img51, // Replace with your actual import
+    title: "Why Indian Students Are Choosing Malta",
+    description: `
+    <div id="desc-54">
+      <p>
+       STEM has long been the default choice of programme for Indian students aspiring to study overseas. In this regard, the USA, Canada, UK and Australia have been among the most expected destinations. However, a quieter shift has been building over the last several years, one that is now directing Indian students toward smaller and less conventional destinations. Malta is one such destination that deserves far more attention than it currently gets. Read on to know why Indian students are choosing Malta over other European nations.  
+      </p>
+
+  </br>
+    
+      <h2><b>A Pattern That's Worth Paying Attention To</b></h2>
+     
+      <p>
+     The momentum around Malta as a study destination for Indian students has been building steadily. Inquiries for programmes at Maltese institutions have grown considerably post-pandemic, with particular interest coming from students pursuing postgraduate education in business, digital finance, psychology and media.
+      </p>
+
+      <p><i>So what is driving this shift?</i><p>
+
+      <p>
+      Malta is a full member of the European Union and follows the Bologna Process, meaning degrees awarded here carry recognition across Europe and internationally. The University of Malta, one of the oldest universities in the world having been founded in 1592, offers accredited programmes across medicine, law, business, engineering and the arts. Annual tuition at the University of Malta ranges between €3,000 to €10,000 depending on the programme. In comparison with the UK or Ireland, tuition alone can exceed €20,000 annually for international students. Monthly living costs in Malta, covering accommodation, food and transport, typically fall between €700 to €1,000. For Indian families doing the math, the numbers make quite a compelling argument. 
+      </p>
+      
+</br>
+
+      <h2><b>English Is Not a Barrier Here</b></h2>
+     <p>
+        One of the more underappreciated aspects of studying in Malta is that English is an official language of the country. All university programmes are delivered in English. Academic writing, daily communication and social life all happen in a language Indian students are already comfortable operating in. This is not a small thing. It changes the entire texture of the study abroad experience. 
+     </p>
+   
+</br>
+     
+    <h2><b>Safety and Quality of Life</b></h2>
+
+    <p>
+       Malta consistently ranks among the safest countries in the world. For Indian parents weighing the decision to send a child abroad, safety is rarely a secondary concern. The Maltese are warm toward international students and the country's compact size means communities feel close and connected rather than overwhelming.  
+    </p>
+
+</br>
+
+     <h2><b>Industry Access and Career Pathways</b></h2>
+
+    <p>
+    Malta has built an industry identity for itself as a European hub for iGaming, fintech, blockchain and maritime sectors. Students pursuing programmes in business, technology or finance find internship and early career opportunities right on the island. The EU work permit framework then opens doors to broader mobility across Europe, a significant advantage for Indian professionals building international careers.
+    </p>
+
+    <p>
+   Indian students and their families are getting sharper about how they evaluate study abroad decisions. The brand value of a destination still matters, but it is no longer the only variable in the equation. Cost, safety, language accessibility, career outcomes and post-study opportunities are all being weighed carefully. Malta does not clamor for attention. It does not need to. For students willing to look past the obvious choices, it offers multifold returns. We are committed to helping more students live out their educational dreams. For more personal guidance on studying in Malta, book a session with us today.
+    </p>
+    
+   <p>
+        📞 Call us at <b>+91 9654223759</b><br />
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "April 06, 2026"
+  }
+  , {
     id: 53, // incremented ID
     image: Img50, // Replace with your actual import
     title: "Are extracurricular activities important for the admissions committee?",
