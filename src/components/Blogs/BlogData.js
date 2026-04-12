@@ -49,8 +49,70 @@ import Img48 from "../../assets/blog/blog48.jpeg";
 import Img49 from "../../assets/blog/blog49.jpeg";
 import Img50 from "../../assets/blog/blog50.jpeg";
 import Img51 from "../../assets/blog/blog51.jpeg";
+import Img52 from "../../assets/blog/blog52.jpeg";
 
 const BlogsData = [
+  , {
+    id: 55, // incremented ID
+    image: Img52, // Replace with your actual import
+    title: "Clinical Psychology in the UK for Indian Students",
+    description: `
+    <div id="desc-55">
+      <p>
+     If you are an Indian student who has been considering a career in mental health and is now weighing whether to pursue it at home or overseas, this blog is for you. The field of Psychology in India has grown considerably over the past decade, all thanks to growing awareness of mental health in the country. Clinical Psychology, a branch of Psychology that concerns itself with the assessment, diagnosis and treatment of mental illnesses, has also progressed substantially. The demand for clinical mental health professionals is larger than ever. This is also further accentuated by the fact that there is presently a great shortage of adequate professionals in the country. Statistics note that there are only 0.47 clinical psychologists for every 100,000 people in India.  
+      </p>
+
+      <p>
+    In this blog, we’re taking you down the benefits of studying Clinical Psychology as an Indian student today. In particular, we’re breaking down the opportunities available to pursue Clinical Psychology in the UK and what this can actually mean for your career, your training and how you can practise when you return home.
+      </p>
+
+  </br>
+    
+      <h2><b>Clinical Psychology in the UK</b></h2>
+     
+      <p>
+    Clinical psychology in the UK sits within what is one of the world’s most developed and formally structured mental health systems. Referred to as ‘The British Psychological Society’ (BPS), this institution accredits undergraduate and postgraduate programs in the country to a specific standard. The Health and Care Professions Council, or HCPC, regulates who can practise as a clinical psychologist. This means that psychology in the UK is professionally regulated in a way that gives the qualification its due distinction and respect.
+      </p>
+      
+      <p>
+      The training model for clinical psychology in the UK is also distinctive. The standard route to becoming a chartered clinical psychologist involves an accredited undergraduate degree, a period of supervised clinical experience and then a three-year Doctorate in Clinical Psychology, commonly called the DClinPsy. This doctoral program includes exhaustive academic work alongside supervised placements across different clinical settings. By the time a graduate completes it, they will have worked directly with clients across multiple specialisms and not just studied them in a classroom. 
+      </p>
+
+    </br>
+
+    <h2><b>The Benefits of Studying Clinical Psychology in the UK</b></h2>
+    <ul style="list-style-type:number;padding-left: 50px;">
+    
+      <li><strong>Accredited Programs and Placements</strong>: One of the more concrete benefits of studying clinical psychology in the UK is the placement system that is embedded within accredited programs. Herein, students are placed in NHS settings, community mental health teams, specialist clinics and research institutions over the course of their study.</li>
+
+      <li><strong>Research</strong> : Another one of the benefits of studying clinical psychology in the UK that does not always get discussed is access to the research environment. UK universities are home to some of the most cited psychology research groups in the world. Areas like cognitive behavioural therapy development, neuropsychology, trauma-informed care and child and adolescent mental health have seen significant contributions from UK-based researchers and clinical teams.</li>
+    
+      <li><strong>Opportunities in India</strong> : A BPS-accredited degree is recognised by the Rehabilitation Council of India and several Indian universities as a strong academic credential. It does not automatically mean registration with the RCI without any additional steps. However, it is regarded as a credible foundation for postgraduate work, academic positions and independent practice in certain settings.</li>
+    
+      <li><strong>Specialisations</strong> : Among the more compelling benefits of studying clinical psychology in the UK is the range of specialisations available at the postgraduate level. Beyond the general clinical doctorate, UK universities offer focused programs in neuropsychology, forensic psychology, health psychology, educational psychology and child and adolescent mental health, among others.</li>
+    
+    </ul>
+
+</br>
+      
+      <h2><b>The Bigger Picture</b></h2>
+      
+      <p>
+      If you are aspiring to study and/or practice Clinical Psychology and want a training pathway that prepares you thoroughly for that work, the UK is one of the best countries to be in at the moment. The choices in the UK are plenty, in terms of programs available, specializations and career prospects. It can be a perplexing place to begin from but with some guidance, you will surely be able to map out a fulfilling academic and professional pathway in the field for yourself. To learn more about studying Clinical Psychology in the UK, 
+      </p>
+      
+</br>
+   
+   <p>
+        📞 Call us at <b>+91 9654223759</b><br />
+        📧 Email: <a href="mailto:info@uninxt.com">info@uninxt.com</a>
+      </p>
+    </div>
+  `,
+    author: "Uninxt Team",
+    date: "April 12, 2026"
+  }
+  ,
   {
     id: 54, // incremented ID
     image: Img51, // Replace with your actual import
