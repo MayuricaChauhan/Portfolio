@@ -52,7 +52,7 @@ import Img51 from "../../assets/blog/blog51.jpeg";
 import Img52 from "../../assets/blog/blog52.jpeg";
 
 const BlogsData = [
-  , {
+   {
     id: 55, // incremented ID
     image: Img52, // Replace with your actual import
     title: "Clinical Psychology in the UK for Indian Students",
