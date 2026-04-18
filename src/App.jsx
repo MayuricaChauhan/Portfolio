@@ -15,7 +15,7 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import BlogsComp from "./components/Blogs/BlogsComp.jsx";
 import Footer from "./components/Footer/Footer";
 // import Form from "./components/SubscriptionForm/Form.jsx";
-import Chatbot from "./components/Botpress/Chatbot.jsx";
+// import Chatbot from "./components/Botpress/Chatbot.jsx";
 import BookCounselling from "./components/Counselling/BookCounselling.jsx";
 import SignIn from "./components/Authentication/SignIn.jsx";
 import Carousel from "./components/Carousel/Carousel.jsx";
@@ -35,6 +35,7 @@ import ClientLanding from "./components/Clients/ClientLanding.jsx";
 import BookCounsellingForm from "./components/Payment/BookCounsellingForm.jsx";
 import CounsellingBooking  from "./components/Payment/CounsellingBooking.jsx"
 import TrainingFeeTable from "./components/TrainingFeeTable/TrainingFeeTable.jsx"
+import Chatbot from "./chatbot.jsx"
 
 
 const App = () => {
@@ -85,7 +86,7 @@ const App = () => {
               <Testimonial />
               <BlogsComp />
             
-              <Chatbot />
+              {/* <Chatbot /> */}
               <FAQ />
               <TrainingFeeTable/>
             </>
@@ -110,9 +111,13 @@ const App = () => {
 
         </Routes>
         <Footer />
+          <Chatbot />
+        
       </div>
     </div>
   </Router>
+
+  
   );
 };
 

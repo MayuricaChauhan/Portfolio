@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "bot_name": "Mayurica Education AI Assistant",
+    "version": "3.0",
+    "language": "en",
+    "type": "education_chatbot",
+    "source": "website_structured_data"
+  },
+
+  "greetings": [
+    "hi",
+    "hello",
+    "hey",
+    "hii",
+    "namaste",
+    "good morning",
+    "good evening"
+  ],
+
+  "introduction": {
+    "welcome_message": "👋 Hi! I am Mayurica Education AI Assistant. I help students with Study Abroad, Visa, IELTS, Admissions and Courses.",
+    "short_intro": "🌍 Study Abroad Experts for USA, UK, Canada, Australia & Europe."
+  },
+
+  "company": {
+    "name": "Mayurica Education",
+    "website": "https://www.mayuricaeducation.com/",
+    "type": "Study Abroad Consultancy",
+    "headquarters": "Gurgaon, Haryana, India",
+    "email": "info@mayuricaeducation.com",
+    "phone": "+91-96542 23759 / 0124-5181193",
+
+    "description": "Mayurica Education is a study abroad consultancy helping students achieve international education goals with complete guidance from counselling to visa approval.",
+
+    "services_summary": [
+      "Study Abroad Counselling",
+      "University Selection",
+      "Admission Assistance",
+      "Visa Filing Support",
+      "IELTS Training",
+      "Scholarship Guidance",
+      "Education Loan Assistance"
+    ]
+  },
+
+  "study_abroad": {
+    "intro": "🌍 Study abroad opens global career opportunities with world-class education.",
+    "process": [
+      "Free Counselling",
+      "Profile Evaluation",
+      "Course Selection",
+      "University Application",
+      "Offer Letter",
+      "Visa Filing",
+      "Pre-Departure Support"
+    ],
+    "top_destinations": [
+      "USA",
+      "UK",
+      "Canada",
+      "Australia",
+      "Germany",
+      "Ireland",
+      "New Zealand",
+      "Europe"
+    ]
+  },
+
+  "countries": {
+    "usa": {
+      "description": "🇺🇸 USA is best for STEM, IT, Business and research programs.",
+      "highlights": [
+        "Top Universities like MIT, Harvard, Stanford",
+        "OPT Work Permit",
+        "High Salary Jobs",
+        "Research Opportunities"
+      ],
+      "visa": "F1 Student Visa (Interview based)",
+      "intake": ["Jan", "May", "Sep"]
+    },
+
+    "uk": {
+      "description": "🇬🇧 UK offers 1-year Masters and globally recognized degrees.",
+      "highlights": [
+        "Short duration courses",
+        "Top universities like Oxford, Cambridge",
+        "Post Study Work Visa (2 years)"
+      ],
+      "visa": "UK Student Visa (CAS required)",
+      "intake": ["Jan", "Sep"]
+    },
+
+    "canada": {
+      "description": "🇨🇦 Canada is best for PR, affordable education and safety.",
+      "highlights": [
+        "PR pathway available",
+        "High visa success rate",
+        "Affordable tuition fees"
+      ],
+      "visa": "SDS / Non-SDS Visa",
+      "intake": ["Jan", "May", "Sep"]
+    },
+
+    "australia": {
+      "description": "🇦🇺 Australia offers quality education with work rights.",
+      "highlights": [
+        "Part-time work allowed",
+        "Globally ranked universities",
+        "High living standards"
+      ],
+      "visa": "Subclass 500 Student Visa",
+      "intake": ["Feb", "Jul", "Nov"]
+    },
+
+    "europe": {
+      "description": "🇪🇺 Europe offers affordable or low tuition education.",
+      "highlights": [
+        "Low tuition fees",
+        "Diverse cultures",
+        "English taught programs"
+      ]
+    }
+  },
+
+  "services": {
+    "counselling": "🎓 Free counselling based on academic profile and goals.",
+    "admission": "📄 Complete admission support from application to offer letter.",
+    "visa": "🛂 Full visa assistance including documentation and interview preparation.",
+    "ielts": "📘 IELTS training with speaking, writing, reading and listening.",
+    "loan": "💰 Education loan assistance with bank guidance.",
+    "scholarship": "🎯 Scholarship guidance based on merit and profile.",
+    "accommodation": "🏠 Student housing support abroad.",
+    "career": "📊 Career guidance based on future job opportunities."
+  },
+
+  "courses": {
+    "popular": [
+      "BBA Digital Marketing",
+      "BBA Finance & Banking",
+      "BCA AI & Machine Learning",
+      "BCA Cyber Security",
+      "B.Sc Hospitality & Hotel Management",
+      "MBA International Business",
+      "Design & Animation Courses"
+    ]
+  },
+
+  "universities": {
+    "usa": [
+      "Harvard University",
+      "MIT",
+      "Stanford University",
+      "University of California Berkeley"
+    ],
+    "uk": [
+      "University of Oxford",
+      "University of Cambridge",
+      "Imperial College London",
+      "University College London"
+    ],
+    "canada": [
+      "University of Toronto",
+      "McGill University",
+      "University of British Columbia",
+      "University of Alberta"
+    ],
+    "australia": [
+      "University of Melbourne",
+      "University of Sydney",
+      "Monash University",
+      "UNSW Sydney"
+    ]
+  },
+
+  "visa_info": {
+    "general": "🛂 Visa support for USA, UK, Canada, Australia & Europe.",
+    "usa": "F1 Visa with interview preparation.",
+    "uk": "CAS based student visa support.",
+    "canada": "SDS & Non-SDS visa guidance.",
+    "australia": "Subclass 500 visa assistance."
+  },
+
+  "faq": {
+    "fees": "💰 Fees depend on country & university. Contact us for exact cost.",
+    "ielts": "🎓 IELTS training available for beginners to advanced level.",
+    "universities": "🏫 We provide top university selection based on profile.",
+    "visa_time": "⏳ Visa processing takes 2–12 weeks depending on country.",
+    "admission": "📄 Full admission support from application to visa."
+  },
+
+  "locations": [
+    {
+      "city": "Gurgaon",
+      "address": "DLF Corporate Greens, Sector 74A"
+    },
+    {
+      "city": "Jaipur",
+      "address": "Emaar Greens, Mahendra Sez Road"
+    }
+  ],
+
+  "social_proof": {
+    "founded": 2018,
+    "team_size": "10-50",
+    "focus": "Study Abroad Consulting",
+    "success_note": "High visa success rate with expert counselling"
+  },
+
+  "default_response": "🤖 Sorry, I didn’t understand. Ask me about study abroad, visa, IELTS, courses, or universities."
+}
