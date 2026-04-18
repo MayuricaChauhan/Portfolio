@@ -14,22 +14,21 @@ export default function Chatbot() {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  // ================= CLEAN =================
-  function normalize(msg = "") {
-    return msg
+  // ================= NORMALIZE =================
+  const normalize = (msg = "") =>
+    msg
       .toLowerCase()
       .replace(/[^a-z0-9\s]/g, " ")
       .replace(/\s+/g, " ")
       .trim();
-  }
 
-  // ================= MATCH HELPERS =================
-  const has = (text, arr) => arr.some(k => text.includes(k));
+  // ================= HELPERS =================
+  const hasAny = (text, arr) => arr.some(k => text.includes(k));
 
   const feeWords = ["fee", "fees", "cost", "tuition", "price"];
 
   const courseMap = {
-    btech: ["btech", "engineering"],
+    btech: ["btech", "engineering", "b tech"],
     bca: ["bca"],
     bcom: ["bcom"],
     bsc: ["bsc"],
@@ -39,67 +38,69 @@ export default function Chatbot() {
   };
 
   const countryMap = {
-    usa: ["usa", "us", "america"],
-    uk: ["uk", "britain"],
+    usa: ["usa", "us", "america", "united states"],
+    uk: ["uk", "britain", "england"],
     canada: ["canada"],
-    australia: ["australia"]
+    australia: ["australia"],
+    europe: ["europe"]
   };
 
   const detectCourse = (t) => {
     for (let c in courseMap) {
-      if (has(t, courseMap[c])) return c;
+      if (hasAny(t, courseMap[c])) return c;
     }
     return null;
   };
 
   const detectCountry = (t) => {
     for (let c in countryMap) {
-      if (has(t, countryMap[c])) return c;
+      if (hasAny(t, countryMap[c])) return c;
     }
     return null;
   };
 
   const hasFee = (t) => feeWords.some(w => t.includes(w));
 
-  // ================= UNIVERSITIES FIX (IMPORTANT) =================
-  function getUniversities() {
+  // ================= UNIVERSITIES (FIXED) =================
+  const getUniversities = () => {
     return `🏫 TOP UNIVERSITIES:
 
 🇺🇸 USA: ${data.universities.usa.join(", ")}
 🇬🇧 UK: ${data.universities.uk.join(", ")}
 🇨🇦 Canada: ${data.universities.canada.join(", ")}
 🇦🇺 Australia: ${data.universities.australia.join(", ")}`;
-  }
+  };
 
-  // ================= FEES =================
-  function getCourseFees(course) {
+  // ================= COURSE FEES =================
+  const getCourseFees = (course) => {
     const fees = {
       btech: `💰 B.Tech Fees:
-USA: $25K-$60K
-UK: £15K-$30K
-Canada: CAD 15K-35K
-Australia: AUD 20K-45K`,
+🇺🇸 USA: $25K-$60K
+🇬🇧 UK: £15K-$30K
+🇨🇦 Canada: CAD 15K-$35K
+🇦🇺 Australia: AUD 20K-$45K`,
 
       bca: `💰 BCA Fees:
-USA: $18K-$45K
-UK: £12K-$25K
-Canada: CAD 10K-30K`,
+🇺🇸 USA: $18K-$45K
+🇬🇧 UK: £12K-$25K
+🇨🇦 Canada: CAD 10K-$30K`,
 
       bcom: `💰 B.Com Fees:
-USA: $20K-$50K
-UK: £12K-$25K
-Canada: CAD 12K-30K`,
+🇺🇸 USA: $20K-$50K
+🇬🇧 UK: £12K-$25K
+🇨🇦 Canada: CAD 12K-$30K`,
 
       mba: `💰 MBA Fees:
-USA: $40K-$80K
-UK: £20K-$45K
-Canada: CAD 25K-60K`
+🇺🇸 USA: $40K-$80K
+🇬🇧 UK: £20K-$45K
+🇨🇦 Canada: CAD 25K-$60K`
     };
 
-    return fees[course];
-  }
+    return fees[course] || "❌ No data available";
+  };
 
-  function getCountryFees(country) {
+  // ================= COUNTRY FEES =================
+  const getCountryFees = (country) => {
     const fees = {
       usa: `🇺🇸 USA Fees:
 Public: $20K-$35K
@@ -119,116 +120,93 @@ UG: AUD 20K-45K
 PG: AUD 25K-50K`
     };
 
-    return fees[country];
-  }
+    return fees[country] || "❌ No data available";
+  };
 
-  // ================= MAIN ENGINE (FIXED LOGIC) =================
-function getReply(raw) {
-  const msg = normalize(raw);
+  // ================= MAIN ENGINE (FIXED + CLEAN PRIORITY) =================
+  function getReply(raw) {
+    const msg = normalize(raw);
 
-  const course = detectCourse(msg);
-  const country = detectCountry(msg);
-  const fee = hasFee(msg);
+    const course = detectCourse(msg);
+    const country = detectCountry(msg);
+    const fee = hasFee(msg);
 
-  // ================= GREETING =================
-  if (data.greetings.some(g => msg.includes(g))) {
-    return data.introduction.welcome_message;
-  }
+    // ================= GREETING =================
+    if (hasAny(msg, data.greetings)) {
+      return data.introduction.welcome_message;
+    }
 
-  // ================= STUDY ABROAD =================
-  if (msg.includes("study") || msg.includes("abroad")) {
-    return `${data.study_abroad.intro}
-    
+    // ================= UNIVERSITIES (HIGH PRIORITY FIX) =================
+    if (
+      msg.includes("university") ||
+      msg.includes("universities") ||
+      msg.includes("college") ||
+      msg.includes("oxford") ||
+      msg.includes("harvard") ||
+      msg.includes("mit")
+    ) {
+      return getUniversities();
+    }
+
+    // ================= VISA (FIXED) =================
+    if (msg.includes("visa")) {
+      if (msg.includes("usa")) return data.visa_info.usa;
+      if (msg.includes("uk")) return data.visa_info.uk;
+      if (msg.includes("canada")) return data.visa_info.canada;
+      if (msg.includes("australia")) return data.visa_info.australia;
+      return data.visa_info.general;
+    }
+
+    // ================= COURSE + FEES (FIXED) =================
+    if (course && fee) return getCourseFees(course);
+
+    // ================= COUNTRY + FEES =================
+    if (country && fee) return getCountryFees(country);
+
+    // ================= ONLY FEES =================
+    if (fee) {
+      return `💰 Fees Overview:
+🇺🇸 USA: $20K-$70K
+🇬🇧 UK: £12K-$35K
+🇨🇦 Canada: CAD 10K-$40K
+🇦🇺 Australia: AUD 10K-$45K`;
+    }
+
+    // ================= ONLY COURSE =================
+    if (course) {
+      const map = {
+        btech: "🎓 B.Tech = Engineering (4 Years)",
+        bca: "💻 BCA = Software + AI + IT",
+        bcom: "📊 B.Com = Finance + Accounting",
+        bsc: "🔬 B.Sc = Science & Research",
+        mba: "💼 MBA = Management & Leadership",
+        ai: "🤖 AI = Machine Learning + Data Science",
+        it: "💻 IT = Software + Cyber Security + AI"
+      };
+      return map[course];
+    }
+
+    // ================= COUNTRY ONLY =================
+    if (country) {
+      return data.countries[country].description;
+    }
+
+    // ================= STUDY ABROAD =================
+    if (msg.includes("study") || msg.includes("abroad")) {
+      return `${data.study_abroad.intro}
 🌍 ${data.study_abroad.top_destinations.join(", ")}`;
-  }
+    }
 
-  // ================= VISA FIX (IMPORTANT MISSING PART) =================
-  if (msg.includes("visa")) {
-    if (msg.includes("usa")) return data.visa_info.usa;
-    if (msg.includes("uk")) return data.visa_info.uk;
-    if (msg.includes("canada")) return data.visa_info.canada;
-    if (msg.includes("australia")) return data.visa_info.australia;
-
-    return data.visa_info.general;
-  }
-
-  // ================= UNIVERSITIES (FIXED SUPER SMART) =================
-  if (
-    msg.includes("university") ||
-    msg.includes("universities") ||
-    msg.includes("college") ||
-    msg.includes("colleges") ||
-    msg.includes("oxford") ||
-    msg.includes("mit") ||
-    msg.includes("harvard")
-  ) {
-    return `🏫 TOP UNIVERSITIES:
-
-🇺🇸 USA: ${data.universities.usa.join(", ")}
-🇬🇧 UK: ${data.universities.uk.join(", ")}
-🇨🇦 Canada: ${data.universities.canada.join(", ")}
-🇦🇺 Australia: ${data.universities.australia.join(", ")}`;
-  }
-
-  // ================= COUNTRY ONLY =================
-  if (country && !fee) {
-    return data.countries[country].description;
-  }
-
-  // ================= COURSE ONLY =================
-  if (course && !fee) {
-    const map = {
-      btech: "🎓 B.Tech = Engineering (4 Years)",
-      bca: "💻 BCA = Software + AI + IT",
-      bcom: "📊 B.Com = Finance + Accounting",
-      bsc: "🔬 B.Sc = Science & Research",
-      mba: "💼 MBA = Management & Leadership",
-      ai: "🤖 AI = Machine Learning + Data Science",
-      it: "💻 IT = Software + Cyber Security + AI"
-    };
-    return map[course];
-  }
-
-  // ================= COURSE + FEES =================
-  if (course && fee) {
-    return getCourseFees(course);
-  }
-
-  // ================= COUNTRY + FEES =================
-  if (country && fee) {
-    return getCountryFees(country);
-  }
-
-  // ================= ONLY FEES =================
-  if (fee) {
-    return `💰 General Fees:
-USA: $20K-$70K
-UK: £12K-$35K
-Canada: CAD 10K-$40K
-Australia: AUD 10K-$45K`;
-  }
-
-  // ================= IELTS =================
-  if (msg.includes("ielts")) {
-    return data.services.ielts;
-  }
-
-  // ================= SERVICES FIX =================
-  if (msg.includes("visa")) return data.visa_info.general;
-  if (msg.includes("counselling")) return data.services.counselling;
-  if (msg.includes("admission")) return data.services.admission;
-  if (msg.includes("loan")) return data.services.loan;
-  if (msg.includes("scholarship")) return data.services.scholarship;
-
-  // ================= CONTACT =================
-  if (msg.includes("contact") || msg.includes("phone") || msg.includes("email")) {
-    return `📞 ${data.company.phone}
+    // ================= CONTACT =================
+    if (msg.includes("contact") || msg.includes("phone") || msg.includes("email")) {
+      return `📞 ${data.company.phone}
 📧 ${data.company.email}`;
+    }
+
+    // ================= DEFAULT =================
+    return data.default_response;
   }
 
-  // ================= DEFAULT (SMART) =================
-  return data.default_response;
-}
   // ================= SEND =================
   function sendMessage() {
     const msg = inputRef.current.value.trim();
@@ -240,14 +218,14 @@ Australia: AUD 10K-$45K`;
 
     setTimeout(() => {
       setMessages(prev => [...prev, { type: "bot", text: reply }]);
-    }, 80);
+    }, 100);
 
     inputRef.current.value = "";
   }
 
   return (
     <>
-      {/* FLOAT BUTTON (OLD STYLE) */}
+      {/* FLOAT BUTTON */}
       <div
         onClick={() => setOpen(!open)}
         style={{
@@ -268,7 +246,7 @@ Australia: AUD 10K-$45K`;
         💬
       </div>
 
-      {/* CHAT BOX (CLEAN OLD DESIGN) */}
+      {/* CHAT BOX */}
       {open && (
         <div style={{
           position: "fixed",
@@ -316,7 +294,15 @@ Australia: AUD 10K-$45K`;
               style={{ flex: 1, padding: 10, border: "none" }}
               placeholder="Ask anything..."
             />
-            <button onClick={sendMessage} style={{ background: "#0b1a53", color: "#fff", border: "none", padding: "0 15px" }}>
+            <button
+              onClick={sendMessage}
+              style={{
+                background: "#0b1a53",
+                color: "#fff",
+                border: "none",
+                padding: "0 15px"
+              }}
+            >
               ➤
             </button>
           </div>
